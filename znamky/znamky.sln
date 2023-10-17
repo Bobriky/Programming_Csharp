@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "znamky", "znamky\znamky.csproj", "{C7058D79-E7E0-495C-80C5-E80E785BD884}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7058D79-E7E0-495C-80C5-E80E785BD884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7058D79-E7E0-495C-80C5-E80E785BD884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7058D79-E7E0-495C-80C5-E80E785BD884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7058D79-E7E0-495C-80C5-E80E785BD884}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B695471E-F371-4E33-9BF2-415FDB56C012}
+	EndGlobalSection
+EndGlobal
