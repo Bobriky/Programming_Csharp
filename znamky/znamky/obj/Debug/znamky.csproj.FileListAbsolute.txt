@@ -8,3 +8,13 @@ U:\Vypracovane_Ukoly\3E\Programming_Csharp\znamky\znamky\obj\Debug\znamky.csproj
 U:\Vypracovane_Ukoly\3E\Programming_Csharp\znamky\znamky\obj\Debug\znamky.csproj.CoreCompileInputs.cache
 U:\Vypracovane_Ukoly\3E\Programming_Csharp\znamky\znamky\obj\Debug\znamky.exe
 U:\Vypracovane_Ukoly\3E\Programming_Csharp\znamky\znamky\obj\Debug\znamky.pdb
+C:\Programování\Programming_Csharp\znamky\znamky\bin\Debug\znamky.exe.config
+C:\Programování\Programming_Csharp\znamky\znamky\bin\Debug\znamky.exe
+C:\Programování\Programming_Csharp\znamky\znamky\bin\Debug\znamky.pdb
+C:\Programování\Programming_Csharp\znamky\znamky\obj\Debug\znamky.csproj.AssemblyReference.cache
+C:\Programování\Programming_Csharp\znamky\znamky\obj\Debug\znamky.Form1.resources
+C:\Programování\Programming_Csharp\znamky\znamky\obj\Debug\znamky.Properties.Resources.resources
+C:\Programování\Programming_Csharp\znamky\znamky\obj\Debug\znamky.csproj.GenerateResource.cache
+C:\Programování\Programming_Csharp\znamky\znamky\obj\Debug\znamky.csproj.CoreCompileInputs.cache
+C:\Programování\Programming_Csharp\znamky\znamky\obj\Debug\znamky.exe
+C:\Programování\Programming_Csharp\znamky\znamky\obj\Debug\znamky.pdb
