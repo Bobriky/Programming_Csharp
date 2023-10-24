@@ -89,7 +89,7 @@ namespace znamky
             this.statusStrip1.Location = new System.Drawing.Point(0, 470);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(752, 22);
-            this.statusStrip1.TabIndex = 0;
+            this.statusStrip1.TabIndex = 8;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // menuStrip1
@@ -102,9 +102,8 @@ namespace znamky
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(752, 24);
-            this.menuStrip1.TabIndex = 1;
+            this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "menuStrip1";
-            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // souborToolStripMenuItem
             // 
@@ -344,7 +343,7 @@ namespace znamky
             this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(752, 25);
-            this.toolStrip1.TabIndex = 2;
+            this.toolStrip1.TabIndex = 5;
             this.toolStrip1.Text = "toolStrip1";
             // 
             // novýToolStripButton
@@ -441,9 +440,8 @@ namespace znamky
             this.label1.Location = new System.Drawing.Point(31, 99);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 13);
-            this.label1.TabIndex = 4;
+            this.label1.TabIndex = 6;
             this.label1.Text = "Zadej známku:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtZnamky
             // 
@@ -451,7 +449,7 @@ namespace znamky
             this.txtZnamky.Location = new System.Drawing.Point(161, 96);
             this.txtZnamky.Name = "txtZnamky";
             this.txtZnamky.Size = new System.Drawing.Size(461, 20);
-            this.txtZnamky.TabIndex = 5;
+            this.txtZnamky.TabIndex = 0;
             this.txtZnamky.Text = "1";
             this.txtZnamky.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtZnamky.TextChanged += new System.EventHandler(this.txtZnamky_TextChanged);
@@ -463,7 +461,8 @@ namespace znamky
             this.txtHodnoceni.Name = "txtHodnoceni";
             this.txtHodnoceni.ReadOnly = true;
             this.txtHodnoceni.Size = new System.Drawing.Size(461, 20);
-            this.txtHodnoceni.TabIndex = 7;
+            this.txtHodnoceni.TabIndex = 1;
+            this.txtHodnoceni.TabStop = false;
             this.txtHodnoceni.Text = "Výborný";
             this.txtHodnoceni.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -474,9 +473,8 @@ namespace znamky
             this.label2.Location = new System.Drawing.Point(31, 139);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(96, 13);
-            this.label2.TabIndex = 6;
+            this.label2.TabIndex = 7;
             this.label2.Text = "Slovní hodnocení:";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // btnReset
             // 
@@ -484,10 +482,10 @@ namespace znamky
             this.btnReset.Location = new System.Drawing.Point(475, 405);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(75, 23);
-            this.btnReset.TabIndex = 8;
+            this.btnReset.TabIndex = 3;
             this.btnReset.Text = "Reset";
             this.btnReset.UseVisualStyleBackColor = true;
-            this.btnReset.Click += new System.EventHandler(this.button1_Click);
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // btnClose
             // 
@@ -495,10 +493,10 @@ namespace znamky
             this.btnClose.Location = new System.Drawing.Point(575, 405);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(75, 23);
-            this.btnClose.TabIndex = 9;
+            this.btnClose.TabIndex = 2;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
-            this.btnClose.Click += new System.EventHandler(this.button2_Click);
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // Form1
             // 
@@ -518,7 +516,6 @@ namespace znamky
             this.MinimumSize = new System.Drawing.Size(600, 480);
             this.Name = "Form1";
             this.Text = "Znamky";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.toolStrip1.ResumeLayout(false);

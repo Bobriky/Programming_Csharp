@@ -15,74 +15,53 @@ namespace znamky
         public Form1()
         {
             InitializeComponent();
+            apcInit();
         }
 
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        private void apcInit()
         {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
+            txtHodnoceni.Text = "";
+            txtZnamky.Text = "";
         }
 
         private void txtZnamky_TextChanged(object sender, EventArgs e)
         {
-  
-            switch (txtZnamky.Text)
-            {
-                case "1":
-                {
-                    txtHodnoceni.Text = "výborný";
+            switch (txtZnamky.Text){
+                case "1":{
+                    txtHodnoceni.Text = "Výborný";
                     break;
-                        }
-                    case "2":
-                        {
-                            txtHodnoceni.Text = "chvalitebný";
-                            break;
-                        }
-                    case "3":
-                        {
-                            txtHodnoceni.Text = "dobrý";
-                            break;
-                        }
-                    case "4":
-                        {
-                            txtHodnoceni.Text = "dostatečný";
-                            break;
-                        }
-                    case "5":
-                        {
-                            txtHodnoceni.Text = "nedostatečný";
-                            break;
-                        }
-                    default: 
-                        {
-                 txtHodnoceni.Text = "Špatně zadáno";
-                 break;
-                 }
+                }
+                case "2":{
+                    txtHodnoceni.Text = "Chvalitebný";
+                    break;
+                }
+                case "3":{
+                    txtHodnoceni.Text = "Dobrý";
+                    break;
+                }
+                case "4":{
+                    txtHodnoceni.Text = "Dostatečný";
+                    break;
+                }
+                case "5":{
+                    txtHodnoceni.Text = "Nedostatečný";
+                    break;
+                }
+                default: {
+                    txtHodnoceni.Text = "Špatně zadáno";
+                    break;
+                }
             }
+        }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+         
         }
     }
 }
