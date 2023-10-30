@@ -15,17 +15,49 @@ namespace znamky
         public Form1()
         {
             InitializeComponent();
+<<<<<<< HEAD
             apcInit();
+=======
+            intApk();
+        }
+        private void intApk()
+        {
+            throw new NotImplementedException();
+>>>>>>> 60c399690f42d27fe3e8237927757c92fd7cc95b
         }
 
         private void apcInit()
         {
+<<<<<<< HEAD
             txtHodnoceni.Text = "";
             txtZnamky.Text = "";
-        }
+=======
 
+        }
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+>>>>>>> 60c399690f42d27fe3e8237927757c92fd7cc95b
+        }
         private void txtZnamky_TextChanged(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             switch (txtZnamky.Text){
                 case "1":{
                     txtHodnoceni.Text = "Výborný";
@@ -50,6 +82,33 @@ namespace znamky
                 default: {
                     txtHodnoceni.Text = "Špatně zadáno";
                     break;
+=======
+            switch (txtZnamky.Text)
+            {
+                case "1":{
+                txtHodnoceni.Text = "výborný";
+                break;
+                }
+                case "2":{
+                txtHodnoceni.Text = "chvalitebný";
+                break;
+                }
+                case "3":{
+                txtHodnoceni.Text = "dobrý";
+                break;
+                }
+                case "4":{
+                txtHodnoceni.Text = "dostatečný";
+                break;
+                }
+                case "5":{
+                txtHodnoceni.Text = "nedostatečný";
+                break;
+                }
+                default:{
+                txtHodnoceni.Text = "Špatně zadáno";
+                break;
+>>>>>>> 60c399690f42d27fe3e8237927757c92fd7cc95b
                 }
             }
         }
