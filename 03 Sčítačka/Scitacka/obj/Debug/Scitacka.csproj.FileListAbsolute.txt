@@ -1,0 +1,41 @@
+D:\Scitacka\Scitacka\bin\Debug\Scitacka.exe.config
+d:\SŠE Výuka\SŠE VýukaPodklady\Programování\C# wfa\01 - Základní objety, Even, Metody, Datové typy, Operátory, Try, MessageBox\Sčítačka - řešení\Scitacka\bin\Debug\Scitacka.exe.config
+d:\SŠE Výuka\SŠE VýukaPodklady\Programování\C# wfa\01 - Základní objety, Even, Metody, Datové typy, Operátory, Try, MessageBox\Sčítačka - řešení\Scitacka\bin\Debug\Scitacka.exe
+d:\SŠE Výuka\SŠE VýukaPodklady\Programování\C# wfa\01 - Základní objety, Even, Metody, Datové typy, Operátory, Try, MessageBox\Sčítačka - řešení\Scitacka\bin\Debug\Scitacka.pdb
+d:\SŠE Výuka\SŠE VýukaPodklady\Programování\C# wfa\01 - Základní objety, Even, Metody, Datové typy, Operátory, Try, MessageBox\Sčítačka - řešení\Scitacka\obj\Debug\Scitacka.csprojResolveAssemblyReference.cache
+d:\SŠE Výuka\SŠE VýukaPodklady\Programování\C# wfa\01 - Základní objety, Even, Metody, Datové typy, Operátory, Try, MessageBox\Sčítačka - řešení\Scitacka\obj\Debug\Scitacka.fScitacka.resources
+d:\SŠE Výuka\SŠE VýukaPodklady\Programování\C# wfa\01 - Základní objety, Even, Metody, Datové typy, Operátory, Try, MessageBox\Sčítačka - řešení\Scitacka\obj\Debug\Scitacka.Properties.Resources.resources
+d:\SŠE Výuka\SŠE VýukaPodklady\Programování\C# wfa\01 - Základní objety, Even, Metody, Datové typy, Operátory, Try, MessageBox\Sčítačka - řešení\Scitacka\obj\Debug\Scitacka.csproj.GenerateResource.Cache
+d:\SŠE Výuka\SŠE VýukaPodklady\Programování\C# wfa\01 - Základní objety, Even, Metody, Datové typy, Operátory, Try, MessageBox\Sčítačka - řešení\Scitacka\obj\Debug\Scitacka.exe
+d:\SŠE Výuka\SŠE VýukaPodklady\Programování\C# wfa\01 - Základní objety, Even, Metody, Datové typy, Operátory, Try, MessageBox\Sčítačka - řešení\Scitacka\obj\Debug\Scitacka.pdb
+i:\SŠE VýukaPodklady\Programování\C# wfa\01 - Základní objety, Even, Metody, Datové typy, Operátory, Try, MessageBox\Sčítačka - řešení\Scitacka\bin\Debug\Scitacka.exe.config
+i:\SŠE VýukaPodklady\Programování\C# wfa\01 - Základní objety, Even, Metody, Datové typy, Operátory, Try, MessageBox\Sčítačka - řešení\Scitacka\obj\Debug\Scitacka.exe
+i:\SŠE VýukaPodklady\Programování\C# wfa\01 - Základní objety, Even, Metody, Datové typy, Operátory, Try, MessageBox\Sčítačka - řešení\Scitacka\obj\Debug\Scitacka.pdb
+X:\C# wfa\01 Projekt Sčítačka\Sčítačka - řešení\Scitacka\bin\Debug\Scitacka.exe.config
+X:\C# wfa\01 Projekt Sčítačka\Sčítačka - řešení\Scitacka\obj\Debug\Scitacka.exe
+X:\C# wfa\01 Projekt Sčítačka\Sčítačka - řešení\Scitacka\obj\Debug\Scitacka.pdb
+X:\C# wfa\01 Projekt Sčítačka\Sčítačka - řešení\Scitacka\bin\Debug\Scitacka.exe
+X:\C# wfa\01 Projekt Sčítačka\Sčítačka - řešení\Scitacka\bin\Debug\Scitacka.pdb
+X:\C# wfa\01 Projekt Sčítačka\Sčítačka - řešení\Scitacka\obj\Debug\Scitacka.csprojResolveAssemblyReference.cache
+X:\C# wfa\01 Projekt Sčítačka\Sčítačka - řešení\Scitacka\obj\Debug\Scitacka.Form1.resources
+X:\C# wfa\01 Projekt Sčítačka\Sčítačka - řešení\Scitacka\obj\Debug\Scitacka.Properties.Resources.resources
+X:\C# wfa\01 Projekt Sčítačka\Sčítačka - řešení\Scitacka\obj\Debug\Scitacka.csproj.GenerateResource.Cache
+u:\ZadaniUkolu\PRO 3E C#\03 Sčítačka\Scitacka\bin\Debug\Scitacka.exe.config
+u:\ZadaniUkolu\PRO 3E C#\03 Sčítačka\Scitacka\obj\Debug\Scitacka.exe
+u:\ZadaniUkolu\PRO 3E C#\03 Sčítačka\Scitacka\obj\Debug\Scitacka.pdb
+u:\ZadaniUkolu\PRO 3E C#\03 Sčítačka\Scitacka\bin\Debug\Scitacka.exe
+u:\ZadaniUkolu\PRO 3E C#\03 Sčítačka\Scitacka\bin\Debug\Scitacka.pdb
+u:\ZadaniUkolu\PRO 3E C#\03 Sčítačka\Scitacka\obj\Debug\Scitacka.csprojResolveAssemblyReference.cache
+u:\ZadaniUkolu\PRO 3E C#\03 Sčítačka\Scitacka\obj\Debug\Scitacka.Form1.resources
+u:\ZadaniUkolu\PRO 3E C#\03 Sčítačka\Scitacka\obj\Debug\Scitacka.Properties.Resources.resources
+u:\ZadaniUkolu\PRO 3E C#\03 Sčítačka\Scitacka\obj\Debug\Scitacka.csproj.GenerateResource.Cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\03 Sčítačka\Scitacka\bin\Debug\Scitacka.exe.config
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\03 Sčítačka\Scitacka\bin\Debug\Scitacka.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\03 Sčítačka\Scitacka\bin\Debug\Scitacka.pdb
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\03 Sčítačka\Scitacka\obj\Debug\Scitacka.csproj.AssemblyReference.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\03 Sčítačka\Scitacka\obj\Debug\Scitacka.Form1.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\03 Sčítačka\Scitacka\obj\Debug\Scitacka.Properties.Resources.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\03 Sčítačka\Scitacka\obj\Debug\Scitacka.csproj.GenerateResource.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\03 Sčítačka\Scitacka\obj\Debug\Scitacka.csproj.CoreCompileInputs.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\03 Sčítačka\Scitacka\obj\Debug\Scitacka.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\03 Sčítačka\Scitacka\obj\Debug\Scitacka.pdb

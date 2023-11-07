@@ -1,0 +1,28 @@
+D:\Znamky\Znamky\bin\Debug\Znamky.exe.config
+D:\Znamky\Znamky\bin\Debug\Znamky.exe
+D:\Znamky\Znamky\bin\Debug\Znamky.pdb
+D:\Znamky\Znamky\obj\Debug\Znamky.csprojResolveAssemblyReference.cache
+D:\Znamky\Znamky\obj\Debug\Znamky.Form1.resources
+D:\Znamky\Znamky\obj\Debug\Znamky.Properties.Resources.resources
+D:\Znamky\Znamky\obj\Debug\Znamky.csproj.GenerateResource.Cache
+D:\Znamky\Znamky\obj\Debug\Znamky.exe
+D:\Znamky\Znamky\obj\Debug\Znamky.pdb
+k:\ZadaniUkolu\3E\PRO C#\02 Znamky\Znamky\bin\Debug\Znamky.exe.config
+k:\ZadaniUkolu\3E\PRO C#\02 Znamky\Znamky\obj\Debug\Znamky.exe
+k:\ZadaniUkolu\3E\PRO C#\02 Znamky\Znamky\obj\Debug\Znamky.pdb
+k:\ZadaniUkolu\3E\PRO C#\02 Znamky\Znamky\bin\Debug\Znamky.exe
+k:\ZadaniUkolu\3E\PRO C#\02 Znamky\Znamky\bin\Debug\Znamky.pdb
+k:\ZadaniUkolu\3E\PRO C#\02 Znamky\Znamky\obj\Debug\Znamky.csprojResolveAssemblyReference.cache
+k:\ZadaniUkolu\3E\PRO C#\02 Znamky\Znamky\obj\Debug\Znamky.Form1.resources
+k:\ZadaniUkolu\3E\PRO C#\02 Znamky\Znamky\obj\Debug\Znamky.Properties.Resources.resources
+k:\ZadaniUkolu\3E\PRO C#\02 Znamky\Znamky\obj\Debug\Znamky.csproj.GenerateResource.Cache
+K:\ZadaniUkolu\3E\PRO 3E C#\02 Znamky\Znamky\bin\Debug\Znamky.exe.config
+K:\ZadaniUkolu\3E\PRO 3E C#\02 Znamky\Znamky\bin\Debug\Znamky.exe
+K:\ZadaniUkolu\3E\PRO 3E C#\02 Znamky\Znamky\bin\Debug\Znamky.pdb
+K:\ZadaniUkolu\3E\PRO 3E C#\02 Znamky\Znamky\obj\Debug\Znamky.csproj.AssemblyReference.cache
+K:\ZadaniUkolu\3E\PRO 3E C#\02 Znamky\Znamky\obj\Debug\Znamky.Form1.resources
+K:\ZadaniUkolu\3E\PRO 3E C#\02 Znamky\Znamky\obj\Debug\Znamky.Properties.Resources.resources
+K:\ZadaniUkolu\3E\PRO 3E C#\02 Znamky\Znamky\obj\Debug\Znamky.csproj.GenerateResource.cache
+K:\ZadaniUkolu\3E\PRO 3E C#\02 Znamky\Znamky\obj\Debug\Znamky.csproj.CoreCompileInputs.cache
+K:\ZadaniUkolu\3E\PRO 3E C#\02 Znamky\Znamky\obj\Debug\Znamky.exe
+K:\ZadaniUkolu\3E\PRO 3E C#\02 Znamky\Znamky\obj\Debug\Znamky.pdb
