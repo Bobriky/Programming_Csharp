@@ -24,7 +24,7 @@ namespace Scitacka
             txtVysledek.Text = "";
             pocetZadani = 0;
             lblPocetZadani.Text = pocetZadani.ToString();
-            btnReset.Enabled = btnRovnase.Enabled = false;
+            btnReset.Enabled = btnRovnase.Enabled = true;
         }
 
         int pocetZadani = 0; 
