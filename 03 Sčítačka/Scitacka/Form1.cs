@@ -30,10 +30,18 @@ namespace Scitacka
         int pocetZadani = 0; 
         private void btnRovnase_Click(object sender, EventArgs e)
         {
-            int cislo1 = int.Parse(txtCislo1.Text);
-            int cislo2 = int.Parse(txtCislo2.Text);
-            txtVysledek.Text = Convert.ToString(cislo1 + cislo2);
-            txtVyraz.Text = txtCislo1.Text + lblOperace.Text + txtCislo2.Text + btnRovnase.Text + txtVysledek.Text;
+
+            try
+            {
+                int cislo1 = int.Parse(txtCislo1.Text);
+                int cislo2 = int.Parse(txtCislo2.Text);
+                txtVysledek.Text = Convert.ToString(cislo1 + cislo2);
+                txtVyraz.Text = txtCislo1.Text + lblOperace.Text + txtCislo2.Text + btnRovnase.Text + txtVysledek.Text;
+            }
+            catch (Exception err)
+            {
+                MessageBox.Show(err.Message);
+            }
         }
 
         private void btnKonec_Click(object sender, EventArgs e)
@@ -42,7 +50,6 @@ namespace Scitacka
             {
                 Close();
             }
-            
         }
 
         private void txtCislo_TextChanged(object sender, EventArgs e)
