@@ -1,0 +1,28 @@
+U:\3F\Kalkulacka\Kalkulacka\bin\Debug\Kalkulacka.exe.config
+U:\3F\Kalkulacka\Kalkulacka\bin\Debug\Kalkulacka.exe
+U:\3F\Kalkulacka\Kalkulacka\bin\Debug\Kalkulacka.pdb
+U:\3F\Kalkulacka\Kalkulacka\obj\Debug\Kalkulacka.csprojResolveAssemblyReference.cache
+U:\3F\Kalkulacka\Kalkulacka\obj\Debug\Kalkulacka.Form1.resources
+U:\3F\Kalkulacka\Kalkulacka\obj\Debug\Kalkulacka.Properties.Resources.resources
+U:\3F\Kalkulacka\Kalkulacka\obj\Debug\Kalkulacka.csproj.GenerateResource.Cache
+U:\3F\Kalkulacka\Kalkulacka\obj\Debug\Kalkulacka.exe
+U:\3F\Kalkulacka\Kalkulacka\obj\Debug\Kalkulacka.pdb
+k:\ZadaniUkolu\3F\PRO 3F C#\041 Kalkulacka\Kalkulacka\bin\Debug\Kalkulacka.exe.config
+k:\ZadaniUkolu\3F\PRO 3F C#\041 Kalkulacka\Kalkulacka\obj\Debug\Kalkulacka.exe
+k:\ZadaniUkolu\3F\PRO 3F C#\041 Kalkulacka\Kalkulacka\obj\Debug\Kalkulacka.pdb
+k:\ZadaniUkolu\3F\PRO 3F C#\041 Kalkulacka\Kalkulacka\bin\Debug\Kalkulacka.exe
+k:\ZadaniUkolu\3F\PRO 3F C#\041 Kalkulacka\Kalkulacka\bin\Debug\Kalkulacka.pdb
+k:\ZadaniUkolu\3F\PRO 3F C#\041 Kalkulacka\Kalkulacka\obj\Debug\Kalkulacka.csprojResolveAssemblyReference.cache
+k:\ZadaniUkolu\3F\PRO 3F C#\041 Kalkulacka\Kalkulacka\obj\Debug\Kalkulacka.Form1.resources
+k:\ZadaniUkolu\3F\PRO 3F C#\041 Kalkulacka\Kalkulacka\obj\Debug\Kalkulacka.Properties.Resources.resources
+k:\ZadaniUkolu\3F\PRO 3F C#\041 Kalkulacka\Kalkulacka\obj\Debug\Kalkulacka.csproj.GenerateResource.Cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\05 Kalkulačka\Kalkulacka\bin\Debug\Kalkulacka.exe.config
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\05 Kalkulačka\Kalkulacka\bin\Debug\Kalkulacka.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\05 Kalkulačka\Kalkulacka\bin\Debug\Kalkulacka.pdb
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\05 Kalkulačka\Kalkulacka\obj\Debug\Kalkulacka.csproj.AssemblyReference.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\05 Kalkulačka\Kalkulacka\obj\Debug\Kalkulacka.Form1.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\05 Kalkulačka\Kalkulacka\obj\Debug\Kalkulacka.Properties.Resources.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\05 Kalkulačka\Kalkulacka\obj\Debug\Kalkulacka.csproj.GenerateResource.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\05 Kalkulačka\Kalkulacka\obj\Debug\Kalkulacka.csproj.CoreCompileInputs.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\05 Kalkulačka\Kalkulacka\obj\Debug\Kalkulacka.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\05 Kalkulačka\Kalkulacka\obj\Debug\Kalkulacka.pdb
