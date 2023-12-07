@@ -19,7 +19,7 @@ namespace Kalkulacka
 
         private void btnRovnase_Click(object sender, EventArgs e)
         {
-            /*
+            
             try
             {
                 int cislo1 = int.Parse(txtCislo1.Text);
@@ -37,12 +37,13 @@ namespace Kalkulacka
             {
                 txtVyraz.Text = err.Message;
             }
-            */
+            
         }
 
         private void rdBtnSoucet_CheckedChanged(object sender, EventArgs e)
         {
             txtVysledek.Text = txtVyraz.Text = "";
+
             if (rdBtnSoucet.Checked)
             {
                 lblOperace.Text = rdBtnSoucet.Text;
@@ -63,7 +64,7 @@ namespace Kalkulacka
 
         private void chkOperace_CheckedChanged(object sender, EventArgs e)
         {
-            grpOperace.Enabled = chkOperace.Checked;
+            grpOperace.Enabled = chkOperace.Checked; 
         }
 
         private void chkReadOnly_CheckedChanged(object sender, EventArgs e)
@@ -73,14 +74,29 @@ namespace Kalkulacka
 
         private void chkBarvy_CheckedChanged(object sender, EventArgs e)
         {
-
-            if (colorDialog1.ShowDialog() == DialogResult.OK)
+            if (chkBarvy.Checked)
             {
+                colorDialog1.ShowDialog();
                 txtVysledek.ForeColor = colorDialog1.Color;
+                colorDialog1.ShowDialog();
+                txtVysledek.BackColor = colorDialog1.Color;
             }
-            
-            colorDialog1.ShowDialog();
-            txtVysledek.BackColor = colorDialog1.Color;
+            // chkBarvy.Checked = false;
+        }
+
+        private void btnKonec_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            rdBtnSoucet.Checked = true;
+            rdBtnSoucin.Checked = rdBtnRozdil.Checked = rdBtnPodil.Checked = false;
+            lblOperace.Text = rdBtnSoucet.Text;
+            txtVysledek.Text = "";
+            btnRovnase.Enabled = false;
+            btnReset.Enabled = false;
         }
     }
 }

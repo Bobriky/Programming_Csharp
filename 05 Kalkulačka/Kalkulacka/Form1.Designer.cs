@@ -88,6 +88,7 @@
             this.btnReset.TabIndex = 77;
             this.btnReset.Text = "Reset";
             this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // btnKonec
             // 
@@ -99,6 +100,7 @@
             this.btnKonec.TabIndex = 76;
             this.btnKonec.Text = "Konec";
             this.btnKonec.UseVisualStyleBackColor = true;
+            this.btnKonec.Click += new System.EventHandler(this.btnKonec_Click);
             // 
             // lblVyraz
             // 
