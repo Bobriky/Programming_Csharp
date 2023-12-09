@@ -19,7 +19,6 @@ namespace Kalkulacka
 
         private void btnRovnase_Click(object sender, EventArgs e)
         {
-            
             try
             {
                 int cislo1 = int.Parse(txtCislo1.Text);
@@ -29,19 +28,23 @@ namespace Kalkulacka
                     case "+": txtVysledek.Text = (cislo1 + cislo2).ToString(); break;
                     case "-": txtVysledek.Text = (cislo1 - cislo2).ToString(); break;
                     case "*": txtVysledek.Text = (cislo1 * cislo2).ToString(); break;
-                    case "/": txtVysledek.Text = (cislo1 / (float) cislo2).ToString(); break;                  
+                    case "/": txtVysledek.Text = (cislo1 / (float)cislo2).ToString(); break;
                 }
+
                 txtVyraz.Text = txtCislo1.Text + lblOperace.Text + txtCislo2.Text + btnRovnase.Text + txtVysledek.Text;
+
+                btnReset.Enabled = true;
             }
             catch (Exception err)
             {
                 txtVyraz.Text = err.Message;
             }
-            
         }
 
-        private void rdBtnSoucet_CheckedChanged(object sender, EventArgs e)
+        private void chkOperace_CheckedChanged(object sender, EventArgs e)
         {
+            grpOperace.Enabled = chkOperace.Checked;
+
             txtVysledek.Text = txtVyraz.Text = "";
 
             if (rdBtnSoucet.Checked)
@@ -60,11 +63,7 @@ namespace Kalkulacka
             {
                 lblOperace.Text = rdBtnPodil.Text;
             }
-        }
 
-        private void chkOperace_CheckedChanged(object sender, EventArgs e)
-        {
-            grpOperace.Enabled = chkOperace.Checked; 
         }
 
         private void chkReadOnly_CheckedChanged(object sender, EventArgs e)
@@ -91,11 +90,13 @@ namespace Kalkulacka
 
         private void btnReset_Click(object sender, EventArgs e)
         {
-            rdBtnSoucet.Checked = true;
-            rdBtnSoucin.Checked = rdBtnRozdil.Checked = rdBtnPodil.Checked = false;
-            lblOperace.Text = rdBtnSoucet.Text;
+            txtCislo1.Text = "1";
+            txtCislo2.Text = "1";
             txtVysledek.Text = "";
-            btnRovnase.Enabled = false;
+            rdBtnSoucet.Checked = true;
+            rdBtnPodil.Checked = false;
+            rdBtnSoucin.Checked = false;
+            rdBtnRozdil.Checked = false;
             btnReset.Enabled = false;
         }
     }

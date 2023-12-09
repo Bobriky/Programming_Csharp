@@ -26,3 +26,13 @@ U:\Vypracovane_Ukoly\3E\Programming_Csharp\05 Kalkulačka\Kalkulacka\obj\Debug\K
 U:\Vypracovane_Ukoly\3E\Programming_Csharp\05 Kalkulačka\Kalkulacka\obj\Debug\Kalkulacka.csproj.CoreCompileInputs.cache
 U:\Vypracovane_Ukoly\3E\Programming_Csharp\05 Kalkulačka\Kalkulacka\obj\Debug\Kalkulacka.exe
 U:\Vypracovane_Ukoly\3E\Programming_Csharp\05 Kalkulačka\Kalkulacka\obj\Debug\Kalkulacka.pdb
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\05 Kalkulačka\Kalkulacka\bin\Debug\Kalkulacka.exe.config
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\05 Kalkulačka\Kalkulacka\bin\Debug\Kalkulacka.exe
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\05 Kalkulačka\Kalkulacka\bin\Debug\Kalkulacka.pdb
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\05 Kalkulačka\Kalkulacka\obj\Debug\Kalkulacka.csproj.AssemblyReference.cache
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\05 Kalkulačka\Kalkulacka\obj\Debug\Kalkulacka.Form1.resources
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\05 Kalkulačka\Kalkulacka\obj\Debug\Kalkulacka.Properties.Resources.resources
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\05 Kalkulačka\Kalkulacka\obj\Debug\Kalkulacka.csproj.GenerateResource.cache
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\05 Kalkulačka\Kalkulacka\obj\Debug\Kalkulacka.csproj.CoreCompileInputs.cache
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\05 Kalkulačka\Kalkulacka\obj\Debug\Kalkulacka.exe
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\05 Kalkulačka\Kalkulacka\obj\Debug\Kalkulacka.pdb
