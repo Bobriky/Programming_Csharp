@@ -1,0 +1,10 @@
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\Rezistorky 2.0 DÚ\Rezistory 2.0\bin\Debug\Rezistory 2.0.exe.config
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\Rezistorky 2.0 DÚ\Rezistory 2.0\bin\Debug\Rezistory 2.0.exe
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\Rezistorky 2.0 DÚ\Rezistory 2.0\bin\Debug\Rezistory 2.0.pdb
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\Rezistorky 2.0 DÚ\Rezistory 2.0\obj\Debug\Rezistory 2.0.csproj.AssemblyReference.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\Rezistorky 2.0 DÚ\Rezistory 2.0\obj\Debug\Rezistory_2._0.Form1.resources
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\Rezistorky 2.0 DÚ\Rezistory 2.0\obj\Debug\Rezistory_2._0.Properties.Resources.resources
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\Rezistorky 2.0 DÚ\Rezistory 2.0\obj\Debug\Rezistory 2.0.csproj.GenerateResource.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\Rezistorky 2.0 DÚ\Rezistory 2.0\obj\Debug\Rezistory 2.0.csproj.CoreCompileInputs.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\Rezistorky 2.0 DÚ\Rezistory 2.0\obj\Debug\Rezistory 2.0.exe
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\Rezistorky 2.0 DÚ\Rezistory 2.0\obj\Debug\Rezistory 2.0.pdb
