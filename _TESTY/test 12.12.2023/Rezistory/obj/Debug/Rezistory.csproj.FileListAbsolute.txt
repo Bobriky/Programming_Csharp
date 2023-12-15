@@ -1,0 +1,10 @@
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\test 12.12.2023\Rezistory\bin\Debug\Rezistory.exe.config
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\test 12.12.2023\Rezistory\bin\Debug\Rezistory.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\test 12.12.2023\Rezistory\bin\Debug\Rezistory.pdb
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\test 12.12.2023\Rezistory\obj\Debug\Rezistory.csproj.AssemblyReference.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\test 12.12.2023\Rezistory\obj\Debug\Rezistory.Form1.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\test 12.12.2023\Rezistory\obj\Debug\Rezistory.Properties.Resources.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\test 12.12.2023\Rezistory\obj\Debug\Rezistory.csproj.GenerateResource.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\test 12.12.2023\Rezistory\obj\Debug\Rezistory.csproj.CoreCompileInputs.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\test 12.12.2023\Rezistory\obj\Debug\Rezistory.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\test 12.12.2023\Rezistory\obj\Debug\Rezistory.pdb
