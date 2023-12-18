@@ -234,6 +234,7 @@ namespace Rezistory_2._0
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.btnCalculate);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.HelpButton = true;
             this.Name = "Form1";
             this.Text = "Rezistory 2.0";
