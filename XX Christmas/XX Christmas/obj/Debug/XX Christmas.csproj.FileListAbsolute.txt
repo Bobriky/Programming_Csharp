@@ -1,0 +1,10 @@
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\XX Christmas\XX Christmas\bin\Debug\XX Christmas.exe.config
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\XX Christmas\XX Christmas\bin\Debug\XX Christmas.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\XX Christmas\XX Christmas\bin\Debug\XX Christmas.pdb
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\XX Christmas\XX Christmas\obj\Debug\XX Christmas.csproj.AssemblyReference.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\XX Christmas\XX Christmas\obj\Debug\XX_Christmas.Form1.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\XX Christmas\XX Christmas\obj\Debug\XX_Christmas.Properties.Resources.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\XX Christmas\XX Christmas\obj\Debug\XX Christmas.csproj.GenerateResource.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\XX Christmas\XX Christmas\obj\Debug\XX Christmas.csproj.CoreCompileInputs.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\XX Christmas\XX Christmas\obj\Debug\XX Christmas.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\XX Christmas\XX Christmas\obj\Debug\XX Christmas.pdb
