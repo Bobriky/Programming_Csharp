@@ -1,0 +1,20 @@
+D:\Kostka\Kostka\bin\Debug\Kostka.exe.config
+D:\Kostka\Kostka\bin\Debug\Kostka.exe
+D:\Kostka\Kostka\bin\Debug\Kostka.pdb
+D:\Kostka\Kostka\obj\Debug\Kostka.csproj.AssemblyReference.cache
+D:\Kostka\Kostka\obj\Debug\Kostka.Form1.resources
+D:\Kostka\Kostka\obj\Debug\Kostka.Properties.Resources.resources
+D:\Kostka\Kostka\obj\Debug\Kostka.csproj.GenerateResource.cache
+D:\Kostka\Kostka\obj\Debug\Kostka.csproj.CoreCompileInputs.cache
+D:\Kostka\Kostka\obj\Debug\Kostka.exe
+D:\Kostka\Kostka\obj\Debug\Kostka.pdb
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\06 Kostka\Kostka\obj\Debug\Kostka.csproj.AssemblyReference.cache
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\06 Kostka\Kostka\obj\Debug\Kostka.Form1.resources
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\06 Kostka\Kostka\obj\Debug\Kostka.Properties.Resources.resources
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\06 Kostka\Kostka\obj\Debug\Kostka.csproj.GenerateResource.cache
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\06 Kostka\Kostka\obj\Debug\Kostka.csproj.CoreCompileInputs.cache
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\06 Kostka\Kostka\obj\Debug\Kostka.exe
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\06 Kostka\Kostka\obj\Debug\Kostka.pdb
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\06 Kostka\Kostka\bin\Debug\Kostka.exe.config
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\06 Kostka\Kostka\bin\Debug\Kostka.exe
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\06 Kostka\Kostka\bin\Debug\Kostka.pdb
