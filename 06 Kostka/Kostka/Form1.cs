@@ -13,17 +13,16 @@ namespace Kostka
     public partial class Form1 : Form
     {
         Image specificImageAdress;
-        int countOne = 0;
-        int countTwo = 0;
-        int countThree = 0;
-        int countFour = 0;
-        int countFive = 0;
-        int countSix = 0;
+        int countOne;
+        int countTwo;
+        int countThree;
+        int countFour;
+        int countFive;
+        int countSix;
         public Form1()
         {
             InitializeComponent();
             apkInit();
-
         }
         private void apkInit()
         {
@@ -33,7 +32,7 @@ namespace Kostka
 
             try
             {
-                Image hod0 = Image.FromFile("Kostka\\kostka1.png");
+                Image hod0 = Image.FromFile("Kostka\\kostka0.png");
                 picKostka1.Image = hod0;
                 picKostka2.Image = hod0;
                 picKostka3.Image = hod0;
@@ -47,6 +46,12 @@ namespace Kostka
                 toolStripStatusLabel4.Text = countFour.ToString();
                 toolStripStatusLabel5.Text = countFive.ToString();
                 toolStripStatusLabel6.Text = countSix.ToString();
+                chkKostka1.Checked = true;
+                chkKostka2.Checked = true;
+                chkKostka3.Checked = true;
+                chkKostka4.Checked = true;
+                chkKostka5.Checked = true;
+                chkKostka6.Checked = true;
             }
             catch (Exception err)
             {
@@ -70,25 +75,53 @@ namespace Kostka
 
         private void btnHod_Click(object sender, EventArgs e)
         {
+            Image hod0 = Image.FromFile("Kostka\\kostka0.png");
+            picKostka1.Image = hod0;
+            picKostka2.Image = hod0;
+            picKostka3.Image = hod0;
+            picKostka4.Image = hod0;
+            picKostka5.Image = hod0;
+            picKostka6.Image = hod0;
+
             Random rnd = new Random();
-            for (int i = 1 * (int)nmPocetHodu.Value ; i < 7 * (int)nmPocetHodu.Value; i++)
+            bool con;
+
+            for(int j = 1; j <= nmPocetHodu.Value; j++)
             {
-                int hod = rnd.Next(1, 7);
-                switch (hod){
-                    case 1: specificImageAdress = Image.FromFile("Kostka\\kostka1.png"); countOne++; break;
-                    case 2: specificImageAdress = Image.FromFile("Kostka\\kostka2.png"); countTwo++; break;
-                    case 3: specificImageAdress = Image.FromFile("Kostka\\kostka3.png"); countThree++; break;
-                    case 4: specificImageAdress = Image.FromFile("Kostka\\kostka4.png"); countFour++; break;
-                    case 5: specificImageAdress = Image.FromFile("Kostka\\kostka5.png"); countFive++; break;
-                    case 6: specificImageAdress = Image.FromFile("Kostka\\kostka6.png"); countSix++; break;
-                }
-                switch (i){
-                    case 1: picKostka1.Image = specificImageAdress; break;
-                    case 2: picKostka2.Image = specificImageAdress; break;
-                    case 3: picKostka3.Image = specificImageAdress; break;
-                    case 4: picKostka4.Image = specificImageAdress; break;
-                    case 5: picKostka5.Image = specificImageAdress; break;
-                    case 6: picKostka6.Image = specificImageAdress; break;
+                for (int i = 1; i < 7; i++)
+                {
+                    con = true;
+                    int hod = rnd.Next(1, 7);
+                    switch (i)
+                    {
+                        case 1: if (chkKostka1.Checked != true) con = false; break;
+                        case 2: if (chkKostka2.Checked != true) con = false; break;
+                        case 3: if (chkKostka3.Checked != true) con = false; break;
+                        case 4: if (chkKostka4.Checked != true) con = false; break;
+                        case 5: if (chkKostka5.Checked != true) con = false; break;
+                        case 6: if (chkKostka6.Checked != true) con = false; break;
+                    }
+                    if (con == true)
+                    {
+                        switch (hod)
+                        {
+                            case 1: specificImageAdress = Image.FromFile("Kostka\\kostka1.png"); countOne++; break;
+                            case 2: specificImageAdress = Image.FromFile("Kostka\\kostka2.png"); countTwo++; break;
+                            case 3: specificImageAdress = Image.FromFile("Kostka\\kostka3.png"); countThree++; break;
+                            case 4: specificImageAdress = Image.FromFile("Kostka\\kostka4.png"); countFour++; break;
+                            case 5: specificImageAdress = Image.FromFile("Kostka\\kostka5.png"); countFive++; break;
+                            case 6: specificImageAdress = Image.FromFile("Kostka\\kostka6.png"); countSix++; break;
+                        }
+                        switch (i)
+                        {
+                            case 1: picKostka1.Image = specificImageAdress; break;
+                            case 2: picKostka2.Image = specificImageAdress; break;
+                            case 3: picKostka3.Image = specificImageAdress; break;
+                            case 4: picKostka4.Image = specificImageAdress; break;
+                            case 5: picKostka5.Image = specificImageAdress; break;
+                            case 6: picKostka6.Image = specificImageAdress; break;
+                        }
+                    }
                 }
             }
             toolStripStatusLabel1.Text = countOne.ToString();
@@ -99,6 +132,5 @@ namespace Kostka
             toolStripStatusLabel6.Text = countSix.ToString();
             btnReset.Enabled = true;
         }
-
     }
 }
