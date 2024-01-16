@@ -28,3 +28,13 @@ C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\06 Kostka\Kostka
 C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\06 Kostka\Kostka\obj\Debug\Kostka.csproj.CoreCompileInputs.cache
 C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\06 Kostka\Kostka\obj\Debug\Kostka.exe
 C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\06 Kostka\Kostka\obj\Debug\Kostka.pdb
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\06 Kostka\Kostka\bin\Debug\Kostka.exe.config
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\06 Kostka\Kostka\bin\Debug\Kostka.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\06 Kostka\Kostka\bin\Debug\Kostka.pdb
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\06 Kostka\Kostka\obj\Debug\Kostka.csproj.AssemblyReference.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\06 Kostka\Kostka\obj\Debug\Kostka.Form1.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\06 Kostka\Kostka\obj\Debug\Kostka.Properties.Resources.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\06 Kostka\Kostka\obj\Debug\Kostka.csproj.GenerateResource.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\06 Kostka\Kostka\obj\Debug\Kostka.csproj.CoreCompileInputs.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\06 Kostka\Kostka\obj\Debug\Kostka.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\06 Kostka\Kostka\obj\Debug\Kostka.pdb
