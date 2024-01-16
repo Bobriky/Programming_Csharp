@@ -507,12 +507,13 @@ namespace HraCisla
             // 
             this.btnStop.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnStop.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnStop.Location = new System.Drawing.Point(429, 604);
+            this.btnStop.Location = new System.Drawing.Point(430, 604);
             this.btnStop.Name = "btnStop";
             this.btnStop.Size = new System.Drawing.Size(118, 23);
             this.btnStop.TabIndex = 16;
             this.btnStop.Text = "Stop";
             this.btnStop.UseVisualStyleBackColor = true;
+            this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
             // 
             // grpHra
             // 
@@ -526,7 +527,7 @@ namespace HraCisla
             this.grpHra.Controls.Add(this.lblVysledek);
             this.grpHra.Location = new System.Drawing.Point(15, 11);
             this.grpHra.Name = "grpHra";
-            this.grpHra.Size = new System.Drawing.Size(532, 575);
+            this.grpHra.Size = new System.Drawing.Size(533, 575);
             this.grpHra.TabIndex = 15;
             this.grpHra.TabStop = false;
             this.grpHra.Text = "Hra";
@@ -536,12 +537,13 @@ namespace HraCisla
             this.btnTipuj.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnTipuj.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnTipuj.Enabled = false;
-            this.btnTipuj.Location = new System.Drawing.Point(382, 84);
+            this.btnTipuj.Location = new System.Drawing.Point(383, 84);
             this.btnTipuj.Name = "btnTipuj";
             this.btnTipuj.Size = new System.Drawing.Size(118, 23);
             this.btnTipuj.TabIndex = 18;
             this.btnTipuj.Text = "Tipuj";
             this.btnTipuj.UseVisualStyleBackColor = true;
+            this.btnTipuj.Click += new System.EventHandler(this.btnTipuj_Click);
             // 
             // pctVysledek
             // 
@@ -552,7 +554,7 @@ namespace HraCisla
             this.pctVysledek.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pctVysledek.Location = new System.Drawing.Point(31, 205);
             this.pctVysledek.Name = "pctVysledek";
-            this.pctVysledek.Size = new System.Drawing.Size(470, 353);
+            this.pctVysledek.Size = new System.Drawing.Size(471, 353);
             this.pctVysledek.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pctVysledek.TabIndex = 6;
             this.pctVysledek.TabStop = false;
@@ -580,7 +582,7 @@ namespace HraCisla
             0,
             0});
             this.nmTipCislo.Name = "nmTipCislo";
-            this.nmTipCislo.Size = new System.Drawing.Size(335, 29);
+            this.nmTipCislo.Size = new System.Drawing.Size(336, 29);
             this.nmTipCislo.TabIndex = 4;
             this.nmTipCislo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -594,7 +596,7 @@ namespace HraCisla
             this.lblVysledek.ForeColor = System.Drawing.Color.Red;
             this.lblVysledek.Location = new System.Drawing.Point(31, 141);
             this.lblVysledek.Name = "lblVysledek";
-            this.lblVysledek.Size = new System.Drawing.Size(470, 36);
+            this.lblVysledek.Size = new System.Drawing.Size(471, 36);
             this.lblVysledek.TabIndex = 5;
             this.lblVysledek.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -608,6 +610,7 @@ namespace HraCisla
             this.btnClose.TabIndex = 14;
             this.btnClose.Text = "Konec";
             this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // btnPlay
             // 
@@ -615,10 +618,11 @@ namespace HraCisla
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnPlay.Location = new System.Drawing.Point(27, 604);
             this.btnPlay.Name = "btnPlay";
-            this.btnPlay.Size = new System.Drawing.Size(385, 23);
+            this.btnPlay.Size = new System.Drawing.Size(386, 23);
             this.btnPlay.TabIndex = 13;
             this.btnPlay.Text = "Play";
             this.btnPlay.UseVisualStyleBackColor = true;
+            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
             // 
             // lblPokusy
             // 
@@ -671,6 +675,7 @@ namespace HraCisla
             this.radProf.TabIndex = 2;
             this.radProf.Text = "Profesionál";
             this.radProf.UseVisualStyleBackColor = true;
+            this.radProf.CheckedChanged += new System.EventHandler(this.radProf_CheckedChanged);
             // 
             // radPokr
             // 
@@ -681,6 +686,7 @@ namespace HraCisla
             this.radPokr.TabIndex = 1;
             this.radPokr.Text = "Pokročilý";
             this.radPokr.UseVisualStyleBackColor = true;
+            this.radPokr.CheckedChanged += new System.EventHandler(this.radPokr_CheckedChanged);
             // 
             // radZac
             // 
@@ -691,6 +697,7 @@ namespace HraCisla
             this.radZac.TabIndex = 0;
             this.radZac.Text = "Začátečník";
             this.radZac.UseVisualStyleBackColor = true;
+            this.radZac.CheckedChanged += new System.EventHandler(this.radZac_CheckedChanged);
             // 
             // splitContainer1
             // 
@@ -698,7 +705,7 @@ namespace HraCisla
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.splitContainer1.Location = new System.Drawing.Point(21, 63);
-            this.splitContainer1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(2);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -728,6 +735,7 @@ namespace HraCisla
             this.btnReset.TabIndex = 15;
             this.btnReset.Text = "Reset";
             this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // Form1
             // 
@@ -739,7 +747,7 @@ namespace HraCisla
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MinimumSize = new System.Drawing.Size(762, 641);
             this.Name = "Form1";
             this.Text = "Form1";

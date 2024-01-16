@@ -56,6 +56,13 @@ namespace HraCisla
 {
     public partial class Form1 : Form
     {
+        Random rnd = new Random();
+        decimal secretNumber;
+        decimal tipNumber;
+        decimal rozsah;
+        int pokusy;
+        int wins = 0;
+        int losses = 0;
         public Form1()
         {
             InitializeComponent();
@@ -64,13 +71,143 @@ namespace HraCisla
 
         private void apkDefault()
         {
+            
             Text = "Hra uhádni číslo";
             AcceptButton = btnPlay;
             CancelButton = btnClose;
+            radZac.Enabled = radPokr.Enabled = radProf.Enabled = true;
+            btnPlay.Enabled = false;
             radZac.Checked = true;
             btnStop.Enabled = false;
+            btnTipuj.Enabled = false;
             lblPokusy.Text = "20";
-            lblTipy.Text = " - ";
+            lblTipy.Text = "";
+            pctVysledek.Image = Image.FromFile("Image\\EmotionReady.png");
+        }
+
+        private void radZac_CheckedChanged(object sender, EventArgs e)
+        {
+            btnPlay.Enabled = true;
+            lblTip.Text = "Zadej tip (číslo v rozsahu 1 - 50)";
+            nmTipCislo.Maximum = 50;
+            lblPokusy.Text = "20";
+        }
+
+        private void radPokr_CheckedChanged(object sender, EventArgs e)
+        {
+            btnPlay.Enabled = true;
+            lblTip.Text = "Zadej tip (číslo v rozsahu 1 - 100)";
+            nmTipCislo.Maximum = 100;
+            lblPokusy.Text = "10";
+        }
+
+        private void radProf_CheckedChanged(object sender, EventArgs e)
+        {
+            btnPlay.Enabled = true;
+            lblTip.Text = "Zadej tip (číslo v rozsahu 1 - 100)";
+            nmTipCislo.Maximum = 100;
+            lblPokusy.Text = "5";
+        }
+
+        private void btnPlay_Click(object sender, EventArgs e)
+        {
+            pctVysledek.Image = Image.FromFile("Image\\EmotionReady.png");
+            lblVysledek.Text = "";
+            
+            btnStop.Enabled = true;
+            btnReset.Enabled = true;
+            btnPlay.Enabled = false;
+            btnTipuj.Enabled = true;
+
+            if(radZac.Enabled != true){
+                secretNumber = rnd.Next(1, 101);
+                rozsah = 100;
+            }
+            else{
+                secretNumber = rnd.Next(1, 51);
+                rozsah = 50;
+            }
+
+            radZac.Enabled = radPokr.Enabled = radProf.Enabled = false;
+        }
+
+        private void btnTipuj_Click(object sender, EventArgs e)
+        {
+            tipNumber = nmTipCislo.Value;
+            lblTipy.Text += Convert.ToString(tipNumber) + ", ";
+            pokusy = int.Parse(lblPokusy.Text);
+            if (pokusy > 0)
+            {
+                if (tipNumber <= rozsah)
+                {
+                    if (tipNumber == secretNumber)
+                    {
+                        pctVysledek.Image = Image.FromFile("Image\\EmotionTrue.jpg");
+                        lblVysledek.Text = "HURÁ, našli jste číslo!";
+                        MessageBox.Show("Vyhrál jsi.");
+                        wins++;
+                        lblVyhry.Text = Convert.ToString(wins);
+                        radZac.Enabled = radPokr.Enabled = radProf.Enabled = true;
+                        btnStop.Enabled = false;
+                        btnPlay.Enabled = true;
+                        btnTipuj.Enabled = false;
+                    }
+                    else if (tipNumber > secretNumber)
+                    {
+                        pctVysledek.Image = Image.FromFile("Image\\EmotionFalse.jpg");
+                        lblVysledek.Text = "Hledané číslo je menší!";
+                    }
+                    else
+                    {
+                        pctVysledek.Image = Image.FromFile("Image\\EmotionFalse.jpg");
+                        lblVysledek.Text = "Hledané číslo je větší!";
+                    }
+                    pokusy--;
+                    lblPokusy.Text = Convert.ToString(pokusy);
+                }
+                else
+                {
+                    lblVysledek.Text = "Zadal jste rozsah mimo rozsah, nebyl vám odečten pokus.";
+                }
+            }
+            else
+            {
+                pctVysledek.Image = Image.FromFile("Image\\EmotionFalse.jpg");
+                lblVysledek.Text = "Prohrál jsi!";
+                losses++;
+                lblProhry.Text = Convert.ToString(losses);
+                MessageBox.Show("Prohrál jsi. Hledané číslo bylo: " + secretNumber);
+                radZac.Enabled = radPokr.Enabled = radProf.Enabled = true;
+                btnStop.Enabled = false;
+                btnPlay.Enabled = true;
+                btnTipuj.Enabled = false;
+            }
+        }
+
+        private void btnStop_Click(object sender, EventArgs e)
+        {
+            pctVysledek.Image = Image.FromFile("Image\\EmotionFalse.jpg");
+            lblVysledek.Text = "Skončil jste dřív!";
+            losses++;
+            lblProhry.Text = Convert.ToString(losses);
+            MessageBox.Show("Prohrál jsi. Hledané číslo bylo: " + secretNumber);
+            radZac.Enabled = radPokr.Enabled = radProf.Enabled = true;
+            btnStop.Enabled = false;
+            btnPlay.Enabled = true;
+            btnTipuj.Enabled = false;
+        }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {   
+            apkDefault();
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Opravdu chcete skončit?", "Ukončení", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+            {
+                Close();
+            }
         }
     }
 }

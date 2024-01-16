@@ -28,3 +28,13 @@ u:\3F\PraceZaku\04 HraCisla\HraCisla\obj\Debug\HraCisla.csproj.GenerateResource.
 u:\3F\PraceZaku\04 HraCisla\HraCisla\obj\Debug\HraCisla.csproj.CoreCompileInputs.cache
 u:\3F\PraceZaku\04 HraCisla\HraCisla\obj\Debug\HraCisla.exe
 u:\3F\PraceZaku\04 HraCisla\HraCisla\obj\Debug\HraCisla.pdb
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\Zadani\HraCisla\bin\Debug\HraCisla.exe.config
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\Zadani\HraCisla\bin\Debug\HraCisla.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\Zadani\HraCisla\bin\Debug\HraCisla.pdb
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\Zadani\HraCisla\obj\Debug\HraCisla.csproj.AssemblyReference.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\Zadani\HraCisla\obj\Debug\HraCisla.Form1.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\Zadani\HraCisla\obj\Debug\HraCisla.Properties.Resources.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\Zadani\HraCisla\obj\Debug\HraCisla.csproj.GenerateResource.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\Zadani\HraCisla\obj\Debug\HraCisla.csproj.CoreCompileInputs.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\Zadani\HraCisla\obj\Debug\HraCisla.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\Zadani\HraCisla\obj\Debug\HraCisla.pdb
