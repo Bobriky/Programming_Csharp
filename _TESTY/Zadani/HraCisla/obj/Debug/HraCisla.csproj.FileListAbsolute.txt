@@ -1,0 +1,30 @@
+D:\HraCisla\HraCisla\bin\Debug\HraCisla.exe.config
+D:\HraCisla\HraCisla\bin\Debug\HraCisla.exe
+D:\HraCisla\HraCisla\bin\Debug\HraCisla.pdb
+D:\HraCisla\HraCisla\obj\Debug\HraCisla.csproj.AssemblyReference.cache
+D:\HraCisla\HraCisla\obj\Debug\HraCisla.Form1.resources
+D:\HraCisla\HraCisla\obj\Debug\HraCisla.Properties.Resources.resources
+D:\HraCisla\HraCisla\obj\Debug\HraCisla.csproj.GenerateResource.cache
+D:\HraCisla\HraCisla\obj\Debug\HraCisla.csproj.CoreCompileInputs.cache
+D:\HraCisla\HraCisla\obj\Debug\HraCisla.exe
+D:\HraCisla\HraCisla\obj\Debug\HraCisla.pdb
+D:\HraCisla 2024 zadani\HraCisla\bin\Debug\HraCisla.exe.config
+D:\HraCisla 2024 zadani\HraCisla\bin\Debug\HraCisla.exe
+D:\HraCisla 2024 zadani\HraCisla\bin\Debug\HraCisla.pdb
+D:\HraCisla 2024 zadani\HraCisla\obj\Debug\HraCisla.csproj.AssemblyReference.cache
+D:\HraCisla 2024 zadani\HraCisla\obj\Debug\HraCisla.Form1.resources
+D:\HraCisla 2024 zadani\HraCisla\obj\Debug\HraCisla.Properties.Resources.resources
+D:\HraCisla 2024 zadani\HraCisla\obj\Debug\HraCisla.csproj.GenerateResource.cache
+D:\HraCisla 2024 zadani\HraCisla\obj\Debug\HraCisla.csproj.CoreCompileInputs.cache
+D:\HraCisla 2024 zadani\HraCisla\obj\Debug\HraCisla.exe
+D:\HraCisla 2024 zadani\HraCisla\obj\Debug\HraCisla.pdb
+u:\3F\PraceZaku\04 HraCisla\HraCisla\bin\Debug\HraCisla.exe.config
+u:\3F\PraceZaku\04 HraCisla\HraCisla\bin\Debug\HraCisla.exe
+u:\3F\PraceZaku\04 HraCisla\HraCisla\bin\Debug\HraCisla.pdb
+u:\3F\PraceZaku\04 HraCisla\HraCisla\obj\Debug\HraCisla.csproj.AssemblyReference.cache
+u:\3F\PraceZaku\04 HraCisla\HraCisla\obj\Debug\HraCisla.Form1.resources
+u:\3F\PraceZaku\04 HraCisla\HraCisla\obj\Debug\HraCisla.Properties.Resources.resources
+u:\3F\PraceZaku\04 HraCisla\HraCisla\obj\Debug\HraCisla.csproj.GenerateResource.cache
+u:\3F\PraceZaku\04 HraCisla\HraCisla\obj\Debug\HraCisla.csproj.CoreCompileInputs.cache
+u:\3F\PraceZaku\04 HraCisla\HraCisla\obj\Debug\HraCisla.exe
+u:\3F\PraceZaku\04 HraCisla\HraCisla\obj\Debug\HraCisla.pdb
