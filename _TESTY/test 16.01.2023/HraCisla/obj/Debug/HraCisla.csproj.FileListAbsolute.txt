@@ -38,3 +38,13 @@ U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\Zadani\HraCisla\obj\Debug\HraC
 U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\Zadani\HraCisla\obj\Debug\HraCisla.csproj.CoreCompileInputs.cache
 U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\Zadani\HraCisla\obj\Debug\HraCisla.exe
 U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\Zadani\HraCisla\obj\Debug\HraCisla.pdb
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\test 16.01.2023\HraCisla\bin\Debug\HraCisla.exe.config
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\test 16.01.2023\HraCisla\bin\Debug\HraCisla.exe
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\test 16.01.2023\HraCisla\bin\Debug\HraCisla.pdb
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\test 16.01.2023\HraCisla\obj\Debug\HraCisla.csproj.AssemblyReference.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\test 16.01.2023\HraCisla\obj\Debug\HraCisla.Form1.resources
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\test 16.01.2023\HraCisla\obj\Debug\HraCisla.Properties.Resources.resources
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\test 16.01.2023\HraCisla\obj\Debug\HraCisla.csproj.GenerateResource.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\test 16.01.2023\HraCisla\obj\Debug\HraCisla.csproj.CoreCompileInputs.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\test 16.01.2023\HraCisla\obj\Debug\HraCisla.exe
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\test 16.01.2023\HraCisla\obj\Debug\HraCisla.pdb
