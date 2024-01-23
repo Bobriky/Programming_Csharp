@@ -1,0 +1,18 @@
+D:\MouseKey\MouseKey\bin\Debug\MouseKey.exe.config
+D:\MouseKey\MouseKey\bin\Debug\MouseKey.exe
+D:\MouseKey\MouseKey\bin\Debug\MouseKey.pdb
+D:\MouseKey\MouseKey\obj\Debug\MouseKey.csprojResolveAssemblyReference.cache
+D:\MouseKey\MouseKey\obj\Debug\MouseKey.Form1.resources
+D:\MouseKey\MouseKey\obj\Debug\MouseKey.Properties.Resources.resources
+D:\MouseKey\MouseKey\obj\Debug\MouseKey.csproj.GenerateResource.Cache
+D:\MouseKey\MouseKey\obj\Debug\MouseKey.exe
+D:\MouseKey\MouseKey\obj\Debug\MouseKey.pdb
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\08 MouseKey\MouseKey\MouseKey\bin\Debug\MouseKey.exe.config
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\08 MouseKey\MouseKey\MouseKey\obj\Debug\MouseKey.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\08 MouseKey\MouseKey\MouseKey\obj\Debug\MouseKey.pdb
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\08 MouseKey\MouseKey\MouseKey\bin\Debug\MouseKey.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\08 MouseKey\MouseKey\MouseKey\bin\Debug\MouseKey.pdb
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\08 MouseKey\MouseKey\MouseKey\obj\Debug\MouseKey.csprojResolveAssemblyReference.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\08 MouseKey\MouseKey\MouseKey\obj\Debug\MouseKey.Form1.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\08 MouseKey\MouseKey\MouseKey\obj\Debug\MouseKey.Properties.Resources.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\08 MouseKey\MouseKey\MouseKey\obj\Debug\MouseKey.csproj.GenerateResource.Cache
