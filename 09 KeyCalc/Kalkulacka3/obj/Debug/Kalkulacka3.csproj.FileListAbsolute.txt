@@ -1,0 +1,12 @@
+D:\Kalkulacka3\Kalkulacka3\bin\Debug\Kalkulacka3.exe.config
+d:\SŠE Výuka\SŠE VýukaPodklady\Programování\C# wfa\05 - Myš, Klávesnoce\Kalkulacka3 - zadání\Kalkulacka3\bin\Debug\Kalkulacka3.exe.config
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\09 KeyCalc\Kalkulacka3\bin\Debug\Kalkulacka3.exe.config
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\09 KeyCalc\Kalkulacka3\bin\Debug\Kalkulacka3.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\09 KeyCalc\Kalkulacka3\bin\Debug\Kalkulacka3.pdb
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\09 KeyCalc\Kalkulacka3\obj\Debug\Kalkulacka3.csproj.AssemblyReference.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\09 KeyCalc\Kalkulacka3\obj\Debug\Kalkulacka3.Form1.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\09 KeyCalc\Kalkulacka3\obj\Debug\Kalkulacka3.Properties.Resources.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\09 KeyCalc\Kalkulacka3\obj\Debug\Kalkulacka3.csproj.GenerateResource.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\09 KeyCalc\Kalkulacka3\obj\Debug\Kalkulacka3.csproj.CoreCompileInputs.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\09 KeyCalc\Kalkulacka3\obj\Debug\Kalkulacka3.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\09 KeyCalc\Kalkulacka3\obj\Debug\Kalkulacka3.pdb
