@@ -24,6 +24,7 @@ namespace Kalkulacka3
     {
         int number1 = 0;
         int number2 = 0;
+        int result = 0;
         string symbol;
         int op;
         bool dotUsed;
@@ -38,6 +39,7 @@ namespace Kalkulacka3
             if (!(((Button)sender).Text == "," && dotUsed))
             {
                 txtDisplay.Text = ((Button)sender).Text;
+                number1 = int.Parse(((Button)sender).Text);
 
                 if (((Button)sender).Text == ",")
                 {
@@ -49,9 +51,25 @@ namespace Kalkulacka3
 
         private void btnKrat_Click(object sender, EventArgs e)
         {
+            if (!(((Button)sender).Text == "," && dotUsed))
+            {
+                txtDisplay.Text = ((Button)sender).Text;
+                number2 = int.Parse(((Button)sender).Text);
+
+                if (((Button)sender).Text == ",")
+                {
+                    dotUsed = true;
+                }
+                btnEqauls.Enabled = btnKrat.Enabled = btnLomeno.Enabled = btnMinus.Enabled = btnPlus.Enabled = true;
+            }
+
             symbol = ((Button)sender).Text;
             switch (symbol)
             {
+                case "+" : result = number1 + number2; break;
+                case "-": result = number1 - number2; break;
+                case "*": result = number1 * number2; break;
+                case "/": result = number1 / number2; break;
             }
         }
 

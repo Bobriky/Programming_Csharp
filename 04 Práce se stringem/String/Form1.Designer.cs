@@ -42,6 +42,7 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.lblPocetOsob = new System.Windows.Forms.ToolStripStatusLabel();
+            this.lblHUH = new System.Windows.Forms.Label();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -183,6 +184,15 @@
             this.lblPocetOsob.Size = new System.Drawing.Size(13, 17);
             this.lblPocetOsob.Text = "0";
             // 
+            // lblHUH
+            // 
+            this.lblHUH.AutoSize = true;
+            this.lblHUH.Location = new System.Drawing.Point(217, 142);
+            this.lblHUH.Name = "lblHUH";
+            this.lblHUH.Size = new System.Drawing.Size(35, 13);
+            this.lblHUH.TabIndex = 12;
+            this.lblHUH.Text = "label3";
+            // 
             // Form1
             // 
             this.AcceptButton = this.btnAkce;
@@ -190,6 +200,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnClose;
             this.ClientSize = new System.Drawing.Size(354, 262);
+            this.Controls.Add(this.lblHUH);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.btnAkce);
             this.Controls.Add(this.btnReset);
@@ -228,6 +239,7 @@
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripStatusLabel lblPocetOsob;
+        private System.Windows.Forms.Label lblHUH;
     }
 }
 

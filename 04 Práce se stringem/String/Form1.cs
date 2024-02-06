@@ -16,6 +16,10 @@ namespace String
         {
             InitializeComponent();
             apkInit();
+            int[] arrNumbers = new int[10];
+            for (int i = 0; i < 10; i++){
+                arrNumbers[i] = 10 * i+1;
+            }
         }
 
         int pocetOsob = 0;
