@@ -22,55 +22,54 @@ namespace Kalkulacka3
 {
     public partial class Form1 : Form
     {
-        int number1 = 0;
-        int number2 = 0;
-        int result = 0;
-        string symbol;
-        int op;
+        string number1;
+        string number2;
+        float result;
+        string symbol = "";
         bool dotUsed;
 
         public Form1()
         {
             InitializeComponent();
+            apkInnit();
+        }
+
+        private void apkInnit()
+        {
+            txtDisplay.Text = "";
+            dotUsed = false;
         }
 
         private void btnNum0_Click(object sender, EventArgs e)
         {
             if (!(((Button)sender).Text == "," && dotUsed))
             {
-                txtDisplay.Text = ((Button)sender).Text;
-                number1 = int.Parse(((Button)sender).Text);
-
+                txtDisplay.Text = "";
+                if(!(symbol == ""))
+                {
+                    number2 += ((Button)sender).Text;
+                    btnEqauls.Enabled = true;
+                    txtDisplay.Text = number2.ToString();
+                }
+                else
+                {
+                    btnDot.Enabled = btnKrat.Enabled = btnLomeno.Enabled = btnMinus.Enabled = btnPlus.Enabled = true;
+                    number1 += ((Button)sender).Text;
+                    txtDisplay.Text = number1.ToString();
+                }
+                
                 if (((Button)sender).Text == ",")
                 {
                     dotUsed = true;
                 }
-                btnEqauls.Enabled = btnKrat.Enabled = btnLomeno.Enabled = btnMinus.Enabled = btnPlus.Enabled = true;
             }
         }
 
         private void btnKrat_Click(object sender, EventArgs e)
         {
-            if (!(((Button)sender).Text == "," && dotUsed))
-            {
-                txtDisplay.Text = ((Button)sender).Text;
-                number2 = int.Parse(((Button)sender).Text);
-
-                if (((Button)sender).Text == ",")
-                {
-                    dotUsed = true;
-                }
-                btnEqauls.Enabled = btnKrat.Enabled = btnLomeno.Enabled = btnMinus.Enabled = btnPlus.Enabled = true;
-            }
-
+            txtDisplay.Text = "";
+            btnEqauls.Enabled = btnKrat.Enabled = btnLomeno.Enabled = btnMinus.Enabled = btnPlus.Enabled = false;
             symbol = ((Button)sender).Text;
-            switch (symbol)
-            {
-                case "+" : result = number1 + number2; break;
-                case "-": result = number1 - number2; break;
-                case "*": result = number1 * number2; break;
-                case "/": result = number1 / number2; break;
-            }
         }
 
         private void btnClear_Click(object sender, EventArgs e)
@@ -80,7 +79,16 @@ namespace Kalkulacka3
 
         private void btnEqauls_Click_1(object sender, EventArgs e)
         {
-
+            switch (symbol)
+            {
+                case "+": result = float.Parse(number1) + float.Parse(number2); break;
+                case "-": result = float.Parse(number1) - float.Parse(number2); break;
+                case "*": result = float.Parse(number1) * float.Parse(number2); break;
+                case "/": result = float.Parse(number1) / float.Parse(number2); break;
+            }
+            txtDisplay.Text = result.ToString();
+            number1 =  number2 = symbol = "";
+            dotUsed = false;
         }
 
 

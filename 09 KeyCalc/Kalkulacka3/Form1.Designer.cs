@@ -118,6 +118,7 @@
             // 
             // btnPlus
             // 
+            this.btnPlus.Enabled = false;
             this.btnPlus.Location = new System.Drawing.Point(117, 36);
             this.btnPlus.Name = "btnPlus";
             this.btnPlus.Size = new System.Drawing.Size(32, 24);
@@ -158,6 +159,7 @@
             // 
             // btnMinus
             // 
+            this.btnMinus.Enabled = false;
             this.btnMinus.Location = new System.Drawing.Point(117, 66);
             this.btnMinus.Name = "btnMinus";
             this.btnMinus.Size = new System.Drawing.Size(32, 24);
@@ -198,6 +200,7 @@
             // 
             // btnLomeno
             // 
+            this.btnLomeno.Enabled = false;
             this.btnLomeno.Location = new System.Drawing.Point(117, 96);
             this.btnLomeno.Name = "btnLomeno";
             this.btnLomeno.Size = new System.Drawing.Size(32, 24);
@@ -218,6 +221,7 @@
             // 
             // btnDot
             // 
+            this.btnDot.Enabled = false;
             this.btnDot.Location = new System.Drawing.Point(79, 126);
             this.btnDot.Name = "btnDot";
             this.btnDot.Size = new System.Drawing.Size(32, 24);
@@ -228,6 +232,7 @@
             // 
             // btnKrat
             // 
+            this.btnKrat.Enabled = false;
             this.btnKrat.Location = new System.Drawing.Point(117, 126);
             this.btnKrat.Name = "btnKrat";
             this.btnKrat.Size = new System.Drawing.Size(32, 24);
@@ -238,6 +243,7 @@
             // 
             // btnEqauls
             // 
+            this.btnEqauls.Enabled = false;
             this.btnEqauls.Location = new System.Drawing.Point(3, 156);
             this.btnEqauls.Name = "btnEqauls";
             this.btnEqauls.Size = new System.Drawing.Size(108, 23);
