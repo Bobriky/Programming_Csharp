@@ -1,0 +1,30 @@
+D:\LIstBox\LIstBox\obj\Debug\LIstBox.csproj.AssemblyReference.cache
+D:\LIstBox\LIstBox\obj\Debug\LIstBox.Form1.resources
+D:\LIstBox\LIstBox\obj\Debug\LIstBox.Properties.Resources.resources
+D:\LIstBox\LIstBox\obj\Debug\LIstBox.csproj.GenerateResource.cache
+D:\LIstBox\LIstBox\obj\Debug\LIstBox.csproj.CoreCompileInputs.cache
+D:\LIstBox\LIstBox\bin\Debug\LIstBox.exe.config
+D:\LIstBox\LIstBox\bin\Debug\LIstBox.exe
+D:\LIstBox\LIstBox\bin\Debug\LIstBox.pdb
+D:\LIstBox\LIstBox\obj\Debug\LIstBox.exe
+D:\LIstBox\LIstBox\obj\Debug\LIstBox.pdb
+D:\dataSSE\sseUcivo\C# wfa\11 ListBoxOsoba\ListBoxOsoba - tutorial\LIstBox\bin\Debug\LIstBox.exe.config
+D:\dataSSE\sseUcivo\C# wfa\11 ListBoxOsoba\ListBoxOsoba - tutorial\LIstBox\bin\Debug\LIstBox.exe
+D:\dataSSE\sseUcivo\C# wfa\11 ListBoxOsoba\ListBoxOsoba - tutorial\LIstBox\bin\Debug\LIstBox.pdb
+D:\dataSSE\sseUcivo\C# wfa\11 ListBoxOsoba\ListBoxOsoba - tutorial\LIstBox\obj\Debug\LIstBox.csproj.AssemblyReference.cache
+D:\dataSSE\sseUcivo\C# wfa\11 ListBoxOsoba\ListBoxOsoba - tutorial\LIstBox\obj\Debug\LIstBox.Form1.resources
+D:\dataSSE\sseUcivo\C# wfa\11 ListBoxOsoba\ListBoxOsoba - tutorial\LIstBox\obj\Debug\LIstBox.Properties.Resources.resources
+D:\dataSSE\sseUcivo\C# wfa\11 ListBoxOsoba\ListBoxOsoba - tutorial\LIstBox\obj\Debug\LIstBox.csproj.GenerateResource.cache
+D:\dataSSE\sseUcivo\C# wfa\11 ListBoxOsoba\ListBoxOsoba - tutorial\LIstBox\obj\Debug\LIstBox.csproj.CoreCompileInputs.cache
+D:\dataSSE\sseUcivo\C# wfa\11 ListBoxOsoba\ListBoxOsoba - tutorial\LIstBox\obj\Debug\LIstBox.exe
+D:\dataSSE\sseUcivo\C# wfa\11 ListBoxOsoba\ListBoxOsoba - tutorial\LIstBox\obj\Debug\LIstBox.pdb
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\11 ListBox Osoba\LIstBox\bin\Debug\LIstBox.exe.config
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\11 ListBox Osoba\LIstBox\bin\Debug\LIstBox.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\11 ListBox Osoba\LIstBox\bin\Debug\LIstBox.pdb
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\11 ListBox Osoba\LIstBox\obj\Debug\LIstBox.csproj.AssemblyReference.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\11 ListBox Osoba\LIstBox\obj\Debug\LIstBox.Form1.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\11 ListBox Osoba\LIstBox\obj\Debug\LIstBox.Properties.Resources.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\11 ListBox Osoba\LIstBox\obj\Debug\LIstBox.csproj.GenerateResource.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\11 ListBox Osoba\LIstBox\obj\Debug\LIstBox.csproj.CoreCompileInputs.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\11 ListBox Osoba\LIstBox\obj\Debug\LIstBox.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\11 ListBox Osoba\LIstBox\obj\Debug\LIstBox.pdb

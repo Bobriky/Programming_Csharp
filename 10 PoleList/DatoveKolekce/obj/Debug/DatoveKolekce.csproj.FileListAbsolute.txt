@@ -1,0 +1,29 @@
+D:\DatoveKolekce\DatoveKolekce\bin\Debug\DatoveKolekce.exe.config
+D:\DatoveKolekce\DatoveKolekce\bin\Debug\DatoveKolekce.exe
+D:\DatoveKolekce\DatoveKolekce\bin\Debug\DatoveKolekce.pdb
+D:\DatoveKolekce\DatoveKolekce\obj\Debug\DatoveKolekce.csproj.AssemblyReference.cache
+D:\DatoveKolekce\DatoveKolekce\obj\Debug\DatoveKolekce.Form1.resources
+D:\DatoveKolekce\DatoveKolekce\obj\Debug\DatoveKolekce.Properties.Resources.resources
+D:\DatoveKolekce\DatoveKolekce\obj\Debug\DatoveKolekce.csproj.GenerateResource.cache
+D:\DatoveKolekce\DatoveKolekce\obj\Debug\DatoveKolekce.csproj.CoreCompileInputs.cache
+D:\DatoveKolekce\DatoveKolekce\obj\Debug\DatoveKolekce.exe
+D:\DatoveKolekce\DatoveKolekce\obj\Debug\DatoveKolekce.pdb
+g:\C# wfa\11 List\DatoveKolekce\DatoveKolekce\bin\Debug\DatoveKolekce.exe.config
+g:\C# wfa\11 List\DatoveKolekce\DatoveKolekce\bin\Debug\DatoveKolekce.exe
+g:\C# wfa\11 List\DatoveKolekce\DatoveKolekce\bin\Debug\DatoveKolekce.pdb
+g:\C# wfa\11 List\DatoveKolekce\DatoveKolekce\obj\Debug\DatoveKolekce.Form1.resources
+g:\C# wfa\11 List\DatoveKolekce\DatoveKolekce\obj\Debug\DatoveKolekce.Properties.Resources.resources
+g:\C# wfa\11 List\DatoveKolekce\DatoveKolekce\obj\Debug\DatoveKolekce.csproj.GenerateResource.cache
+g:\C# wfa\11 List\DatoveKolekce\DatoveKolekce\obj\Debug\DatoveKolekce.csproj.CoreCompileInputs.cache
+g:\C# wfa\11 List\DatoveKolekce\DatoveKolekce\obj\Debug\DatoveKolekce.exe
+g:\C# wfa\11 List\DatoveKolekce\DatoveKolekce\obj\Debug\DatoveKolekce.pdb
+k:\ZadaniUkolu\3F\PRO 3F C#\09 PoleList\PoleList01\DatoveKolekce\bin\Debug\DatoveKolekce.exe.config
+k:\ZadaniUkolu\3F\PRO 3F C#\09 PoleList\PoleList01\DatoveKolekce\bin\Debug\DatoveKolekce.exe
+k:\ZadaniUkolu\3F\PRO 3F C#\09 PoleList\PoleList01\DatoveKolekce\bin\Debug\DatoveKolekce.pdb
+k:\ZadaniUkolu\3F\PRO 3F C#\09 PoleList\PoleList01\DatoveKolekce\obj\Debug\DatoveKolekce.Form1.resources
+k:\ZadaniUkolu\3F\PRO 3F C#\09 PoleList\PoleList01\DatoveKolekce\obj\Debug\DatoveKolekce.Properties.Resources.resources
+k:\ZadaniUkolu\3F\PRO 3F C#\09 PoleList\PoleList01\DatoveKolekce\obj\Debug\DatoveKolekce.csproj.GenerateResource.cache
+k:\ZadaniUkolu\3F\PRO 3F C#\09 PoleList\PoleList01\DatoveKolekce\obj\Debug\DatoveKolekce.csproj.CoreCompileInputs.cache
+k:\ZadaniUkolu\3F\PRO 3F C#\09 PoleList\PoleList01\DatoveKolekce\obj\Debug\DatoveKolekce.exe
+k:\ZadaniUkolu\3F\PRO 3F C#\09 PoleList\PoleList01\DatoveKolekce\obj\Debug\DatoveKolekce.pdb
+k:\ZadaniUkolu\3F\PRO 3F C#\09 PoleList\PoleList01\DatoveKolekce\obj\Debug\DatoveKolekce.csproj.AssemblyReference.cache
