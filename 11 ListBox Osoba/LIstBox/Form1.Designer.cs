@@ -565,30 +565,36 @@ namespace LIstBox
             // 
             // btnInsert
             // 
+            this.btnInsert.Enabled = false;
             this.btnInsert.Location = new System.Drawing.Point(165, 3);
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.Size = new System.Drawing.Size(75, 23);
             this.btnInsert.TabIndex = 5;
             this.btnInsert.Text = "Insert";
             this.btnInsert.UseVisualStyleBackColor = true;
+            this.btnInsert.Click += new System.EventHandler(this.btnInsert_Click);
             // 
             // btnRemoveAt
             // 
+            this.btnRemoveAt.Enabled = false;
             this.btnRemoveAt.Location = new System.Drawing.Point(3, 32);
             this.btnRemoveAt.Name = "btnRemoveAt";
             this.btnRemoveAt.Size = new System.Drawing.Size(75, 23);
             this.btnRemoveAt.TabIndex = 3;
             this.btnRemoveAt.Text = "RemoveAt";
             this.btnRemoveAt.UseVisualStyleBackColor = true;
+            this.btnRemoveAt.Click += new System.EventHandler(this.btnRemoveAt_Click);
             // 
             // btnRemove
             // 
+            this.btnRemove.Enabled = false;
             this.btnRemove.Location = new System.Drawing.Point(84, 32);
             this.btnRemove.Name = "btnRemove";
             this.btnRemove.Size = new System.Drawing.Size(75, 23);
             this.btnRemove.TabIndex = 2;
             this.btnRemove.Text = "Remove";
             this.btnRemove.UseVisualStyleBackColor = true;
+            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
             // btnClear
             // 
@@ -775,6 +781,7 @@ namespace LIstBox
             this.lstBox.Name = "lstBox";
             this.lstBox.Size = new System.Drawing.Size(269, 355);
             this.lstBox.TabIndex = 0;
+            this.lstBox.Click += new System.EventHandler(this.lstBox_Click);
             // 
             // Form1
             // 

@@ -12,6 +12,7 @@ namespace LIstBox
 {
     public partial class Form1 : Form
     {
+
         public Form1()
         {
             InitializeComponent();
@@ -90,6 +91,7 @@ namespace LIstBox
             lblCount.Text = lstBox.Items.Count.ToString();
             if(lstBox.Items.Count > 0){
                 btnClear.Enabled = true;
+
             }
         }
 
@@ -97,8 +99,60 @@ namespace LIstBox
         {
             lstBox.Items.Clear();
             lblCount.Text = lstBox.Items.Count.ToString();
+            lblSelIndex.Text = lstBox.SelectedIndex.ToString();
             btnClear.Enabled = false;
-            nmUpDownID.Value = 0;
+            btnInsert.Enabled = false;
+            btnRemove.Enabled = false;
+            btnRemoveAt.Enabled = false;
+            nmUpDownID.Value = 1;
         }
+
+        private void btnRemove_Click(object sender, EventArgs e)
+        {
+            lstBox.Items.Remove(lstBox.SelectedItem);
+            lblCount.Text = lstBox.Items.Count.ToString();
+            lblSelIndex.Text = lstBox.SelectedIndex.ToString();
+            btnInsert.Enabled = false;
+            btnRemove.Enabled = false;
+            btnRemoveAt.Enabled = false;
+        }
+
+        private void btnRemoveAt_Click(object sender, EventArgs e)
+        {
+            //lstBox.Items.RemoveAt(Convert.ToInt32(nmUpDownID.Value)-1);
+            lstBox.Items.RemoveAt(lstBox.SelectedIndex);
+            lblCount.Text = lstBox.Items.Count.ToString();
+            lblSelIndex.Text = lstBox.SelectedIndex.ToString();
+            btnInsert.Enabled = false;
+            btnRemove.Enabled = false;
+            btnRemoveAt.Enabled = false;
+        }
+        private void btnInsert_Click(object sender, EventArgs e)
+        {
+            lstBox.Items.Insert(lstBox.SelectedIndex, nmUpDownID.Value + " " + txtJmeno.Text + " " + txtPrijmeni.Text);
+            lblCount.Text = lstBox.Items.Count.ToString();
+            lblSelIndex.Text = lstBox.SelectedIndex.ToString();
+            btnInsert.Enabled = false;
+            btnRemove.Enabled = false;
+            btnRemoveAt.Enabled = false;
+        }
+
+        private void lstBox_Click(object sender, EventArgs e)
+        {
+            if (lstBox.SelectedIndex >= 0){
+                btnInsert.Enabled = true;
+                btnRemove.Enabled = true;
+                btnRemoveAt.Enabled = true;
+            }
+            else{
+                btnInsert.Enabled = false;
+                btnRemove.Enabled = false;
+                btnRemoveAt.Enabled = false;
+            }
+
+
+        }
+
+
     }
 }
