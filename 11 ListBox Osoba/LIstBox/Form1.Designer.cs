@@ -616,6 +616,7 @@ namespace LIstBox
             this.btnEdit.TabIndex = 7;
             this.btnEdit.Text = "Editování položky";
             this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // groupBox2
             // 
@@ -721,6 +722,7 @@ namespace LIstBox
             0,
             0,
             0});
+            this.nmUpDownID.ValueChanged += new System.EventHandler(this.btnEdit_Click);
             // 
             // label4
             // 
@@ -741,6 +743,7 @@ namespace LIstBox
             this.txtPrijmeni.TabIndex = 3;
             this.txtPrijmeni.Text = "Prijmeni";
             this.txtPrijmeni.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtPrijmeni.TextChanged += new System.EventHandler(this.btnEdit_Click);
             // 
             // label2
             // 
@@ -761,6 +764,7 @@ namespace LIstBox
             this.txtJmeno.TabIndex = 1;
             this.txtJmeno.Text = "Jmeno";
             this.txtJmeno.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtJmeno.TextChanged += new System.EventHandler(this.btnEdit_Click);
             // 
             // label1
             // 

@@ -132,27 +132,44 @@ namespace LIstBox
             lstBox.Items.Insert(lstBox.SelectedIndex, nmUpDownID.Value + " " + txtJmeno.Text + " " + txtPrijmeni.Text);
             lblCount.Text = lstBox.Items.Count.ToString();
             lblSelIndex.Text = lstBox.SelectedIndex.ToString();
-            btnInsert.Enabled = false;
-            btnRemove.Enabled = false;
-            btnRemoveAt.Enabled = false;
         }
 
         private void lstBox_Click(object sender, EventArgs e)
         {
-            if (lstBox.SelectedIndex >= 0){
+            if (lstBox.SelectedIndex >= 0)
+            {
+                string[] pole = lstBox.SelectedItem.ToString().Split(' ');
+                nmUpDownID.Value = Convert.ToInt16(pole[0]);
+                txtJmeno.Text = pole[1].ToString();
+                txtPrijmeni.Text = pole[2].ToString();
                 btnInsert.Enabled = true;
                 btnRemove.Enabled = true;
                 btnRemoveAt.Enabled = true;
             }
-            else{
+            else
+            {
                 btnInsert.Enabled = false;
                 btnRemove.Enabled = false;
                 btnRemoveAt.Enabled = false;
             }
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            lstBox.Enabled = false;
+            btnInsert.Enabled = false;
+            btnRemove.Enabled = false;
+            btnRemoveAt.Enabled = false;
+            btnAdd.Enabled = false;
+            btnAddRange.Enabled = false;
+            btnClear.Enabled = false;
+
+            string[] pole = lstBox.SelectedItem.ToString().Split(' ');
+            nmUpDownID.Value = Convert.ToInt16(pole[0]);
+            txtJmeno.Text = pole[1].ToString();
+            txtPrijmeni.Text = pole[2].ToString();
 
 
         }
-
-
     }
 }
