@@ -562,6 +562,7 @@ namespace LIstBox
             this.btnAddRange.TabIndex = 1;
             this.btnAddRange.Text = "AddRange";
             this.btnAddRange.UseVisualStyleBackColor = true;
+            this.btnAddRange.Click += new System.EventHandler(this.btnAddRange_Click);
             // 
             // btnInsert
             // 

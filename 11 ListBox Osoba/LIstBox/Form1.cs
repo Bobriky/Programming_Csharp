@@ -12,7 +12,8 @@ namespace LIstBox
 {
     public partial class Form1 : Form
     {
-
+        //string[] pole = new string;
+        string[] seznam = new string[5] { "1 Roman Lichnovksy", "2 Dominik Kamidra", "3 Dominik Kamidra", "4 Dominik Kamidra", "5 Dominik Kamidra" };
         public Form1()
         {
             InitializeComponent();
@@ -138,7 +139,7 @@ namespace LIstBox
         {
             if (lstBox.SelectedIndex >= 0)
             {
-                string[] pole = lstBox.SelectedItem.ToString().Split(' ');
+                string[] pole = (lstBox.SelectedItem.ToString()).Split(' ');
                 nmUpDownID.Value = Convert.ToInt16(pole[0]);
                 txtJmeno.Text = pole[1].ToString();
                 txtPrijmeni.Text = pole[2].ToString();
@@ -157,19 +158,16 @@ namespace LIstBox
         private void btnEdit_Click(object sender, EventArgs e)
         {
             lstBox.Enabled = false;
-            btnInsert.Enabled = false;
-            btnRemove.Enabled = false;
-            btnRemoveAt.Enabled = false;
-            btnAdd.Enabled = false;
-            btnAddRange.Enabled = false;
-            btnClear.Enabled = false;
-
+            flowLayoutPanel1.Enabled = false;
             string[] pole = lstBox.SelectedItem.ToString().Split(' ');
             nmUpDownID.Value = Convert.ToInt16(pole[0]);
             txtJmeno.Text = pole[1].ToString();
             txtPrijmeni.Text = pole[2].ToString();
+        }
 
-
+        private void btnAddRange_Click(object sender, EventArgs e)
+        {
+            lstBox.Items.AddRange(seznam);
         }
     }
 }
