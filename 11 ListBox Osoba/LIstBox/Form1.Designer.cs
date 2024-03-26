@@ -149,7 +149,7 @@ namespace LIstBox
             this.novýToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.novýToolStripMenuItem.Name = "novýToolStripMenuItem";
             this.novýToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.novýToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.novýToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
             this.novýToolStripMenuItem.Text = "&Nový";
             // 
             // otevřítToolStripMenuItem
@@ -158,13 +158,14 @@ namespace LIstBox
             this.otevřítToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.otevřítToolStripMenuItem.Name = "otevřítToolStripMenuItem";
             this.otevřítToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.otevřítToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.otevřítToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
             this.otevřítToolStripMenuItem.Text = "&Otevřít";
+            this.otevřítToolStripMenuItem.Click += new System.EventHandler(this.souborToolStripMenuItem_Click);
             // 
             // toolStripSeparator
             // 
             this.toolStripSeparator.Name = "toolStripSeparator";
-            this.toolStripSeparator.Size = new System.Drawing.Size(154, 6);
+            this.toolStripSeparator.Size = new System.Drawing.Size(181, 6);
             // 
             // uložitToolStripMenuItem
             // 
@@ -172,25 +173,27 @@ namespace LIstBox
             this.uložitToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.uložitToolStripMenuItem.Name = "uložitToolStripMenuItem";
             this.uložitToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.uložitToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.uložitToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
             this.uložitToolStripMenuItem.Text = "&Uložit";
+            this.uložitToolStripMenuItem.Click += new System.EventHandler(this.uložitjakoToolStripMenuItem_Click);
             // 
             // uložitjakoToolStripMenuItem
             // 
             this.uložitjakoToolStripMenuItem.Name = "uložitjakoToolStripMenuItem";
-            this.uložitjakoToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.uložitjakoToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
             this.uložitjakoToolStripMenuItem.Text = "Uložit j&ako";
+            this.uložitjakoToolStripMenuItem.Click += new System.EventHandler(this.uložitjakoToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(154, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(181, 6);
             // 
             // ukončitToolStripMenuItem
             // 
             this.ukončitToolStripMenuItem.Name = "ukončitToolStripMenuItem";
             this.ukončitToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
-            this.ukončitToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.ukončitToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
             this.ukončitToolStripMenuItem.Text = "U&končit";
             this.ukončitToolStripMenuItem.Click += new System.EventHandler(this.ukončitToolStripMenuItem_Click);
             // 

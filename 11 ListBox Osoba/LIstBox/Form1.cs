@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace LIstBox
 {
@@ -157,17 +158,55 @@ namespace LIstBox
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
+            /*
             lstBox.Enabled = false;
             flowLayoutPanel1.Enabled = false;
             string[] pole = lstBox.SelectedItem.ToString().Split(' ');
             nmUpDownID.Value = Convert.ToInt16(pole[0]);
             txtJmeno.Text = pole[1].ToString();
             txtPrijmeni.Text = pole[2].ToString();
-        }
+            */
+           }
+
 
         private void btnAddRange_Click(object sender, EventArgs e)
         {
             lstBox.Items.AddRange(seznam);
+        }
+
+        private void uložitjakoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try{
+                StreamWriter sbr = new StreamWriter("Data.txt", false, Encoding.Default);
+                foreach (string item in lstBox.Items)
+                {
+                    sbr.WriteLine(item);
+
+                }
+                sbr.Close();
+                MessageBox.Show("Data uložena", "huh", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception err){
+                MessageBox.Show(err.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void souborToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                StreamReader sbr = new StreamReader("Data.txt", Encoding.Default);
+                while (sbr.EndOfStream)
+                {
+                    lstBox.Items.Add(sbr.ReadLine());
+                }
+                sbr.Close();
+                MessageBox.Show("Data nahrána", "Open", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception err)
+            {
+                MessageBox.Show(err.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
