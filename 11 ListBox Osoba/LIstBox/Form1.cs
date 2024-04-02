@@ -177,14 +177,16 @@ namespace LIstBox
         private void uložitjakoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             try{
-                StreamWriter sbr = new StreamWriter("Data.txt", false, Encoding.Default);
-                foreach (string item in lstBox.Items)
+                if(saveFileDialog1.ShowDialog() == DialogResult.OK)
                 {
-                    sbr.WriteLine(item);
-
+                    StreamWriter sbr = new StreamWriter(saveFileDialog1.FileName, false, Encoding.Default);
+                    foreach (string item in lstBox.Items)
+                    {
+                        sbr.WriteLine(item);
+                    }
+                    sbr.Close();
+                    MessageBox.Show("Data uložena", "huh", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
-                sbr.Close();
-                MessageBox.Show("Data uložena", "huh", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception err){
                 MessageBox.Show(err.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -195,13 +197,17 @@ namespace LIstBox
         {
             try
             {
-                StreamReader sbr = new StreamReader("Data.txt", Encoding.Default);
-                while (sbr.EndOfStream)
+                if(openFileDialog1.ShowDialog() == DialogResult.OK)
                 {
-                    lstBox.Items.Add(sbr.ReadLine());
+                    StreamReader sbr = new StreamReader(openFileDialog1.FileName, Encoding.Default);
+                    while (!sbr.EndOfStream)
+                    {
+                        lstBox.Items.Add(sbr.ReadLine());
+                    }
+                    sbr.Close();
+                    MessageBox.Show("Data nahrána", "Open", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
-                sbr.Close();
-                MessageBox.Show("Data nahrána", "Open", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
             }
             catch (Exception err)
             {
