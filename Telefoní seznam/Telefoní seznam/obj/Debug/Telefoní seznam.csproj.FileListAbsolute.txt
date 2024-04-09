@@ -8,3 +8,13 @@ C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\Telefoní seznam
 C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\Telefoní seznam\Telefoní seznam\obj\Debug\Telefoní seznam.csproj.CoreCompileInputs.cache
 C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\Telefoní seznam\Telefoní seznam\obj\Debug\Telefoní seznam.exe
 C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\Telefoní seznam\Telefoní seznam\obj\Debug\Telefoní seznam.pdb
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\Telefoní seznam\Telefoní seznam\bin\Debug\Telefoní seznam.exe.config
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\Telefoní seznam\Telefoní seznam\bin\Debug\Telefoní seznam.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\Telefoní seznam\Telefoní seznam\bin\Debug\Telefoní seznam.pdb
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\Telefoní seznam\Telefoní seznam\obj\Debug\Telefoní seznam.csproj.AssemblyReference.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\Telefoní seznam\Telefoní seznam\obj\Debug\Telefoní_seznam.Form1.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\Telefoní seznam\Telefoní seznam\obj\Debug\Telefoní_seznam.Properties.Resources.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\Telefoní seznam\Telefoní seznam\obj\Debug\Telefoní seznam.csproj.GenerateResource.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\Telefoní seznam\Telefoní seznam\obj\Debug\Telefoní seznam.csproj.CoreCompileInputs.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\Telefoní seznam\Telefoní seznam\obj\Debug\Telefoní seznam.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\Telefoní seznam\Telefoní seznam\obj\Debug\Telefoní seznam.pdb
