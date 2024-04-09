@@ -28,3 +28,13 @@ U:\Vypracovane_Ukoly\3E\Programming_Csharp\11 ListBox Osoba\LIstBox\obj\Debug\LI
 U:\Vypracovane_Ukoly\3E\Programming_Csharp\11 ListBox Osoba\LIstBox\obj\Debug\LIstBox.csproj.CoreCompileInputs.cache
 U:\Vypracovane_Ukoly\3E\Programming_Csharp\11 ListBox Osoba\LIstBox\obj\Debug\LIstBox.exe
 U:\Vypracovane_Ukoly\3E\Programming_Csharp\11 ListBox Osoba\LIstBox\obj\Debug\LIstBox.pdb
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\11 ListBox Osoba\LIstBox\bin\Debug\LIstBox.exe.config
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\11 ListBox Osoba\LIstBox\bin\Debug\LIstBox.exe
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\11 ListBox Osoba\LIstBox\bin\Debug\LIstBox.pdb
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\11 ListBox Osoba\LIstBox\obj\Debug\LIstBox.csproj.AssemblyReference.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\11 ListBox Osoba\LIstBox\obj\Debug\LIstBox.Form1.resources
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\11 ListBox Osoba\LIstBox\obj\Debug\LIstBox.Properties.Resources.resources
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\11 ListBox Osoba\LIstBox\obj\Debug\LIstBox.csproj.GenerateResource.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\11 ListBox Osoba\LIstBox\obj\Debug\LIstBox.csproj.CoreCompileInputs.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\11 ListBox Osoba\LIstBox\obj\Debug\LIstBox.exe
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\11 ListBox Osoba\LIstBox\obj\Debug\LIstBox.pdb

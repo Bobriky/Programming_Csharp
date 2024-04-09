@@ -127,7 +127,7 @@ namespace LIstBox
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(837, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(837, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -142,7 +142,7 @@ namespace LIstBox
             this.toolStripSeparator2,
             this.ukončitToolStripMenuItem});
             this.souborToolStripMenuItem.Name = "souborToolStripMenuItem";
-            this.souborToolStripMenuItem.Size = new System.Drawing.Size(71, 26);
+            this.souborToolStripMenuItem.Size = new System.Drawing.Size(71, 24);
             this.souborToolStripMenuItem.Text = "&Soubor";
             // 
             // novýToolStripMenuItem
@@ -211,7 +211,7 @@ namespace LIstBox
             this.toolStripSeparator4,
             this.vybratvšeToolStripMenuItem});
             this.upravitToolStripMenuItem.Name = "upravitToolStripMenuItem";
-            this.upravitToolStripMenuItem.Size = new System.Drawing.Size(71, 26);
+            this.upravitToolStripMenuItem.Size = new System.Drawing.Size(71, 24);
             this.upravitToolStripMenuItem.Text = "&Upravit";
             // 
             // zpětToolStripMenuItem
@@ -277,7 +277,7 @@ namespace LIstBox
             this.přizpůsobitToolStripMenuItem,
             this.možnostiToolStripMenuItem});
             this.nástrojeToolStripMenuItem.Name = "nástrojeToolStripMenuItem";
-            this.nástrojeToolStripMenuItem.Size = new System.Drawing.Size(79, 26);
+            this.nástrojeToolStripMenuItem.Size = new System.Drawing.Size(79, 24);
             this.nástrojeToolStripMenuItem.Text = "&Nástroje";
             // 
             // přizpůsobitToolStripMenuItem
@@ -301,7 +301,7 @@ namespace LIstBox
             this.toolStripSeparator5,
             this.oproduktuToolStripMenuItem});
             this.nápovědaToolStripMenuItem.Name = "nápovědaToolStripMenuItem";
-            this.nápovědaToolStripMenuItem.Size = new System.Drawing.Size(92, 26);
+            this.nápovědaToolStripMenuItem.Size = new System.Drawing.Size(92, 24);
             this.nápovědaToolStripMenuItem.Text = "&Nápověda";
             // 
             // obsahToolStripMenuItem
@@ -414,9 +414,9 @@ namespace LIstBox
             this.vložitToolStripButton,
             this.toolStripSeparator7,
             this.nápovědaToolStripButton});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 30);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 28);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(837, 31);
+            this.toolStrip1.Size = new System.Drawing.Size(837, 27);
             this.toolStrip1.TabIndex = 2;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -426,7 +426,7 @@ namespace LIstBox
             this.novýToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("novýToolStripButton.Image")));
             this.novýToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.novýToolStripButton.Name = "novýToolStripButton";
-            this.novýToolStripButton.Size = new System.Drawing.Size(29, 28);
+            this.novýToolStripButton.Size = new System.Drawing.Size(29, 24);
             this.novýToolStripButton.Text = "&Nový";
             // 
             // otevřítToolStripButton
@@ -435,7 +435,7 @@ namespace LIstBox
             this.otevřítToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("otevřítToolStripButton.Image")));
             this.otevřítToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.otevřítToolStripButton.Name = "otevřítToolStripButton";
-            this.otevřítToolStripButton.Size = new System.Drawing.Size(29, 28);
+            this.otevřítToolStripButton.Size = new System.Drawing.Size(29, 24);
             this.otevřítToolStripButton.Text = "&Otevřít";
             // 
             // uložitToolStripButton
@@ -444,7 +444,7 @@ namespace LIstBox
             this.uložitToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("uložitToolStripButton.Image")));
             this.uložitToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.uložitToolStripButton.Name = "uložitToolStripButton";
-            this.uložitToolStripButton.Size = new System.Drawing.Size(29, 28);
+            this.uložitToolStripButton.Size = new System.Drawing.Size(29, 24);
             this.uložitToolStripButton.Text = "&Uložit";
             // 
             // tiskToolStripButton
@@ -453,13 +453,13 @@ namespace LIstBox
             this.tiskToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("tiskToolStripButton.Image")));
             this.tiskToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tiskToolStripButton.Name = "tiskToolStripButton";
-            this.tiskToolStripButton.Size = new System.Drawing.Size(29, 28);
+            this.tiskToolStripButton.Size = new System.Drawing.Size(29, 24);
             this.tiskToolStripButton.Text = "&Tisk";
             // 
             // toolStripSeparator6
             // 
             this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 31);
+            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 27);
             // 
             // vyjmoutToolStripButton
             // 
@@ -467,7 +467,7 @@ namespace LIstBox
             this.vyjmoutToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("vyjmoutToolStripButton.Image")));
             this.vyjmoutToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.vyjmoutToolStripButton.Name = "vyjmoutToolStripButton";
-            this.vyjmoutToolStripButton.Size = new System.Drawing.Size(29, 28);
+            this.vyjmoutToolStripButton.Size = new System.Drawing.Size(29, 24);
             this.vyjmoutToolStripButton.Text = "&Vyjmout";
             // 
             // kopírovatToolStripButton
@@ -476,7 +476,7 @@ namespace LIstBox
             this.kopírovatToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("kopírovatToolStripButton.Image")));
             this.kopírovatToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.kopírovatToolStripButton.Name = "kopírovatToolStripButton";
-            this.kopírovatToolStripButton.Size = new System.Drawing.Size(29, 28);
+            this.kopírovatToolStripButton.Size = new System.Drawing.Size(29, 24);
             this.kopírovatToolStripButton.Text = "&Kopírovat";
             // 
             // vložitToolStripButton
@@ -485,13 +485,13 @@ namespace LIstBox
             this.vložitToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("vložitToolStripButton.Image")));
             this.vložitToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.vložitToolStripButton.Name = "vložitToolStripButton";
-            this.vložitToolStripButton.Size = new System.Drawing.Size(29, 28);
+            this.vložitToolStripButton.Size = new System.Drawing.Size(29, 24);
             this.vložitToolStripButton.Text = "&Vložit";
             // 
             // toolStripSeparator7
             // 
             this.toolStripSeparator7.Name = "toolStripSeparator7";
-            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 31);
+            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 27);
             // 
             // nápovědaToolStripButton
             // 
@@ -499,14 +499,14 @@ namespace LIstBox
             this.nápovědaToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("nápovědaToolStripButton.Image")));
             this.nápovědaToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.nápovědaToolStripButton.Name = "nápovědaToolStripButton";
-            this.nápovědaToolStripButton.Size = new System.Drawing.Size(29, 28);
+            this.nápovědaToolStripButton.Size = new System.Drawing.Size(29, 24);
             this.nápovědaToolStripButton.Text = "&Nápověda";
             // 
             // splitContainer1
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.Location = new System.Drawing.Point(0, 61);
-            this.splitContainer1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.splitContainer1.Location = new System.Drawing.Point(0, 55);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(4);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -518,7 +518,7 @@ namespace LIstBox
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.lstBox);
-            this.splitContainer1.Size = new System.Drawing.Size(837, 505);
+            this.splitContainer1.Size = new System.Drawing.Size(837, 511);
             this.splitContainer1.SplitterDistance = 438;
             this.splitContainer1.SplitterWidth = 5;
             this.splitContainer1.TabIndex = 3;
@@ -529,9 +529,9 @@ namespace LIstBox
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox3.Controls.Add(this.flowLayoutPanel1);
             this.groupBox3.Location = new System.Drawing.Point(16, 209);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox3.Size = new System.Drawing.Size(396, 154);
             this.groupBox3.TabIndex = 3;
             this.groupBox3.TabStop = false;
@@ -550,7 +550,7 @@ namespace LIstBox
             this.flowLayoutPanel1.Controls.Add(this.btnClear);
             this.flowLayoutPanel1.Controls.Add(this.btnEdit);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(23, 23);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(354, 111);
             this.flowLayoutPanel1.TabIndex = 0;
@@ -558,7 +558,7 @@ namespace LIstBox
             // btnAdd
             // 
             this.btnAdd.Location = new System.Drawing.Point(4, 4);
-            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(100, 28);
             this.btnAdd.TabIndex = 0;
@@ -569,7 +569,7 @@ namespace LIstBox
             // btnAddRange
             // 
             this.btnAddRange.Location = new System.Drawing.Point(112, 4);
-            this.btnAddRange.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAddRange.Margin = new System.Windows.Forms.Padding(4);
             this.btnAddRange.Name = "btnAddRange";
             this.btnAddRange.Size = new System.Drawing.Size(100, 28);
             this.btnAddRange.TabIndex = 1;
@@ -581,7 +581,7 @@ namespace LIstBox
             // 
             this.btnInsert.Enabled = false;
             this.btnInsert.Location = new System.Drawing.Point(220, 4);
-            this.btnInsert.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnInsert.Margin = new System.Windows.Forms.Padding(4);
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.Size = new System.Drawing.Size(100, 28);
             this.btnInsert.TabIndex = 5;
@@ -593,7 +593,7 @@ namespace LIstBox
             // 
             this.btnRemoveAt.Enabled = false;
             this.btnRemoveAt.Location = new System.Drawing.Point(4, 40);
-            this.btnRemoveAt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRemoveAt.Margin = new System.Windows.Forms.Padding(4);
             this.btnRemoveAt.Name = "btnRemoveAt";
             this.btnRemoveAt.Size = new System.Drawing.Size(100, 28);
             this.btnRemoveAt.TabIndex = 3;
@@ -605,7 +605,7 @@ namespace LIstBox
             // 
             this.btnRemove.Enabled = false;
             this.btnRemove.Location = new System.Drawing.Point(112, 40);
-            this.btnRemove.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRemove.Margin = new System.Windows.Forms.Padding(4);
             this.btnRemove.Name = "btnRemove";
             this.btnRemove.Size = new System.Drawing.Size(100, 28);
             this.btnRemove.TabIndex = 2;
@@ -617,7 +617,7 @@ namespace LIstBox
             // 
             this.btnClear.Enabled = false;
             this.btnClear.Location = new System.Drawing.Point(220, 40);
-            this.btnClear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(4);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(100, 28);
             this.btnClear.TabIndex = 4;
@@ -644,10 +644,10 @@ namespace LIstBox
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.cmbSelMode);
             this.groupBox2.Controls.Add(this.chkMultiCol);
-            this.groupBox2.Location = new System.Drawing.Point(16, 370);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Location = new System.Drawing.Point(16, 376);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(396, 117);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
@@ -659,7 +659,7 @@ namespace LIstBox
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSorted.Enabled = false;
             this.btnSorted.Location = new System.Drawing.Point(263, 22);
-            this.btnSorted.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSorted.Margin = new System.Windows.Forms.Padding(4);
             this.btnSorted.Name = "btnSorted";
             this.btnSorted.Size = new System.Drawing.Size(114, 28);
             this.btnSorted.TabIndex = 3;
@@ -688,7 +688,7 @@ namespace LIstBox
             "MultiExtented",
             "None"});
             this.cmbSelMode.Location = new System.Drawing.Point(155, 73);
-            this.cmbSelMode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbSelMode.Margin = new System.Windows.Forms.Padding(4);
             this.cmbSelMode.Name = "cmbSelMode";
             this.cmbSelMode.Size = new System.Drawing.Size(219, 24);
             this.cmbSelMode.TabIndex = 1;
@@ -698,7 +698,7 @@ namespace LIstBox
             // 
             this.chkMultiCol.AutoSize = true;
             this.chkMultiCol.Location = new System.Drawing.Point(23, 27);
-            this.chkMultiCol.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkMultiCol.Margin = new System.Windows.Forms.Padding(4);
             this.chkMultiCol.Name = "chkMultiCol";
             this.chkMultiCol.Size = new System.Drawing.Size(106, 21);
             this.chkMultiCol.TabIndex = 0;
@@ -716,9 +716,9 @@ namespace LIstBox
             this.groupBox1.Controls.Add(this.txtJmeno);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(16, 18);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(396, 170);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
@@ -729,7 +729,7 @@ namespace LIstBox
             this.nmUpDownID.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.nmUpDownID.Location = new System.Drawing.Point(125, 36);
-            this.nmUpDownID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nmUpDownID.Margin = new System.Windows.Forms.Padding(4);
             this.nmUpDownID.Maximum = new decimal(new int[] {
             1000,
             0,
@@ -766,7 +766,7 @@ namespace LIstBox
             this.txtPrijmeni.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtPrijmeni.Location = new System.Drawing.Point(125, 126);
-            this.txtPrijmeni.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPrijmeni.Margin = new System.Windows.Forms.Padding(4);
             this.txtPrijmeni.Name = "txtPrijmeni";
             this.txtPrijmeni.Size = new System.Drawing.Size(248, 22);
             this.txtPrijmeni.TabIndex = 3;
@@ -789,7 +789,7 @@ namespace LIstBox
             this.txtJmeno.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtJmeno.Location = new System.Drawing.Point(125, 80);
-            this.txtJmeno.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtJmeno.Margin = new System.Windows.Forms.Padding(4);
             this.txtJmeno.Name = "txtJmeno";
             this.txtJmeno.Size = new System.Drawing.Size(248, 22);
             this.txtJmeno.TabIndex = 1;
@@ -815,9 +815,9 @@ namespace LIstBox
             this.lstBox.FormattingEnabled = true;
             this.lstBox.ItemHeight = 16;
             this.lstBox.Location = new System.Drawing.Point(4, 20);
-            this.lstBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lstBox.Margin = new System.Windows.Forms.Padding(4);
             this.lstBox.Name = "lstBox";
-            this.lstBox.Size = new System.Drawing.Size(358, 436);
+            this.lstBox.Size = new System.Drawing.Size(357, 436);
             this.lstBox.TabIndex = 0;
             this.lstBox.Click += new System.EventHandler(this.lstBox_Click);
             // 
@@ -836,7 +836,7 @@ namespace LIstBox
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MinimumSize = new System.Drawing.Size(853, 625);
             this.Name = "Form1";
             this.Text = "ListBox - tutorial";
