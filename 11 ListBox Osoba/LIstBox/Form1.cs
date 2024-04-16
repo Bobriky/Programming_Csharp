@@ -15,7 +15,7 @@ namespace LIstBox
     {
         //string[] pole = new string;
         string[] seznam = new string[5] { "1 Roman Lichnovksy", "2 Dominik Kamidra", "3 Dominik Kamidra", "4 Dominik Kamidra", "5 Dominik Kamidra" };
-        public Form1()
+        public Form1(decimal hodnota, string jmeno, string prijmeni)
         {
             InitializeComponent();
             List<string> lstJmena = new List<string>();         //vytvoření listu jako objekt :)
@@ -59,6 +59,9 @@ namespace LIstBox
             {
                 //všechny vybrané položky
             }
+            txtPrijmeni.Text = prijmeni;
+            txtJmeno.Text = jmeno;
+            nmUpDownID.Value = hodnota;
         }
 
         private void ukončitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -136,37 +139,14 @@ namespace LIstBox
             lblSelIndex.Text = lstBox.SelectedIndex.ToString();
         }
 
-        private void lstBox_Click(object sender, EventArgs e)
-        {
-            if (lstBox.SelectedIndex >= 0)
-            {
-                string[] pole = (lstBox.SelectedItem.ToString()).Split(' ');
-                nmUpDownID.Value = Convert.ToInt16(pole[0]);
-                txtJmeno.Text = pole[1].ToString();
-                txtPrijmeni.Text = pole[2].ToString();
-                btnInsert.Enabled = true;
-                btnRemove.Enabled = true;
-                btnRemoveAt.Enabled = true;
-            }
-            else
-            {
-                btnInsert.Enabled = false;
-                btnRemove.Enabled = false;
-                btnRemoveAt.Enabled = false;
-            }
-        }
-
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            /*
-            lstBox.Enabled = false;
-            flowLayoutPanel1.Enabled = false;
-            string[] pole = lstBox.SelectedItem.ToString().Split(' ');
-            nmUpDownID.Value = Convert.ToInt16(pole[0]);
-            txtJmeno.Text = pole[1].ToString();
-            txtPrijmeni.Text = pole[2].ToString();
-            */
-           }
+            if(lstBox.SelectedIndex > -1)
+            {
+                Form2 okno2 = new Form2(lstBox.SelectedItem.ToString());
+                okno2.Show();
+            }
+        }
 
 
         private void btnAddRange_Click(object sender, EventArgs e)
@@ -212,6 +192,26 @@ namespace LIstBox
             catch (Exception err)
             {
                 MessageBox.Show(err.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void lstBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (lstBox.SelectedIndex >= 0)
+            {
+                string[] pole = (lstBox.SelectedItem.ToString()).Split(' ');
+                nmUpDownID.Value = Convert.ToInt16(pole[0]);
+                txtJmeno.Text = pole[1].ToString();
+                txtPrijmeni.Text = pole[2].ToString();
+                btnInsert.Enabled = true;
+                btnRemove.Enabled = true;
+                btnRemoveAt.Enabled = true;
+            }
+            else
+            {
+                btnInsert.Enabled = false;
+                btnRemove.Enabled = false;
+                btnRemoveAt.Enabled = false;
             }
         }
     }
