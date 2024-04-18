@@ -36,7 +36,8 @@ namespace LIstBox
             this.label2 = new System.Windows.Forms.Label();
             this.txtJmeno = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnOK = new System.Windows.Forms.Button();
+            this.btnGG = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nmUpDownID)).BeginInit();
             this.SuspendLayout();
@@ -132,22 +133,33 @@ namespace LIstBox
             this.label1.TabIndex = 0;
             this.label1.Text = "Jméno: ";
             // 
-            // button1
+            // btnOK
             // 
-            this.button1.Location = new System.Drawing.Point(184, 193);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(147, 53);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "EDIT";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnOK.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.btnOK.Location = new System.Drawing.Point(372, 233);
+            this.btnOK.Name = "btnOK";
+            this.btnOK.Size = new System.Drawing.Size(147, 53);
+            this.btnOK.TabIndex = 3;
+            this.btnOK.Text = "Změnit";
+            this.btnOK.UseVisualStyleBackColor = true;
+            // 
+            // btnGG
+            // 
+            this.btnGG.DialogResult = System.Windows.Forms.DialogResult.Abort;
+            this.btnGG.Location = new System.Drawing.Point(12, 233);
+            this.btnGG.Name = "btnGG";
+            this.btnGG.Size = new System.Drawing.Size(147, 53);
+            this.btnGG.TabIndex = 4;
+            this.btnGG.Text = "Zrušit";
+            this.btnGG.UseVisualStyleBackColor = true;
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(546, 298);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnGG);
+            this.Controls.Add(this.btnOK);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form2";
             this.Text = "Form2";
@@ -161,12 +173,13 @@ namespace LIstBox
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.NumericUpDown nmUpDownID;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtPrijmeni;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtJmeno;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnOK;
+        private System.Windows.Forms.Button btnGG;
+        public System.Windows.Forms.NumericUpDown nmUpDownID;
+        public System.Windows.Forms.TextBox txtPrijmeni;
+        public System.Windows.Forms.TextBox txtJmeno;
     }
 }

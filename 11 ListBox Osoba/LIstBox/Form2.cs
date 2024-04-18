@@ -19,19 +19,13 @@ namespace LIstBox
             {
                 string[] pole = (data.Split(' '));
                 nmUpDownID.Value = Convert.ToInt16(pole[0]);
-                txtJmeno.Text = pole[1].ToString();
+                txtJmeno.Text = pole[1];
                 txtPrijmeni.Text = pole[2].ToString();
             }
             catch (Exception)
             {
                 MessageBox.Show("error");
             }
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Form1 okno1 = new Form1(nmUpDownID.Value, txtJmeno.Text, txtPrijmeni.Text);
-            okno1.Show();
         }
     }
 }

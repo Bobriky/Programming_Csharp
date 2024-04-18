@@ -34,34 +34,11 @@ namespace LIstBox
             }
             nmUpDownID.Value = lstBox.Items.Count + 1;
 
-
-            for (int i = 0; i < lstBox.Items.Count; i++)
-            {
-                //všechny položky
-            }
-
-            foreach (string item in lstBox.Items)
-            {
-                //všechny položky
-            }
-
-            for (int i = 0; i < lstBox.SelectedIndices.Count; i++)
-            {
-                //všechny vybrané položky
-            }
-
-            foreach (string item in lstBox.SelectedItems)
-            {
-                //všechny vybrané položky
-            }
-
-            foreach (int item in lstBox.SelectedIndices)
-            {
-                //všechny vybrané položky
-            }
-            txtPrijmeni.Text = prijmeni;
-            txtJmeno.Text = jmeno;
             nmUpDownID.Value = hodnota;
+            txtJmeno.Text = jmeno;
+            txtPrijmeni.Text = prijmeni;
+            
+            
         }
 
         private void ukončitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -96,7 +73,6 @@ namespace LIstBox
             lblCount.Text = lstBox.Items.Count.ToString();
             if(lstBox.Items.Count > 0){
                 btnClear.Enabled = true;
-
             }
         }
 
@@ -145,6 +121,15 @@ namespace LIstBox
             {
                 Form2 okno2 = new Form2(lstBox.SelectedItem.ToString());
                 okno2.Show();
+                if (okno2.ShowDialog() == DialogResult.OK)
+                {
+                    txtJmeno.Text = okno2.txtJmeno.Text;
+                    MessageBox.Show("Souhlas");
+                }
+                else if (okno2.ShowDialog() == DialogResult.Abort)
+                {
+                    MessageBox.Show("Změna zrušena");
+                }
             }
         }
 
