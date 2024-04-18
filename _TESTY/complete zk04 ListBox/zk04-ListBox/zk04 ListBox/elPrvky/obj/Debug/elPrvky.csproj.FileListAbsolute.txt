@@ -1,0 +1,47 @@
+U:\elPrvky\elPrvky\bin\Debug\elPrvky.exe.config
+U:\elPrvky\elPrvky\bin\Debug\elPrvky.exe
+U:\elPrvky\elPrvky\bin\Debug\elPrvky.pdb
+U:\elPrvky\elPrvky\obj\Debug\elPrvky.csproj.AssemblyReference.cache
+U:\elPrvky\elPrvky\obj\Debug\elPrvky.Form1.resources
+U:\elPrvky\elPrvky\obj\Debug\elPrvky.Properties.Resources.resources
+U:\elPrvky\elPrvky\obj\Debug\elPrvky.csproj.GenerateResource.cache
+U:\elPrvky\elPrvky\obj\Debug\elPrvky.csproj.CoreCompileInputs.cache
+U:\elPrvky\elPrvky\obj\Debug\elPrvky.exe
+U:\elPrvky\elPrvky\obj\Debug\elPrvky.pdb
+u:\3E\PraceZaku\zk04 Prvky\_zadani\elPrvky\bin\Debug\elPrvky.exe.config
+u:\3E\PraceZaku\zk04 Prvky\_zadani\elPrvky\bin\Debug\elPrvky.exe
+u:\3E\PraceZaku\zk04 Prvky\_zadani\elPrvky\bin\Debug\elPrvky.pdb
+u:\3E\PraceZaku\zk04 Prvky\_zadani\elPrvky\obj\Debug\elPrvky.csproj.AssemblyReference.cache
+u:\3E\PraceZaku\zk04 Prvky\_zadani\elPrvky\obj\Debug\elPrvky.Form1.resources
+u:\3E\PraceZaku\zk04 Prvky\_zadani\elPrvky\obj\Debug\elPrvky.Properties.Resources.resources
+u:\3E\PraceZaku\zk04 Prvky\_zadani\elPrvky\obj\Debug\elPrvky.csproj.GenerateResource.cache
+u:\3E\PraceZaku\zk04 Prvky\_zadani\elPrvky\obj\Debug\elPrvky.csproj.CoreCompileInputs.cache
+u:\3E\PraceZaku\zk04 Prvky\_zadani\elPrvky\obj\Debug\elPrvky.exe
+u:\3E\PraceZaku\zk04 Prvky\_zadani\elPrvky\obj\Debug\elPrvky.pdb
+C:\Users\krausv\Desktop\zk04 ListBox\elPrvky\obj\Debug\elPrvky.csproj.AssemblyReference.cache
+C:\Users\krausv\Desktop\zk04 ListBox\elPrvky\obj\Debug\elPrvky.Form1.resources
+C:\Users\krausv\Desktop\zk04 ListBox\elPrvky\obj\Debug\elPrvky.Properties.Resources.resources
+C:\Users\krausv\Desktop\zk04 ListBox\elPrvky\obj\Debug\elPrvky.csproj.GenerateResource.cache
+C:\Users\krausv\Desktop\zk04 ListBox\elPrvky\obj\Debug\elPrvky.csproj.CoreCompileInputs.cache
+C:\Users\krausv\Desktop\zk04 ListBox\elPrvky\obj\Debug\elPrvky.exe
+C:\Users\krausv\Desktop\zk04 ListBox\elPrvky\obj\Debug\elPrvky.pdb
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\_TESTY\zk04-ListBox\zk04 ListBox\elPrvky\obj\Debug\elPrvky.csproj.AssemblyReference.cache
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\_TESTY\zk04-ListBox\zk04 ListBox\elPrvky\obj\Debug\elPrvky.Form1.resources
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\_TESTY\zk04-ListBox\zk04 ListBox\elPrvky\obj\Debug\elPrvky.Properties.Resources.resources
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\_TESTY\zk04-ListBox\zk04 ListBox\elPrvky\obj\Debug\elPrvky.csproj.GenerateResource.cache
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\_TESTY\zk04-ListBox\zk04 ListBox\elPrvky\obj\Debug\elPrvky.csproj.CoreCompileInputs.cache
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\_TESTY\zk04-ListBox\zk04 ListBox\elPrvky\obj\Debug\elPrvky.exe
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\_TESTY\zk04-ListBox\zk04 ListBox\elPrvky\obj\Debug\elPrvky.pdb
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\_TESTY\zk04-ListBox\zk04 ListBox\elPrvky\bin\Debug\elPrvky.exe.config
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\_TESTY\zk04-ListBox\zk04 ListBox\elPrvky\bin\Debug\elPrvky.exe
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\_TESTY\zk04-ListBox\zk04 ListBox\elPrvky\bin\Debug\elPrvky.pdb
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\complete zk04 ListBox\zk04-ListBox\zk04 ListBox\elPrvky\bin\Debug\elPrvky.exe.config
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\complete zk04 ListBox\zk04-ListBox\zk04 ListBox\elPrvky\bin\Debug\elPrvky.exe
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\complete zk04 ListBox\zk04-ListBox\zk04 ListBox\elPrvky\bin\Debug\elPrvky.pdb
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\complete zk04 ListBox\zk04-ListBox\zk04 ListBox\elPrvky\obj\Debug\elPrvky.csproj.AssemblyReference.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\complete zk04 ListBox\zk04-ListBox\zk04 ListBox\elPrvky\obj\Debug\elPrvky.Form1.resources
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\complete zk04 ListBox\zk04-ListBox\zk04 ListBox\elPrvky\obj\Debug\elPrvky.Properties.Resources.resources
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\complete zk04 ListBox\zk04-ListBox\zk04 ListBox\elPrvky\obj\Debug\elPrvky.csproj.GenerateResource.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\complete zk04 ListBox\zk04-ListBox\zk04 ListBox\elPrvky\obj\Debug\elPrvky.csproj.CoreCompileInputs.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\complete zk04 ListBox\zk04-ListBox\zk04 ListBox\elPrvky\obj\Debug\elPrvky.exe
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\complete zk04 ListBox\zk04-ListBox\zk04 ListBox\elPrvky\obj\Debug\elPrvky.pdb

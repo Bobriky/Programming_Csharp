@@ -1,0 +1,23 @@
+Termistor;NTC;NR331 2k2;5
+Varistor;B72210S0231K101;11x7,5mm;15
+Rezistor;TR191;3k3/0,25W;1,2
+Tyristor;KT110;750V/3A;23,5
+Diak;DLDB4;minimelf SMD;12
+Tyristor;KT511;400V/0,8A;5
+Cívka;vf;10x10x18mm;55
+Tranzistor;PNP;2N2907A;3,5
+Rezistor;MLT-1;820R/1W;2
+Termistor;PTC;NR121 220R;7,5
+Tranzistor;NPN;2N5551;2,5
+Triak;KT803/600 ;600V/10A;14
+Kondenzátor;Elektrolyt;47uF/40V;0,5
+Tyristor;KT504;300V/1A ;60
+Dioda;LED;zelená difuzní;3,5
+Dioda;KZ260/11V;1,3W;2,2
+Kondenzátor;Tantalový; 15u/16V;0,3
+Dioda;1N4148;75V/150mA;4,5
+Diak;ER901;35-45V;8,9
+Tyristor;KT511;400V/0,8A;14,5
+Dioda;KY132/80;80V/1A;3,3
+Transformátor;ET-50;12V AC;17
+Tranzistor;IGBT;FGA60N65;36
