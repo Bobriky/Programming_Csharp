@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+//using
 
 /*  Zadání
  Program Elektronické prvky má umožňovat: 
@@ -16,7 +17,7 @@ using System.IO;
  2. Načíst seznam Prvků ze souboru (elPrvky.csv) 
  3. Vybrat prvek ze sznamu a zobrazit jeho údaje v polích
  3. Možnost smazání vybraného prvku
- 4. Prvky ze seznamu uložit do vlastního souboru (např. myPrvky.csv - možnost opakovaného načtení)  
+ 4. Prvky ze seznamu uložit do valstního souboru (např. myPrvky.csv - možnost opakovaného načtení)  
  5. Funkční menu programu, a statistika počtu prvků
  
 Pojmenování a třídy aktivních objektů:
@@ -40,13 +41,32 @@ namespace elPrvky
         public Form1()
         {
             InitializeComponent();
+            btnSmazat.Enabled = false;
         }
 
-        private void načístToolStripMenuItem_Click(object sender, EventArgs e)
+        private void btnPridat_Click(object sender, EventArgs e)
         {
-            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            if(cmbDruh.SelectedIndex != -1 && txtTyp.Text != "" && txtPopis.Text != "")
             {
-                try
+                lstBox1.Items.Add(cmbDruh.SelectedItem.ToString() + ";" + txtTyp.Text + ";" + txtPopis.Text + ";" + nmCena.Value.ToString());
+                lblPocet.Text = lstBox1.Items.Count.ToString();
+                btnSeznamDel.Enabled = btnSeznamSave.Enabled = true;
+            }
+        }
+
+        private void btnSmazat_Click(object sender, EventArgs e)
+        {
+            lstBox1.Items.Remove(lstBox1.SelectedItem);
+            lblPocet.Text = lstBox1.Items.Count.ToString();
+            cmbDruh.SelectedIndex = -1;
+            txtPopis.Text = txtTyp.Text = "";
+            nmCena.Value = 0;
+        }
+        private void btnSeznamRead_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (openFileDialog1.ShowDialog() == DialogResult.OK)
                 {
                     StreamReader sbr = new StreamReader(openFileDialog1.FileName, Encoding.Default);
                     while (!sbr.EndOfStream)
@@ -54,20 +74,22 @@ namespace elPrvky
                         lstBox1.Items.Add(sbr.ReadLine());
                     }
                     sbr.Close();
-                    MessageBox.Show("Data nahrána", "STAV", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Data nahrána", "Open", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
-                catch (Exception err)
-                {
-                    MessageBox.Show(err.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+                btnSeznamSave.Enabled = btnSeznamDel.Enabled = true;
+                lblPocet.Text = lstBox1.Items.Count.ToString();
+            }
+            catch (Exception err)
+            {
+                MessageBox.Show(err.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
-        private void uložitToolStripMenuItem_Click(object sender, EventArgs e)
+        private void btnSeznamSave_Click(object sender, EventArgs e)
         {
-            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            try
             {
-                try
+                if (saveFileDialog1.ShowDialog() == DialogResult.OK)
                 {
                     StreamWriter sbr = new StreamWriter(saveFileDialog1.FileName, false, Encoding.Default);
                     foreach (string item in lstBox1.Items)
@@ -75,37 +97,55 @@ namespace elPrvky
                         sbr.WriteLine(item);
                     }
                     sbr.Close();
-                    MessageBox.Show("Data uložena", "STAV", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                catch (Exception err)
-                {
-                    MessageBox.Show(err.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Data uložena", "huh", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
-        }
-
-        private void btnPridat_Click(object sender, EventArgs e)
-        {
-            lstBox1.Items.Add(cmbDruh.SelectedItem + ";" + txtTyp.Text + ";" + textPopis.Text + ";" + nmCena.Value.ToString());
-        }
-
-        private void lstBox1_Click(object sender, EventArgs e)
-        {
-            if (lstBox1.SelectedIndex > -1)
+            catch (Exception err)
             {
-                string[] pole = (lstBox1.SelectedItem.ToString()).Split(';');
-                cmbDruh.SelectedItem = pole[1].ToString();
-                txtTyp.Text = pole[2].ToString();
-                textPopis.Text = pole[3].ToString();
-                nmCena.Value = int.Parse(pole[4]);
+                MessageBox.Show(err.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
-        private void btnSmazat_Click(object sender, EventArgs e)
+        private void btnSeznamDel_Click(object sender, EventArgs e)
+        {
+            if (lstBox1.Items.Count > -1)
+            {
+                lstBox1.Items.Clear();
+                lblPocet.Text = lstBox1.Items.Count.ToString();
+                btnSeznamDel.Enabled = btnSmazat.Enabled = btnSeznamSave.Enabled = false;
+                cmbDruh.SelectedIndex = -1;
+                txtPopis.Text = txtTyp.Text = "";
+                nmCena.Value = 0;
+            }
+        }
+
+        private void txtPopis_TextChanged(object sender, EventArgs e)
+        {
+            if (cmbDruh.SelectedIndex != -1 && txtTyp.Text != "" && txtPopis.Text != "")
+            {
+                //btnSmazat.Enabled = btnSeznamSave.Enabled = btnSeznamDel.Enabled
+                btnPridat.Enabled = true;
+            }
+            else
+            {
+                btnPridat.Enabled = false;
+            }
+        }
+
+        private void lstBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if(lstBox1.SelectedIndex > -1)
             {
-                lstBox1.Items.Remove(lstBox1.Items[lstBox1.SelectedIndex]);
+                string[] pole = (lstBox1.SelectedItem.ToString()).Split(';');
+                cmbDruh.SelectedItem = pole[0].ToString();
+                txtTyp.Text = pole[1].ToString();
+                txtPopis.Text = pole[2].ToString();
+                nmCena.Value = Decimal.Parse(pole[3]);
+                btnSmazat.Enabled = true;
+            }
+            else
+            {
+                btnSmazat.Enabled = false;
             }
         }
     }
