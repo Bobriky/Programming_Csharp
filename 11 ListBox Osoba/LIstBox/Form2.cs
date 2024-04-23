@@ -20,7 +20,23 @@ namespace LIstBox
                 string[] pole = (data.Split(' '));
                 nmUpDownID.Value = Convert.ToInt16(pole[0]);
                 txtJmeno.Text = pole[1];
-                txtPrijmeni.Text = pole[2].ToString();
+                txtPrijmeni.Text = pole[2];
+
+                
+                cOsoba osoba1 = new cOsoba();
+                cOsoba osoba2 = new cOsoba();
+                cOsoba osoba3 = new cOsoba();
+
+                osoba1.setID(80);
+                nmUpDownID.Value = osoba1.getID();
+
+                /*
+                osoba1.idOsoba = "00";
+                osoba2.nameOsoba = "Moje máma!";
+                osoba3.surnameOsoba = "LUkyho tatko ururuwu";
+                txtPrijmeni.Text = osoba1.hardHittingUrurLine;
+                */
+
             }
             catch (Exception)
             {

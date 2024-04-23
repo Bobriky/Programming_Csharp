@@ -15,7 +15,7 @@ namespace LIstBox
     {
         //string[] pole = new string;
         string[] seznam = new string[5] { "1 Roman Lichnovksy", "2 Dominik Kamidra", "3 Dominik Kamidra", "4 Dominik Kamidra", "5 Dominik Kamidra" };
-        public Form1(decimal hodnota, string jmeno, string prijmeni)
+        public Form1()
         {
             InitializeComponent();
             List<string> lstJmena = new List<string>();         //vytvoření listu jako objekt :)
@@ -32,13 +32,7 @@ namespace LIstBox
             {
                 lblSelItem.Text = lstBox.SelectedItems.ToString();
             }
-            nmUpDownID.Value = lstBox.Items.Count + 1;
-
-            nmUpDownID.Value = hodnota;
-            txtJmeno.Text = jmeno;
-            txtPrijmeni.Text = prijmeni;
-            
-            
+            nmUpDownID.Value = lstBox.Items.Count + 1;     
         }
 
         private void ukončitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -120,10 +114,10 @@ namespace LIstBox
             if(lstBox.SelectedIndex > -1)
             {
                 Form2 okno2 = new Form2(lstBox.SelectedItem.ToString());
-                okno2.Show();
+                //okno2.Show();
                 if (okno2.ShowDialog() == DialogResult.OK)
                 {
-                    txtJmeno.Text = okno2.txtJmeno.Text;
+                    lstBox.Items[lstBox.SelectedIndex] = (okno2.nmUpDownID.Value + " " + okno2.txtJmeno.Text + " " + okno2.txtPrijmeni.Text).ToString();
                     MessageBox.Show("Souhlas");
                 }
                 else if (okno2.ShowDialog() == DialogResult.Abort)
@@ -190,7 +184,7 @@ namespace LIstBox
                 txtPrijmeni.Text = pole[2].ToString();
                 btnInsert.Enabled = true;
                 btnRemove.Enabled = true;
-                btnRemoveAt.Enabled = true;
+                btnRemoveAt.Enabled = true;  
             }
             else
             {
