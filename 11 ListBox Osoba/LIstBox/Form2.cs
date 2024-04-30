@@ -14,6 +14,10 @@ namespace LIstBox
     {
         public Form2(string data)
         {
+            cOsoba osoba1 = new cOsoba();
+            cOsoba osoba2 = new cOsoba(15);
+            cOsoba osoba3 = new cOsoba(10, "skib", "huh");
+
             InitializeComponent();
             try
             {
@@ -21,11 +25,10 @@ namespace LIstBox
                 nmUpDownID.Value = Convert.ToInt16(pole[0]);
                 txtJmeno.Text = pole[1];
                 txtPrijmeni.Text = pole[2];
-
-                
-                cOsoba osoba1 = new cOsoba();
-                cOsoba osoba2 = new cOsoba();
-                cOsoba osoba3 = new cOsoba();
+                osoba1.Jmeno = "Šima";
+                txtJmeno.Text = osoba1.Jmeno;
+                osoba1.Prijmeni = "Fremel";
+                txtPrijmeni.Text = osoba1.Prijmeni;
 
                 osoba1.setID(80);
                 nmUpDownID.Value = osoba1.getID();

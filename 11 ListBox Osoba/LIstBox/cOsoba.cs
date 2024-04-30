@@ -9,6 +9,13 @@ namespace LIstBox
     class cOsoba
     {
         public int idOsoba;
+        private string jmeno;
+        public string Jmeno
+        {
+            get { return jmeno; }
+            set { jmeno = value; }
+        }
+        public string Prijmeni { get; set; }
 
         public void setID(int iCislo)
         {
@@ -34,8 +41,20 @@ namespace LIstBox
         {
             return surnameOsoba;
         }
+        public cOsoba()
+        {
 
-
+        }
+        public cOsoba(int iCislo)
+        {
+            idOsoba = iCislo;
+        }
+        public cOsoba(int iCislo, string iJmeno, string iPrijmeni)
+        {
+            idOsoba = iCislo;
+            nameOsoba = iJmeno;
+            surnameOsoba = iPrijmeni;
+        }
         public string nameOsoba;
         public string surnameOsoba;
         public int fredyFazbergID = 3;
