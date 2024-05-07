@@ -7,8 +7,11 @@ using System.Threading.Tasks;
 namespace LIstBox
 {
     class cOsoba
-    {
+    {   
+        //členská vlastnost
         public int idOsoba;
+        
+        // úplná definice vlastnosti
         private string jmeno;
         public string Jmeno
         {
@@ -17,6 +20,7 @@ namespace LIstBox
         }
         public string Prijmeni { get; set; }
 
+        // zkrácená definice vlastnosti
         public void setID(int iCislo)
         {
             idOsoba = iCislo;
@@ -41,6 +45,7 @@ namespace LIstBox
         {
             return surnameOsoba;
         }
+        //konstruktory - přetížené
         public cOsoba()
         {
 
@@ -55,10 +60,23 @@ namespace LIstBox
             nameOsoba = iJmeno;
             surnameOsoba = iPrijmeni;
         }
+
+        //huh
         public string nameOsoba;
         public string surnameOsoba;
         public int fredyFazbergID = 3;
         public int levelOfChrist;
         public string hardHittingUrurLine = "URURURuwuURURUURURRU";
+    }
+    class cJanitor : cOsoba
+    {
+        public string modelMetly;
+
+        private string susjmeno;
+        public string susJmeno
+        {
+            get { return susjmeno; }
+            set { susjmeno = value; }
+        }
     }
 }

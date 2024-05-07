@@ -1,4 +1,19 @@
-1 Podsed�k Tr�vn�k
-2 Podsed�k Tr�vn�k
-3 Podsed�k Tr�vn�k
-4 Podsed�k Tr�vn�k
+1;Beneš;Lukáš;3E-1sk
+2;Bruss;Matěj;3E-1sk
+3;Dvorský;Lukáš;3E-1sk
+4;Dvorský;Michael;3E-1sk
+5;Frömel;Šimon;3E-1sk
+6;Hanusík;Matěj;3E-1sk
+7;Hasilík;Filip;3E-1sk
+8;Hudeček;Šimon;3E-1sk
+9;Kamidra;Dominik;3E-2sk
+10;Konečný;Lukáš;3E-2sk
+11;Kraus;Vojtěch;3E-1sk
+12;Lichnovský;Roman;3E-2sk
+13;Michálek;Jan;3E-2sk
+14;Sedláček;Michal;3E-1sk
+15;Švrček;Martin;3E-2sk
+16;Valenta;Michal;3E-2sk
+17;Vavřiňák;Michal;3E-2sk
+18;Vláčil;Lukáš;3E-2sk
+19;Vostřez;Patrik;3E-2sk

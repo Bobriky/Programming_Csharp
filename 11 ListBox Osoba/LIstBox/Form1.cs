@@ -13,10 +13,13 @@ namespace LIstBox
 {
     public partial class Form1 : Form
     {
+        //datová kolekce, která obsahuje seznam všech uklízečů v jednom poli - dobrá práce s tím
+        List<cJanitor> seznamJanitors = new List<cJanitor>();
         //string[] pole = new string;
         string[] seznam = new string[5] { "1 Roman Lichnovksy", "2 Dominik Kamidra", "3 Dominik Kamidra", "4 Dominik Kamidra", "5 Dominik Kamidra" };
         public Form1()
         {
+            //seznamJanitors.Add(temp);
             InitializeComponent();
             List<string> lstJmena = new List<string>();         //vytvoření listu jako objekt :)
             lstJmena.Add("Podsedák");
@@ -101,6 +104,8 @@ namespace LIstBox
             btnInsert.Enabled = false;
             btnRemove.Enabled = false;
             btnRemoveAt.Enabled = false;
+            cJanitor janitor1 = new cJanitor();
+            janitor1.modelMetly = "Uklizator48";
         }
         private void btnInsert_Click(object sender, EventArgs e)
         {
