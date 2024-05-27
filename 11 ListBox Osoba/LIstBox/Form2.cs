@@ -21,7 +21,7 @@ namespace LIstBox
             InitializeComponent();
             try
             {
-                string[] pole = (data.Split(' '));
+                string[] pole = data.Split(' ');
                 nmUpDownID.Value = Convert.ToInt16(pole[0]);
                 txtJmeno.Text = pole[1];
                 txtPrijmeni.Text = pole[2];
@@ -45,6 +45,11 @@ namespace LIstBox
             {
                 MessageBox.Show("error");
             }
+        }
+
+        private void btnGG_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

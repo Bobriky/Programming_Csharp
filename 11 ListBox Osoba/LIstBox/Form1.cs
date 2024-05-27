@@ -119,13 +119,12 @@ namespace LIstBox
             if(lstBox.SelectedIndex > -1)
             {
                 Form2 okno2 = new Form2(lstBox.SelectedItem.ToString());
-                //okno2.Show();
                 if (okno2.ShowDialog() == DialogResult.OK)
                 {
                     lstBox.Items[lstBox.SelectedIndex] = (okno2.nmUpDownID.Value + " " + okno2.txtJmeno.Text + " " + okno2.txtPrijmeni.Text).ToString();
                     MessageBox.Show("Souhlas");
                 }
-                else if (okno2.ShowDialog() == DialogResult.Abort)
+                else
                 {
                     MessageBox.Show("Změna zrušena");
                 }
@@ -189,14 +188,21 @@ namespace LIstBox
                 txtPrijmeni.Text = pole[2].ToString();
                 btnInsert.Enabled = true;
                 btnRemove.Enabled = true;
-                btnRemoveAt.Enabled = true;  
+                btnRemoveAt.Enabled = true;
+                btnEdit.Enabled = true;
             }
             else
             {
+                btnEdit.Enabled = false;
                 btnInsert.Enabled = false;
                 btnRemove.Enabled = false;
                 btnRemoveAt.Enabled = false;
             }
+        }
+
+        private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
 }

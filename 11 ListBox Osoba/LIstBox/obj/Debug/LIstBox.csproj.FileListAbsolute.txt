@@ -39,3 +39,4 @@ C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\11 ListBox Osoba
 C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\11 ListBox Osoba\LIstBox\obj\Debug\LIstBox.exe
 C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\11 ListBox Osoba\LIstBox\obj\Debug\LIstBox.pdb
 U:\Vypracovane_Ukoly\3E\Programming_Csharp\11 ListBox Osoba\LIstBox\obj\Debug\LIstBox.Form2.resources
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\11 ListBox Osoba\LIstBox\obj\Debug\LIstBox.Form2.resources

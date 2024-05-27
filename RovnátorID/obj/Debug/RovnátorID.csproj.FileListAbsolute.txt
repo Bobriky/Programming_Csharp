@@ -1,0 +1,10 @@
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\RovnátorID\obj\Debug\RovnátorID.csproj.AssemblyReference.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\RovnátorID\obj\Debug\RovnátorID.Form1.resources
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\RovnátorID\obj\Debug\RovnátorID.Properties.Resources.resources
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\RovnátorID\obj\Debug\RovnátorID.csproj.GenerateResource.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\RovnátorID\obj\Debug\RovnátorID.csproj.CoreCompileInputs.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\RovnátorID\bin\Debug\RovnátorID.exe.config
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\RovnátorID\bin\Debug\RovnátorID.exe
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\RovnátorID\bin\Debug\RovnátorID.pdb
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\RovnátorID\obj\Debug\RovnátorID.exe
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\RovnátorID\obj\Debug\RovnátorID.pdb

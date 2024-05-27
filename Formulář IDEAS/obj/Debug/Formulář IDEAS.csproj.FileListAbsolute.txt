@@ -1,0 +1,10 @@
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\Formulář IDEAS\bin\Debug\Formulář IDEAS.exe.config
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\Formulář IDEAS\bin\Debug\Formulář IDEAS.exe
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\Formulář IDEAS\bin\Debug\Formulář IDEAS.pdb
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\Formulář IDEAS\obj\Debug\Formulář IDEAS.csproj.AssemblyReference.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\Formulář IDEAS\obj\Debug\Formulář_IDEAS.Form1.resources
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\Formulář IDEAS\obj\Debug\Formulář_IDEAS.Properties.Resources.resources
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\Formulář IDEAS\obj\Debug\Formulář IDEAS.csproj.GenerateResource.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\Formulář IDEAS\obj\Debug\Formulář IDEAS.csproj.CoreCompileInputs.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\Formulář IDEAS\obj\Debug\Formulář IDEAS.exe
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\Formulář IDEAS\obj\Debug\Formulář IDEAS.pdb

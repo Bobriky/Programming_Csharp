@@ -39,3 +39,13 @@ U:\Vypracovane_Ukoly\3E\Programming_Csharp\03 Sčítačka\Scitacka\obj\Debug\Sci
 U:\Vypracovane_Ukoly\3E\Programming_Csharp\03 Sčítačka\Scitacka\obj\Debug\Scitacka.csproj.CoreCompileInputs.cache
 U:\Vypracovane_Ukoly\3E\Programming_Csharp\03 Sčítačka\Scitacka\obj\Debug\Scitacka.exe
 U:\Vypracovane_Ukoly\3E\Programming_Csharp\03 Sčítačka\Scitacka\obj\Debug\Scitacka.pdb
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\03 Sčítačka\Scitacka\bin\Debug\Scitacka.exe.config
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\03 Sčítačka\Scitacka\bin\Debug\Scitacka.exe
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\03 Sčítačka\Scitacka\bin\Debug\Scitacka.pdb
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\03 Sčítačka\Scitacka\obj\Debug\Scitacka.csproj.AssemblyReference.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\03 Sčítačka\Scitacka\obj\Debug\Scitacka.Form1.resources
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\03 Sčítačka\Scitacka\obj\Debug\Scitacka.Properties.Resources.resources
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\03 Sčítačka\Scitacka\obj\Debug\Scitacka.csproj.GenerateResource.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\03 Sčítačka\Scitacka\obj\Debug\Scitacka.csproj.CoreCompileInputs.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\03 Sčítačka\Scitacka\obj\Debug\Scitacka.exe
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\03 Sčítačka\Scitacka\obj\Debug\Scitacka.pdb
