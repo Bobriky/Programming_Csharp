@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8wxKQefzmEVV9nAxlldqHsEhhDx4TX0tYnq3VqJs8PR2u4RTANs5sYMR49ovEtz6t1kpmD7OUstn2t+0QVYnMg==",
+  "success": true,
+  "projectFilePath": "U:\\Vypracovane_Ukoly\\3E\\Programming_Csharp\\99FyzicalVariables\\99FyzicalVariables.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fromels\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}

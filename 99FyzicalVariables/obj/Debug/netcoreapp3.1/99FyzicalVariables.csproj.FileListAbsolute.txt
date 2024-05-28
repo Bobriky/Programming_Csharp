@@ -1,0 +1,16 @@
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\99FyzicalVariables\bin\Debug\netcoreapp3.1\99FyzicalVariables.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\99FyzicalVariables\bin\Debug\netcoreapp3.1\99FyzicalVariables.deps.json
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\99FyzicalVariables\bin\Debug\netcoreapp3.1\99FyzicalVariables.runtimeconfig.json
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\99FyzicalVariables\bin\Debug\netcoreapp3.1\99FyzicalVariables.runtimeconfig.dev.json
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\99FyzicalVariables\bin\Debug\netcoreapp3.1\99FyzicalVariables.dll
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\99FyzicalVariables\bin\Debug\netcoreapp3.1\99FyzicalVariables.pdb
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\99FyzicalVariables\obj\Debug\netcoreapp3.1\99FyzicalVariables.csproj.AssemblyReference.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\99FyzicalVariables\obj\Debug\netcoreapp3.1\_99FyzicalVariables.Form1.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\99FyzicalVariables\obj\Debug\netcoreapp3.1\99FyzicalVariables.csproj.GenerateResource.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\99FyzicalVariables\obj\Debug\netcoreapp3.1\99FyzicalVariables.GeneratedMSBuildEditorConfig.editorconfig
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\99FyzicalVariables\obj\Debug\netcoreapp3.1\99FyzicalVariables.AssemblyInfoInputs.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\99FyzicalVariables\obj\Debug\netcoreapp3.1\99FyzicalVariables.AssemblyInfo.cs
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\99FyzicalVariables\obj\Debug\netcoreapp3.1\99FyzicalVariables.csproj.CoreCompileInputs.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\99FyzicalVariables\obj\Debug\netcoreapp3.1\99FyzicalVariables.dll
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\99FyzicalVariables\obj\Debug\netcoreapp3.1\99FyzicalVariables.pdb
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\99FyzicalVariables\obj\Debug\netcoreapp3.1\99FyzicalVariables.genruntimeconfig.cache

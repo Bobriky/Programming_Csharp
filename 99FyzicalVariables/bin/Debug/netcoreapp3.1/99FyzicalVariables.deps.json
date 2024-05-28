@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "99FyzicalVariables/1.0.0": {
+        "runtime": {
+          "99FyzicalVariables.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "99FyzicalVariables/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
