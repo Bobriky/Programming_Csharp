@@ -27,16 +27,20 @@ namespace _99FyzicalVariables
             variableResistance.SymbolUnit = ".";
             variableResistance.VariableName = "odpor";
             variableResistance.UnitName = "odpor";
+
             cFyzicalVariables variableVoltage = new cFyzicalVariables();
             variableVoltage.Symbol = "U";
             variableVoltage.SymbolUnit = "V";
             variableVoltage.VariableName = "napětí";
             variableVoltage.UnitName = "volty";
-            cFyzicalVariables variableCurrent = new cFyzicalVariables();
-            variableCurrent.Symbol = "I";
+
+            cFyzicalVariables variableCurrent = new cFyzicalVariables("I", "A", "proud", "ampéry");
+            /*variableCurrent.Symbol = "I";
             variableCurrent.SymbolUnit = "A";
             variableCurrent.VariableName = "proud";
-            variableCurrent.UnitName = "ampéry";
+            variableCurrent.UnitName = "ampéry";*/
+
+            //txtName.Text = variableCurrent.sum(2, 3).ToString();
             if (radioButton1.Checked)
             {
                 txtSymbol.Text = variableVoltage.Symbol;
