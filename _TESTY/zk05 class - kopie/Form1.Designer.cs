@@ -534,7 +534,6 @@ namespace zkClass
             this.btnPridat.TabIndex = 5;
             this.btnPridat.Text = "Přidat";
             this.btnPridat.UseVisualStyleBackColor = true;
-            this.btnPridat.Click += new System.EventHandler(this.btnPridat_Click);
             // 
             // lstBox
             // 
@@ -545,7 +544,6 @@ namespace zkClass
             this.lstBox.Name = "lstBox";
             this.lstBox.Size = new System.Drawing.Size(345, 537);
             this.lstBox.TabIndex = 5;
-            this.lstBox.SelectedIndexChanged += new System.EventHandler(this.lstBox_SelectedIndexChanged);
             // 
             // label1
             // 
