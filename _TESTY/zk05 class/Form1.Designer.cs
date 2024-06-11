@@ -85,6 +85,8 @@ namespace zkClass
             this.btnPridat = new System.Windows.Forms.Button();
             this.lstBox = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
@@ -400,6 +402,7 @@ namespace zkClass
             this.otevřítToolStripButton.Name = "otevřítToolStripButton";
             this.otevřítToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.otevřítToolStripButton.Text = "&Otevřít";
+            this.otevřítToolStripButton.Click += new System.EventHandler(this.otevřítToolStripButton_Click);
             // 
             // uložitToolStripButton
             // 
@@ -409,6 +412,7 @@ namespace zkClass
             this.uložitToolStripButton.Name = "uložitToolStripButton";
             this.uložitToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.uložitToolStripButton.Text = "&Uložit";
+            this.uložitToolStripButton.Click += new System.EventHandler(this.uložitToolStripButton_Click);
             // 
             // tiskToolStripButton
             // 
@@ -556,6 +560,10 @@ namespace zkClass
             this.label1.TabIndex = 6;
             this.label1.Text = "Seznam karet";
             // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -642,6 +650,8 @@ namespace zkClass
         private System.Windows.Forms.TextBox txtBoxVlast4;
         private System.Windows.Forms.TextBox txtBoxVlast3;
         private System.Windows.Forms.TextBox txtBoxVlast2;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }
 

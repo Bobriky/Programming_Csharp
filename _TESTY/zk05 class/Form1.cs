@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 /* Zadání úkolu
 
@@ -54,6 +55,53 @@ namespace zkClass
             txtBoxVlast2.Text = mujList[lstBox.SelectedIndex].Kategorie;
             txtBoxVlast3.Text = mujList[lstBox.SelectedIndex].Umistneni;
             txtBoxVlast4.Text = mujList[lstBox.SelectedIndex].Rozmery;
+        }
+
+        private void uložitToolStripButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+                {
+                    StreamWriter sbr = new StreamWriter(saveFileDialog1.FileName, false, Encoding.Default);
+                    for (int x = 0; x < lstBox.Items.Count; x++)
+                    {
+                        sbr.WriteLine(mujList[x].Soucastka + ";" + mujList[x].Kategorie + ";" + mujList[x].Umistneni + ";" + mujList[x].Rozmery);
+                    }
+                    sbr.Close();
+                    MessageBox.Show("Data uložena", "Uložení dat", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            catch (Exception err)
+            {
+                MessageBox.Show(err.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void otevřítToolStripButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if(openFileDialog1.ShowDialog() == DialogResult.OK)
+                {
+                    StreamReader sbr = new StreamReader(openFileDialog1.FileName, false);
+                    while (!sbr.EndOfStream)
+                    {
+                        string[] pole = sbr.ReadLine().Split(';');
+                        cZnacka prvek = new cZnacka(pole[0], pole[1], pole[2], pole[3]);
+
+                        mujList.Add(prvek);
+
+                        lstBox.Items.Add(prvek.Soucastka);
+                    }
+                }
+                lblPocet.Text = lstBox.Items.Count.ToString();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
     }
 }
