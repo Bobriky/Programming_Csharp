@@ -1,0 +1,50 @@
+f:\C# wfa\13 zkClass\bin\Debug\zkClass.exe.config
+f:\C# wfa\13 zkClass\bin\Debug\zkClass.exe
+f:\C# wfa\13 zkClass\bin\Debug\zkClass.pdb
+f:\C# wfa\13 zkClass\obj\Debug\zkClass.csproj.AssemblyReference.cache
+f:\C# wfa\13 zkClass\obj\Debug\zkClass.Form1.resources
+f:\C# wfa\13 zkClass\obj\Debug\zkClass.Properties.Resources.resources
+f:\C# wfa\13 zkClass\obj\Debug\zkClass.csproj.GenerateResource.cache
+f:\C# wfa\13 zkClass\obj\Debug\zkClass.csproj.CoreCompileInputs.cache
+f:\C# wfa\13 zkClass\obj\Debug\zkClass.exe
+f:\C# wfa\13 zkClass\obj\Debug\zkClass.pdb
+u:\3F\PraceZaku\14 zkClass\Zadani\bin\Debug\zkClass.exe.config
+u:\3F\PraceZaku\14 zkClass\Zadani\bin\Debug\zkClass.exe
+u:\3F\PraceZaku\14 zkClass\Zadani\bin\Debug\zkClass.pdb
+u:\3F\PraceZaku\14 zkClass\Zadani\obj\Debug\zkClass.csproj.AssemblyReference.cache
+u:\3F\PraceZaku\14 zkClass\Zadani\obj\Debug\zkClass.Form1.resources
+u:\3F\PraceZaku\14 zkClass\Zadani\obj\Debug\zkClass.Properties.Resources.resources
+u:\3F\PraceZaku\14 zkClass\Zadani\obj\Debug\zkClass.csproj.GenerateResource.cache
+u:\3F\PraceZaku\14 zkClass\Zadani\obj\Debug\zkClass.csproj.CoreCompileInputs.cache
+u:\3F\PraceZaku\14 zkClass\Zadani\obj\Debug\zkClass.exe
+u:\3F\PraceZaku\14 zkClass\Zadani\obj\Debug\zkClass.pdb
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\zk05 class\obj\Debug\zkClass.csproj.AssemblyReference.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\zk05 class\obj\Debug\zkClass.Form1.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\zk05 class\obj\Debug\zkClass.csproj.GenerateResource.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\zk05 class\obj\Debug\zkClass.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\zk05 class\obj\Debug\zkClass.pdb
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\zk05 class\bin\Debug\zkClass.exe.config
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\zk05 class\bin\Debug\zkClass.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\zk05 class\bin\Debug\zkClass.pdb
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\zk05 class\obj\Debug\zkClass.Properties.Resources.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\zk05 class\obj\Debug\zkClass.csproj.CoreCompileInputs.cache
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\_TESTY\zk05 class\bin\Debug\zkClass.exe.config
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\_TESTY\zk05 class\bin\Debug\zkClass.exe
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\_TESTY\zk05 class\bin\Debug\zkClass.pdb
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\_TESTY\zk05 class\obj\Debug\zkClass.csproj.AssemblyReference.cache
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\_TESTY\zk05 class\obj\Debug\zkClass.Form1.resources
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\_TESTY\zk05 class\obj\Debug\zkClass.Properties.Resources.resources
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\_TESTY\zk05 class\obj\Debug\zkClass.csproj.GenerateResource.cache
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\_TESTY\zk05 class\obj\Debug\zkClass.csproj.CoreCompileInputs.cache
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\_TESTY\zk05 class\obj\Debug\zkClass.exe
+C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\_TESTY\zk05 class\obj\Debug\zkClass.pdb
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\zk05 class - kopie (2)\bin\Debug\zkClass.exe.config
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\zk05 class - kopie (2)\bin\Debug\zkClass.exe
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\zk05 class - kopie (2)\bin\Debug\zkClass.pdb
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\zk05 class - kopie (2)\obj\Debug\zkClass.csproj.AssemblyReference.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\zk05 class - kopie (2)\obj\Debug\zkClass.Form1.resources
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\zk05 class - kopie (2)\obj\Debug\zkClass.Properties.Resources.resources
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\zk05 class - kopie (2)\obj\Debug\zkClass.csproj.GenerateResource.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\zk05 class - kopie (2)\obj\Debug\zkClass.csproj.CoreCompileInputs.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\zk05 class - kopie (2)\obj\Debug\zkClass.exe
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\_TESTY\zk05 class - kopie (2)\obj\Debug\zkClass.pdb
