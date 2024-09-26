@@ -1,0 +1,32 @@
+D:\tridaZaci\bin\Debug\tridaZaci.exe.config
+D:\tridaZaci\bin\Debug\tridaZaci.exe
+D:\tridaZaci\bin\Debug\tridaZaci.pdb
+D:\tridaZaci\obj\Debug\tridaZaci.csproj.AssemblyReference.cache
+D:\tridaZaci\obj\Debug\tridaZaci.Properties.Resources.resources
+D:\tridaZaci\obj\Debug\tridaZaci.csproj.GenerateResource.cache
+D:\tridaZaci\obj\Debug\tridaZaci.csproj.CoreCompileInputs.cache
+D:\tridaZaci\obj\Debug\tridaZaci.exe
+D:\tridaZaci\obj\Debug\tridaZaci.pdb
+D:\tridaZaci\obj\Debug\tridaZaci.Form1.resources
+D:\sseUcivo\C# wfa\tridaZaci\bin\Debug\tridaZaci.exe.config
+D:\sseUcivo\C# wfa\tridaZaci\bin\Debug\tridaZaci.exe
+D:\sseUcivo\C# wfa\tridaZaci\bin\Debug\tridaZaci.pdb
+D:\sseUcivo\C# wfa\tridaZaci\obj\Debug\tridaZaci.csproj.AssemblyReference.cache
+D:\sseUcivo\C# wfa\tridaZaci\obj\Debug\tridaZaci.Form1.resources
+D:\sseUcivo\C# wfa\tridaZaci\obj\Debug\tridaZaci.Properties.Resources.resources
+D:\sseUcivo\C# wfa\tridaZaci\obj\Debug\tridaZaci.csproj.GenerateResource.cache
+D:\sseUcivo\C# wfa\tridaZaci\obj\Debug\tridaZaci.csproj.CoreCompileInputs.cache
+D:\sseUcivo\C# wfa\tridaZaci\obj\Debug\tridaZaci.exe
+D:\sseUcivo\C# wfa\tridaZaci\obj\Debug\tridaZaci.pdb
+D:\sseUcivo\C# wfa\tridaZaci\obj\Debug\tridaZaci.fmModel.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\zk07 Final\bin\Debug\tridaZaci.exe.config
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\zk07 Final\bin\Debug\tridaZaci.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\zk07 Final\bin\Debug\tridaZaci.pdb
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\zk07 Final\obj\Debug\tridaZaci.csproj.AssemblyReference.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\zk07 Final\obj\Debug\tridaZaci.fmModel.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\zk07 Final\obj\Debug\tridaZaci.Form1.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\zk07 Final\obj\Debug\tridaZaci.Properties.Resources.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\zk07 Final\obj\Debug\tridaZaci.csproj.GenerateResource.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\zk07 Final\obj\Debug\tridaZaci.csproj.CoreCompileInputs.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\zk07 Final\obj\Debug\tridaZaci.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\_TESTY\zk07 Final\obj\Debug\tridaZaci.pdb

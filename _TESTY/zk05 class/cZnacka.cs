@@ -8,7 +8,6 @@ namespace zkClass
 {
     class cZnacka
     {
-
         public string Soucastka { get; set; }
         public string Kategorie { get; set; }
         public string Umistneni { get; set; }
