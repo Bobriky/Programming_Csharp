@@ -1,0 +1,10 @@
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\KalkulaceZ\obj\Debug\KalkulaceZ.csproj.AssemblyReference.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\KalkulaceZ\obj\Debug\KalkulaceZ.Form1.resources
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\KalkulaceZ\obj\Debug\KalkulaceZ.Properties.Resources.resources
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\KalkulaceZ\obj\Debug\KalkulaceZ.csproj.GenerateResource.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\KalkulaceZ\obj\Debug\KalkulaceZ.csproj.CoreCompileInputs.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\KalkulaceZ\bin\Debug\KalkulaceZ.exe.config
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\KalkulaceZ\bin\Debug\KalkulaceZ.exe
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\KalkulaceZ\bin\Debug\KalkulaceZ.pdb
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\KalkulaceZ\obj\Debug\KalkulaceZ.exe
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\KalkulaceZ\obj\Debug\KalkulaceZ.pdb
