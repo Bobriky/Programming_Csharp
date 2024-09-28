@@ -126,8 +126,8 @@ namespace LIstBox
             this.nápovědaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(921, 28);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(691, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -142,7 +142,7 @@ namespace LIstBox
             this.toolStripSeparator2,
             this.ukončitToolStripMenuItem});
             this.souborToolStripMenuItem.Name = "souborToolStripMenuItem";
-            this.souborToolStripMenuItem.Size = new System.Drawing.Size(71, 24);
+            this.souborToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
             this.souborToolStripMenuItem.Text = "&Soubor";
             // 
             // novýToolStripMenuItem
@@ -151,7 +151,7 @@ namespace LIstBox
             this.novýToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.novýToolStripMenuItem.Name = "novýToolStripMenuItem";
             this.novýToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.novýToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
+            this.novýToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.novýToolStripMenuItem.Text = "&Nový";
             // 
             // otevřítToolStripMenuItem
@@ -160,14 +160,14 @@ namespace LIstBox
             this.otevřítToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.otevřítToolStripMenuItem.Name = "otevřítToolStripMenuItem";
             this.otevřítToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.otevřítToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
+            this.otevřítToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.otevřítToolStripMenuItem.Text = "&Otevřít";
             this.otevřítToolStripMenuItem.Click += new System.EventHandler(this.souborToolStripMenuItem_Click);
             // 
             // toolStripSeparator
             // 
             this.toolStripSeparator.Name = "toolStripSeparator";
-            this.toolStripSeparator.Size = new System.Drawing.Size(192, 6);
+            this.toolStripSeparator.Size = new System.Drawing.Size(154, 6);
             // 
             // uložitToolStripMenuItem
             // 
@@ -175,27 +175,27 @@ namespace LIstBox
             this.uložitToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.uložitToolStripMenuItem.Name = "uložitToolStripMenuItem";
             this.uložitToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.uložitToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
+            this.uložitToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.uložitToolStripMenuItem.Text = "&Uložit";
             this.uložitToolStripMenuItem.Click += new System.EventHandler(this.uložitjakoToolStripMenuItem_Click);
             // 
             // uložitjakoToolStripMenuItem
             // 
             this.uložitjakoToolStripMenuItem.Name = "uložitjakoToolStripMenuItem";
-            this.uložitjakoToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
+            this.uložitjakoToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.uložitjakoToolStripMenuItem.Text = "Uložit j&ako";
             this.uložitjakoToolStripMenuItem.Click += new System.EventHandler(this.uložitjakoToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(192, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(154, 6);
             // 
             // ukončitToolStripMenuItem
             // 
             this.ukončitToolStripMenuItem.Name = "ukončitToolStripMenuItem";
             this.ukončitToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
-            this.ukončitToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
+            this.ukončitToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.ukončitToolStripMenuItem.Text = "U&končit";
             this.ukončitToolStripMenuItem.Click += new System.EventHandler(this.ukončitToolStripMenuItem_Click);
             // 
@@ -211,27 +211,27 @@ namespace LIstBox
             this.toolStripSeparator4,
             this.vybratvšeToolStripMenuItem});
             this.upravitToolStripMenuItem.Name = "upravitToolStripMenuItem";
-            this.upravitToolStripMenuItem.Size = new System.Drawing.Size(71, 24);
+            this.upravitToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
             this.upravitToolStripMenuItem.Text = "&Upravit";
             // 
             // zpětToolStripMenuItem
             // 
             this.zpětToolStripMenuItem.Name = "zpětToolStripMenuItem";
             this.zpětToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
-            this.zpětToolStripMenuItem.Size = new System.Drawing.Size(208, 26);
+            this.zpětToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.zpětToolStripMenuItem.Text = "&Zpět";
             // 
             // znovuToolStripMenuItem
             // 
             this.znovuToolStripMenuItem.Name = "znovuToolStripMenuItem";
             this.znovuToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Y)));
-            this.znovuToolStripMenuItem.Size = new System.Drawing.Size(208, 26);
+            this.znovuToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.znovuToolStripMenuItem.Text = "&Znovu";
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(205, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(164, 6);
             // 
             // vyjmoutToolStripMenuItem
             // 
@@ -239,7 +239,7 @@ namespace LIstBox
             this.vyjmoutToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.vyjmoutToolStripMenuItem.Name = "vyjmoutToolStripMenuItem";
             this.vyjmoutToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
-            this.vyjmoutToolStripMenuItem.Size = new System.Drawing.Size(208, 26);
+            this.vyjmoutToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.vyjmoutToolStripMenuItem.Text = "&Vyjmout";
             // 
             // kopírovatToolStripMenuItem
@@ -248,7 +248,7 @@ namespace LIstBox
             this.kopírovatToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.kopírovatToolStripMenuItem.Name = "kopírovatToolStripMenuItem";
             this.kopírovatToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.kopírovatToolStripMenuItem.Size = new System.Drawing.Size(208, 26);
+            this.kopírovatToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.kopírovatToolStripMenuItem.Text = "&Kopírovat";
             // 
             // vložitToolStripMenuItem
@@ -257,18 +257,18 @@ namespace LIstBox
             this.vložitToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.vložitToolStripMenuItem.Name = "vložitToolStripMenuItem";
             this.vložitToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
-            this.vložitToolStripMenuItem.Size = new System.Drawing.Size(208, 26);
+            this.vložitToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.vložitToolStripMenuItem.Text = "&Vložit";
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(205, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(164, 6);
             // 
             // vybratvšeToolStripMenuItem
             // 
             this.vybratvšeToolStripMenuItem.Name = "vybratvšeToolStripMenuItem";
-            this.vybratvšeToolStripMenuItem.Size = new System.Drawing.Size(208, 26);
+            this.vybratvšeToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.vybratvšeToolStripMenuItem.Text = "&Vybrat vše";
             // 
             // nástrojeToolStripMenuItem
@@ -277,19 +277,19 @@ namespace LIstBox
             this.přizpůsobitToolStripMenuItem,
             this.možnostiToolStripMenuItem});
             this.nástrojeToolStripMenuItem.Name = "nástrojeToolStripMenuItem";
-            this.nástrojeToolStripMenuItem.Size = new System.Drawing.Size(79, 24);
+            this.nástrojeToolStripMenuItem.Size = new System.Drawing.Size(63, 20);
             this.nástrojeToolStripMenuItem.Text = "&Nástroje";
             // 
             // přizpůsobitToolStripMenuItem
             // 
             this.přizpůsobitToolStripMenuItem.Name = "přizpůsobitToolStripMenuItem";
-            this.přizpůsobitToolStripMenuItem.Size = new System.Drawing.Size(166, 26);
+            this.přizpůsobitToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.přizpůsobitToolStripMenuItem.Text = "&Přizpůsobit";
             // 
             // možnostiToolStripMenuItem
             // 
             this.možnostiToolStripMenuItem.Name = "možnostiToolStripMenuItem";
-            this.možnostiToolStripMenuItem.Size = new System.Drawing.Size(166, 26);
+            this.možnostiToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.možnostiToolStripMenuItem.Text = "&Možnosti";
             // 
             // nápovědaToolStripMenuItem
@@ -301,36 +301,36 @@ namespace LIstBox
             this.toolStripSeparator5,
             this.oproduktuToolStripMenuItem});
             this.nápovědaToolStripMenuItem.Name = "nápovědaToolStripMenuItem";
-            this.nápovědaToolStripMenuItem.Size = new System.Drawing.Size(92, 24);
+            this.nápovědaToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
             this.nápovědaToolStripMenuItem.Text = "&Nápověda";
             // 
             // obsahToolStripMenuItem
             // 
             this.obsahToolStripMenuItem.Name = "obsahToolStripMenuItem";
-            this.obsahToolStripMenuItem.Size = new System.Drawing.Size(176, 26);
+            this.obsahToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
             this.obsahToolStripMenuItem.Text = "&Obsah";
             // 
             // indexToolStripMenuItem
             // 
             this.indexToolStripMenuItem.Name = "indexToolStripMenuItem";
-            this.indexToolStripMenuItem.Size = new System.Drawing.Size(176, 26);
+            this.indexToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
             this.indexToolStripMenuItem.Text = "&Index";
             // 
             // hledatToolStripMenuItem
             // 
             this.hledatToolStripMenuItem.Name = "hledatToolStripMenuItem";
-            this.hledatToolStripMenuItem.Size = new System.Drawing.Size(176, 26);
+            this.hledatToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
             this.hledatToolStripMenuItem.Text = "&Hledat";
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(173, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(141, 6);
             // 
             // oproduktuToolStripMenuItem
             // 
             this.oproduktuToolStripMenuItem.Name = "oproduktuToolStripMenuItem";
-            this.oproduktuToolStripMenuItem.Size = new System.Drawing.Size(176, 26);
+            this.oproduktuToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
             this.oproduktuToolStripMenuItem.Text = "&O produktu...";
             // 
             // statusStrip1
@@ -345,59 +345,58 @@ namespace LIstBox
             this.lbllSelCount,
             this.toolStripStatusLabel4,
             this.lblSelItem});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 674);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 547);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 19, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(921, 26);
+            this.statusStrip1.Size = new System.Drawing.Size(691, 22);
             this.statusStrip1.TabIndex = 1;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(99, 20);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(81, 17);
             this.toolStripStatusLabel1.Text = "   Items.Count";
             // 
             // lblCount
             // 
             this.lblCount.Name = "lblCount";
-            this.lblCount.Size = new System.Drawing.Size(17, 20);
+            this.lblCount.Size = new System.Drawing.Size(13, 17);
             this.lblCount.Text = "0";
             // 
             // toolStripStatusLabel2
             // 
             this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(117, 20);
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(91, 17);
             this.toolStripStatusLabel2.Text = "    SelectedIdex: ";
             // 
             // lblSelIndex
             // 
             this.lblSelIndex.Name = "lblSelIndex";
-            this.lblSelIndex.Size = new System.Drawing.Size(17, 20);
+            this.lblSelIndex.Size = new System.Drawing.Size(13, 17);
             this.lblSelIndex.Text = "0";
             // 
             // toolStripStatusLabel3
             // 
             this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
-            this.toolStripStatusLabel3.Size = new System.Drawing.Size(173, 20);
+            this.toolStripStatusLabel3.Size = new System.Drawing.Size(139, 17);
             this.toolStripStatusLabel3.Text = "   SelectedIndices.Count: ";
             // 
             // lbllSelCount
             // 
             this.lbllSelCount.Name = "lbllSelCount";
-            this.lbllSelCount.Size = new System.Drawing.Size(17, 20);
+            this.lbllSelCount.Size = new System.Drawing.Size(13, 17);
             this.lbllSelCount.Text = "0";
             // 
             // toolStripStatusLabel4
             // 
             this.toolStripStatusLabel4.Name = "toolStripStatusLabel4";
-            this.toolStripStatusLabel4.Size = new System.Drawing.Size(111, 20);
+            this.toolStripStatusLabel4.Size = new System.Drawing.Size(87, 17);
             this.toolStripStatusLabel4.Text = "   SelectedItem:";
             // 
             // lblSelItem
             // 
             this.lblSelItem.Name = "lblSelItem";
-            this.lblSelItem.Size = new System.Drawing.Size(23, 20);
+            this.lblSelItem.Size = new System.Drawing.Size(18, 17);
             this.lblSelItem.Text = " - ";
             // 
             // toolStrip1
@@ -414,9 +413,9 @@ namespace LIstBox
             this.vložitToolStripButton,
             this.toolStripSeparator7,
             this.nápovědaToolStripButton});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 28);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(921, 27);
+            this.toolStrip1.Size = new System.Drawing.Size(691, 27);
             this.toolStrip1.TabIndex = 2;
             this.toolStrip1.Text = "toolStrip1";
             this.toolStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.toolStrip1_ItemClicked);
@@ -427,7 +426,7 @@ namespace LIstBox
             this.novýToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("novýToolStripButton.Image")));
             this.novýToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.novýToolStripButton.Name = "novýToolStripButton";
-            this.novýToolStripButton.Size = new System.Drawing.Size(29, 24);
+            this.novýToolStripButton.Size = new System.Drawing.Size(24, 24);
             this.novýToolStripButton.Text = "&Nový";
             // 
             // otevřítToolStripButton
@@ -436,7 +435,7 @@ namespace LIstBox
             this.otevřítToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("otevřítToolStripButton.Image")));
             this.otevřítToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.otevřítToolStripButton.Name = "otevřítToolStripButton";
-            this.otevřítToolStripButton.Size = new System.Drawing.Size(29, 24);
+            this.otevřítToolStripButton.Size = new System.Drawing.Size(24, 24);
             this.otevřítToolStripButton.Text = "&Otevřít";
             // 
             // uložitToolStripButton
@@ -445,7 +444,7 @@ namespace LIstBox
             this.uložitToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("uložitToolStripButton.Image")));
             this.uložitToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.uložitToolStripButton.Name = "uložitToolStripButton";
-            this.uložitToolStripButton.Size = new System.Drawing.Size(29, 24);
+            this.uložitToolStripButton.Size = new System.Drawing.Size(24, 24);
             this.uložitToolStripButton.Text = "&Uložit";
             // 
             // tiskToolStripButton
@@ -454,7 +453,7 @@ namespace LIstBox
             this.tiskToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("tiskToolStripButton.Image")));
             this.tiskToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tiskToolStripButton.Name = "tiskToolStripButton";
-            this.tiskToolStripButton.Size = new System.Drawing.Size(29, 24);
+            this.tiskToolStripButton.Size = new System.Drawing.Size(24, 24);
             this.tiskToolStripButton.Text = "&Tisk";
             // 
             // toolStripSeparator6
@@ -468,7 +467,7 @@ namespace LIstBox
             this.vyjmoutToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("vyjmoutToolStripButton.Image")));
             this.vyjmoutToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.vyjmoutToolStripButton.Name = "vyjmoutToolStripButton";
-            this.vyjmoutToolStripButton.Size = new System.Drawing.Size(29, 24);
+            this.vyjmoutToolStripButton.Size = new System.Drawing.Size(24, 24);
             this.vyjmoutToolStripButton.Text = "&Vyjmout";
             // 
             // kopírovatToolStripButton
@@ -477,7 +476,7 @@ namespace LIstBox
             this.kopírovatToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("kopírovatToolStripButton.Image")));
             this.kopírovatToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.kopírovatToolStripButton.Name = "kopírovatToolStripButton";
-            this.kopírovatToolStripButton.Size = new System.Drawing.Size(29, 24);
+            this.kopírovatToolStripButton.Size = new System.Drawing.Size(24, 24);
             this.kopírovatToolStripButton.Text = "&Kopírovat";
             // 
             // vložitToolStripButton
@@ -486,7 +485,7 @@ namespace LIstBox
             this.vložitToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("vložitToolStripButton.Image")));
             this.vložitToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.vložitToolStripButton.Name = "vložitToolStripButton";
-            this.vložitToolStripButton.Size = new System.Drawing.Size(29, 24);
+            this.vložitToolStripButton.Size = new System.Drawing.Size(24, 24);
             this.vložitToolStripButton.Text = "&Vložit";
             // 
             // toolStripSeparator7
@@ -500,14 +499,13 @@ namespace LIstBox
             this.nápovědaToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("nápovědaToolStripButton.Image")));
             this.nápovědaToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.nápovědaToolStripButton.Name = "nápovědaToolStripButton";
-            this.nápovědaToolStripButton.Size = new System.Drawing.Size(29, 24);
+            this.nápovědaToolStripButton.Size = new System.Drawing.Size(24, 24);
             this.nápovědaToolStripButton.Text = "&Nápověda";
             // 
             // splitContainer1
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.Location = new System.Drawing.Point(0, 55);
-            this.splitContainer1.Margin = new System.Windows.Forms.Padding(4);
+            this.splitContainer1.Location = new System.Drawing.Point(0, 51);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -519,9 +517,8 @@ namespace LIstBox
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.lstBox);
-            this.splitContainer1.Size = new System.Drawing.Size(921, 619);
-            this.splitContainer1.SplitterDistance = 480;
-            this.splitContainer1.SplitterWidth = 5;
+            this.splitContainer1.Size = new System.Drawing.Size(691, 496);
+            this.splitContainer1.SplitterDistance = 360;
             this.splitContainer1.TabIndex = 3;
             // 
             // groupBox3
@@ -529,11 +526,9 @@ namespace LIstBox
             this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox3.Controls.Add(this.flowLayoutPanel1);
-            this.groupBox3.Location = new System.Drawing.Point(16, 209);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox3.Location = new System.Drawing.Point(12, 170);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox3.Size = new System.Drawing.Size(439, 154);
+            this.groupBox3.Size = new System.Drawing.Size(329, 125);
             this.groupBox3.TabIndex = 3;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Items";
@@ -550,18 +545,16 @@ namespace LIstBox
             this.flowLayoutPanel1.Controls.Add(this.btnRemove);
             this.flowLayoutPanel1.Controls.Add(this.btnClear);
             this.flowLayoutPanel1.Controls.Add(this.btnEdit);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(23, 23);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(17, 19);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(398, 111);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(298, 90);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(4, 4);
-            this.btnAdd.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAdd.Location = new System.Drawing.Point(3, 3);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(100, 28);
+            this.btnAdd.Size = new System.Drawing.Size(75, 23);
             this.btnAdd.TabIndex = 0;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -569,10 +562,9 @@ namespace LIstBox
             // 
             // btnAddRange
             // 
-            this.btnAddRange.Location = new System.Drawing.Point(112, 4);
-            this.btnAddRange.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAddRange.Location = new System.Drawing.Point(84, 3);
             this.btnAddRange.Name = "btnAddRange";
-            this.btnAddRange.Size = new System.Drawing.Size(100, 28);
+            this.btnAddRange.Size = new System.Drawing.Size(75, 23);
             this.btnAddRange.TabIndex = 1;
             this.btnAddRange.Text = "AddRange";
             this.btnAddRange.UseVisualStyleBackColor = true;
@@ -581,10 +573,9 @@ namespace LIstBox
             // btnInsert
             // 
             this.btnInsert.Enabled = false;
-            this.btnInsert.Location = new System.Drawing.Point(220, 4);
-            this.btnInsert.Margin = new System.Windows.Forms.Padding(4);
+            this.btnInsert.Location = new System.Drawing.Point(165, 3);
             this.btnInsert.Name = "btnInsert";
-            this.btnInsert.Size = new System.Drawing.Size(100, 28);
+            this.btnInsert.Size = new System.Drawing.Size(75, 23);
             this.btnInsert.TabIndex = 5;
             this.btnInsert.Text = "Insert";
             this.btnInsert.UseVisualStyleBackColor = true;
@@ -593,10 +584,9 @@ namespace LIstBox
             // btnRemoveAt
             // 
             this.btnRemoveAt.Enabled = false;
-            this.btnRemoveAt.Location = new System.Drawing.Point(4, 40);
-            this.btnRemoveAt.Margin = new System.Windows.Forms.Padding(4);
+            this.btnRemoveAt.Location = new System.Drawing.Point(3, 32);
             this.btnRemoveAt.Name = "btnRemoveAt";
-            this.btnRemoveAt.Size = new System.Drawing.Size(100, 28);
+            this.btnRemoveAt.Size = new System.Drawing.Size(75, 23);
             this.btnRemoveAt.TabIndex = 3;
             this.btnRemoveAt.Text = "RemoveAt";
             this.btnRemoveAt.UseVisualStyleBackColor = true;
@@ -605,10 +595,9 @@ namespace LIstBox
             // btnRemove
             // 
             this.btnRemove.Enabled = false;
-            this.btnRemove.Location = new System.Drawing.Point(112, 40);
-            this.btnRemove.Margin = new System.Windows.Forms.Padding(4);
+            this.btnRemove.Location = new System.Drawing.Point(84, 32);
             this.btnRemove.Name = "btnRemove";
-            this.btnRemove.Size = new System.Drawing.Size(100, 28);
+            this.btnRemove.Size = new System.Drawing.Size(75, 23);
             this.btnRemove.TabIndex = 2;
             this.btnRemove.Text = "Remove";
             this.btnRemove.UseVisualStyleBackColor = true;
@@ -617,10 +606,9 @@ namespace LIstBox
             // btnClear
             // 
             this.btnClear.Enabled = false;
-            this.btnClear.Location = new System.Drawing.Point(220, 40);
-            this.btnClear.Margin = new System.Windows.Forms.Padding(4);
+            this.btnClear.Location = new System.Drawing.Point(165, 32);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(100, 28);
+            this.btnClear.Size = new System.Drawing.Size(75, 23);
             this.btnClear.TabIndex = 4;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
@@ -628,10 +616,10 @@ namespace LIstBox
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(3, 74);
-            this.btnEdit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnEdit.Location = new System.Drawing.Point(2, 60);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(317, 36);
+            this.btnEdit.Size = new System.Drawing.Size(238, 29);
             this.btnEdit.TabIndex = 7;
             this.btnEdit.Text = "Editování položky";
             this.btnEdit.UseVisualStyleBackColor = true;
@@ -645,11 +633,9 @@ namespace LIstBox
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.cmbSelMode);
             this.groupBox2.Controls.Add(this.chkMultiCol);
-            this.groupBox2.Location = new System.Drawing.Point(16, 485);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox2.Location = new System.Drawing.Point(12, 387);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox2.Size = new System.Drawing.Size(439, 117);
+            this.groupBox2.Size = new System.Drawing.Size(329, 95);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Set";
@@ -659,10 +645,9 @@ namespace LIstBox
             this.btnSorted.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSorted.Enabled = false;
-            this.btnSorted.Location = new System.Drawing.Point(263, 22);
-            this.btnSorted.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSorted.Location = new System.Drawing.Point(197, 18);
             this.btnSorted.Name = "btnSorted";
-            this.btnSorted.Size = new System.Drawing.Size(158, 28);
+            this.btnSorted.Size = new System.Drawing.Size(118, 23);
             this.btnSorted.TabIndex = 3;
             this.btnSorted.Text = "Sorted";
             this.btnSorted.UseVisualStyleBackColor = true;
@@ -670,10 +655,9 @@ namespace LIstBox
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(43, 76);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(32, 62);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(101, 17);
+            this.label3.Size = new System.Drawing.Size(78, 13);
             this.label3.TabIndex = 2;
             this.label3.Text = "SelectionMode";
             // 
@@ -688,20 +672,18 @@ namespace LIstBox
             "MultiSimple",
             "MultiExtented",
             "None"});
-            this.cmbSelMode.Location = new System.Drawing.Point(155, 73);
-            this.cmbSelMode.Margin = new System.Windows.Forms.Padding(4);
+            this.cmbSelMode.Location = new System.Drawing.Point(116, 59);
             this.cmbSelMode.Name = "cmbSelMode";
-            this.cmbSelMode.Size = new System.Drawing.Size(262, 24);
+            this.cmbSelMode.Size = new System.Drawing.Size(198, 21);
             this.cmbSelMode.TabIndex = 1;
             this.cmbSelMode.SelectedIndexChanged += new System.EventHandler(this.cmbSelMode_SelectedIndexChanged);
             // 
             // chkMultiCol
             // 
             this.chkMultiCol.AutoSize = true;
-            this.chkMultiCol.Location = new System.Drawing.Point(23, 27);
-            this.chkMultiCol.Margin = new System.Windows.Forms.Padding(4);
+            this.chkMultiCol.Location = new System.Drawing.Point(17, 22);
             this.chkMultiCol.Name = "chkMultiCol";
-            this.chkMultiCol.Size = new System.Drawing.Size(106, 21);
+            this.chkMultiCol.Size = new System.Drawing.Size(83, 17);
             this.chkMultiCol.TabIndex = 0;
             this.chkMultiCol.Text = "MultiColumn";
             this.chkMultiCol.UseVisualStyleBackColor = true;
@@ -716,11 +698,9 @@ namespace LIstBox
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.txtJmeno);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(16, 18);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Location = new System.Drawing.Point(12, 15);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(439, 170);
+            this.groupBox1.Size = new System.Drawing.Size(329, 138);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Osoba";
@@ -729,8 +709,7 @@ namespace LIstBox
             // 
             this.nmUpDownID.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.nmUpDownID.Location = new System.Drawing.Point(125, 36);
-            this.nmUpDownID.Margin = new System.Windows.Forms.Padding(4);
+            this.nmUpDownID.Location = new System.Drawing.Point(94, 29);
             this.nmUpDownID.Maximum = new decimal(new int[] {
             1000,
             0,
@@ -742,7 +721,7 @@ namespace LIstBox
             0,
             0});
             this.nmUpDownID.Name = "nmUpDownID";
-            this.nmUpDownID.Size = new System.Drawing.Size(294, 22);
+            this.nmUpDownID.Size = new System.Drawing.Size(220, 20);
             this.nmUpDownID.TabIndex = 5;
             this.nmUpDownID.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.nmUpDownID.Value = new decimal(new int[] {
@@ -754,10 +733,9 @@ namespace LIstBox
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(41, 38);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(31, 31);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(25, 17);
+            this.label4.Size = new System.Drawing.Size(21, 13);
             this.label4.TabIndex = 4;
             this.label4.Text = "ID ";
             // 
@@ -765,10 +743,9 @@ namespace LIstBox
             // 
             this.txtPrijmeni.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtPrijmeni.Location = new System.Drawing.Point(125, 126);
-            this.txtPrijmeni.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPrijmeni.Location = new System.Drawing.Point(94, 102);
             this.txtPrijmeni.Name = "txtPrijmeni";
-            this.txtPrijmeni.Size = new System.Drawing.Size(291, 22);
+            this.txtPrijmeni.Size = new System.Drawing.Size(219, 20);
             this.txtPrijmeni.TabIndex = 3;
             this.txtPrijmeni.Text = "Prijmeni";
             this.txtPrijmeni.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -776,10 +753,9 @@ namespace LIstBox
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(41, 129);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(31, 105);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 17);
+            this.label2.Size = new System.Drawing.Size(54, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "Příjmení: ";
             // 
@@ -787,10 +763,9 @@ namespace LIstBox
             // 
             this.txtJmeno.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtJmeno.Location = new System.Drawing.Point(125, 80);
-            this.txtJmeno.Margin = new System.Windows.Forms.Padding(4);
+            this.txtJmeno.Location = new System.Drawing.Point(94, 65);
             this.txtJmeno.Name = "txtJmeno";
-            this.txtJmeno.Size = new System.Drawing.Size(291, 22);
+            this.txtJmeno.Size = new System.Drawing.Size(219, 20);
             this.txtJmeno.TabIndex = 1;
             this.txtJmeno.Text = "Jmeno";
             this.txtJmeno.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -798,10 +773,9 @@ namespace LIstBox
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(41, 84);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(31, 68);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(58, 17);
+            this.label1.Size = new System.Drawing.Size(44, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Jméno: ";
             // 
@@ -811,11 +785,9 @@ namespace LIstBox
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lstBox.FormattingEnabled = true;
-            this.lstBox.ItemHeight = 16;
-            this.lstBox.Location = new System.Drawing.Point(13, 17);
-            this.lstBox.Margin = new System.Windows.Forms.Padding(4);
+            this.lstBox.Location = new System.Drawing.Point(10, 14);
             this.lstBox.Name = "lstBox";
-            this.lstBox.Size = new System.Drawing.Size(409, 500);
+            this.lstBox.Size = new System.Drawing.Size(307, 394);
             this.lstBox.TabIndex = 0;
             this.lstBox.SelectedIndexChanged += new System.EventHandler(this.lstBox_SelectedIndexChanged);
             this.lstBox.DoubleClick += new System.EventHandler(this.btnEdit_Click);
@@ -827,16 +799,15 @@ namespace LIstBox
             // Form1
             // 
             this.AcceptButton = this.btnAdd;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(921, 700);
+            this.ClientSize = new System.Drawing.Size(691, 569);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4);
-            this.MinimumSize = new System.Drawing.Size(853, 623);
+            this.MinimumSize = new System.Drawing.Size(644, 513);
             this.Name = "Form1";
             this.Text = "ListBox - tutorial";
             this.menuStrip1.ResumeLayout(false);

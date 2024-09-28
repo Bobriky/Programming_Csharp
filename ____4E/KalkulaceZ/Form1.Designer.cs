@@ -96,10 +96,8 @@ namespace KalkulaceZ
             this.fazovyPosun = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.rezozancniFrekvence = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.cmbDecimal = new System.Windows.Forms.ComboBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.cmbF0 = new System.Windows.Forms.ComboBox();
+            this.cmbRezF = new System.Windows.Forms.ComboBox();
             this.cmbPhase = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
             this.nmRezF = new System.Windows.Forms.NumericUpDown();
@@ -118,7 +116,7 @@ namespace KalkulaceZ
             this.label5 = new System.Windows.Forms.Label();
             this.nmXL = new System.Windows.Forms.NumericUpDown();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.txtTest = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
             this.cmbF = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
             this.nmf = new System.Windows.Forms.NumericUpDown();
@@ -160,7 +158,8 @@ namespace KalkulaceZ
             this.nápovědaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1118, 28);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1035, 24);
             this.menuStrip1.TabIndex = 6;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -178,7 +177,7 @@ namespace KalkulaceZ
             this.toolStripSeparator2,
             this.ukončitToolStripMenuItem});
             this.souborToolStripMenuItem.Name = "souborToolStripMenuItem";
-            this.souborToolStripMenuItem.Size = new System.Drawing.Size(71, 24);
+            this.souborToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
             this.souborToolStripMenuItem.Text = "&Soubor";
             // 
             // novýToolStripMenuItem
@@ -187,7 +186,7 @@ namespace KalkulaceZ
             this.novýToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.novýToolStripMenuItem.Name = "novýToolStripMenuItem";
             this.novýToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.novýToolStripMenuItem.Size = new System.Drawing.Size(190, 26);
+            this.novýToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.novýToolStripMenuItem.Text = "&Nový";
             // 
             // otevřítToolStripMenuItem
@@ -196,13 +195,13 @@ namespace KalkulaceZ
             this.otevřítToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.otevřítToolStripMenuItem.Name = "otevřítToolStripMenuItem";
             this.otevřítToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.otevřítToolStripMenuItem.Size = new System.Drawing.Size(190, 26);
+            this.otevřítToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.otevřítToolStripMenuItem.Text = "&Otevřít";
             // 
             // toolStripSeparator
             // 
             this.toolStripSeparator.Name = "toolStripSeparator";
-            this.toolStripSeparator.Size = new System.Drawing.Size(187, 6);
+            this.toolStripSeparator.Size = new System.Drawing.Size(150, 6);
             // 
             // uložitToolStripMenuItem
             // 
@@ -210,19 +209,19 @@ namespace KalkulaceZ
             this.uložitToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.uložitToolStripMenuItem.Name = "uložitToolStripMenuItem";
             this.uložitToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.uložitToolStripMenuItem.Size = new System.Drawing.Size(190, 26);
+            this.uložitToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.uložitToolStripMenuItem.Text = "&Uložit";
             // 
             // uložitjakoToolStripMenuItem
             // 
             this.uložitjakoToolStripMenuItem.Name = "uložitjakoToolStripMenuItem";
-            this.uložitjakoToolStripMenuItem.Size = new System.Drawing.Size(190, 26);
+            this.uložitjakoToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.uložitjakoToolStripMenuItem.Text = "Uložit j&ako";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(187, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(150, 6);
             // 
             // tiskToolStripMenuItem
             // 
@@ -230,7 +229,7 @@ namespace KalkulaceZ
             this.tiskToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tiskToolStripMenuItem.Name = "tiskToolStripMenuItem";
             this.tiskToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
-            this.tiskToolStripMenuItem.Size = new System.Drawing.Size(190, 26);
+            this.tiskToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.tiskToolStripMenuItem.Text = "&Tisk";
             // 
             // náhledToolStripMenuItem
@@ -238,18 +237,18 @@ namespace KalkulaceZ
             this.náhledToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("náhledToolStripMenuItem.Image")));
             this.náhledToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.náhledToolStripMenuItem.Name = "náhledToolStripMenuItem";
-            this.náhledToolStripMenuItem.Size = new System.Drawing.Size(190, 26);
+            this.náhledToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.náhledToolStripMenuItem.Text = "&Náhled";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(187, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(150, 6);
             // 
             // ukončitToolStripMenuItem
             // 
             this.ukončitToolStripMenuItem.Name = "ukončitToolStripMenuItem";
-            this.ukončitToolStripMenuItem.Size = new System.Drawing.Size(190, 26);
+            this.ukončitToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.ukončitToolStripMenuItem.Text = "U&končit";
             // 
             // upravitToolStripMenuItem
@@ -264,27 +263,27 @@ namespace KalkulaceZ
             this.toolStripSeparator4,
             this.vybratvšeToolStripMenuItem});
             this.upravitToolStripMenuItem.Name = "upravitToolStripMenuItem";
-            this.upravitToolStripMenuItem.Size = new System.Drawing.Size(71, 24);
+            this.upravitToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
             this.upravitToolStripMenuItem.Text = "&Upravit";
             // 
             // zpětToolStripMenuItem
             // 
             this.zpětToolStripMenuItem.Name = "zpětToolStripMenuItem";
             this.zpětToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
-            this.zpětToolStripMenuItem.Size = new System.Drawing.Size(208, 26);
+            this.zpětToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.zpětToolStripMenuItem.Text = "&Zpět";
             // 
             // znovuToolStripMenuItem
             // 
             this.znovuToolStripMenuItem.Name = "znovuToolStripMenuItem";
             this.znovuToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Y)));
-            this.znovuToolStripMenuItem.Size = new System.Drawing.Size(208, 26);
+            this.znovuToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.znovuToolStripMenuItem.Text = "&Znovu";
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(205, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(164, 6);
             // 
             // vyjmoutToolStripMenuItem
             // 
@@ -292,7 +291,7 @@ namespace KalkulaceZ
             this.vyjmoutToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.vyjmoutToolStripMenuItem.Name = "vyjmoutToolStripMenuItem";
             this.vyjmoutToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
-            this.vyjmoutToolStripMenuItem.Size = new System.Drawing.Size(208, 26);
+            this.vyjmoutToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.vyjmoutToolStripMenuItem.Text = "&Vyjmout";
             // 
             // kopírovatToolStripMenuItem
@@ -301,7 +300,7 @@ namespace KalkulaceZ
             this.kopírovatToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.kopírovatToolStripMenuItem.Name = "kopírovatToolStripMenuItem";
             this.kopírovatToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.kopírovatToolStripMenuItem.Size = new System.Drawing.Size(208, 26);
+            this.kopírovatToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.kopírovatToolStripMenuItem.Text = "&Kopírovat";
             // 
             // vložitToolStripMenuItem
@@ -310,18 +309,18 @@ namespace KalkulaceZ
             this.vložitToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.vložitToolStripMenuItem.Name = "vložitToolStripMenuItem";
             this.vložitToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
-            this.vložitToolStripMenuItem.Size = new System.Drawing.Size(208, 26);
+            this.vložitToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.vložitToolStripMenuItem.Text = "&Vložit";
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(205, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(164, 6);
             // 
             // vybratvšeToolStripMenuItem
             // 
             this.vybratvšeToolStripMenuItem.Name = "vybratvšeToolStripMenuItem";
-            this.vybratvšeToolStripMenuItem.Size = new System.Drawing.Size(208, 26);
+            this.vybratvšeToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.vybratvšeToolStripMenuItem.Text = "&Vybrat vše";
             // 
             // nástrojeToolStripMenuItem
@@ -330,19 +329,19 @@ namespace KalkulaceZ
             this.přizpůsobitToolStripMenuItem,
             this.možnostiToolStripMenuItem});
             this.nástrojeToolStripMenuItem.Name = "nástrojeToolStripMenuItem";
-            this.nástrojeToolStripMenuItem.Size = new System.Drawing.Size(79, 24);
+            this.nástrojeToolStripMenuItem.Size = new System.Drawing.Size(63, 20);
             this.nástrojeToolStripMenuItem.Text = "&Nástroje";
             // 
             // přizpůsobitToolStripMenuItem
             // 
             this.přizpůsobitToolStripMenuItem.Name = "přizpůsobitToolStripMenuItem";
-            this.přizpůsobitToolStripMenuItem.Size = new System.Drawing.Size(166, 26);
+            this.přizpůsobitToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.přizpůsobitToolStripMenuItem.Text = "&Přizpůsobit";
             // 
             // možnostiToolStripMenuItem
             // 
             this.možnostiToolStripMenuItem.Name = "možnostiToolStripMenuItem";
-            this.možnostiToolStripMenuItem.Size = new System.Drawing.Size(166, 26);
+            this.možnostiToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.možnostiToolStripMenuItem.Text = "&Možnosti";
             // 
             // nápovědaToolStripMenuItem
@@ -354,36 +353,36 @@ namespace KalkulaceZ
             this.toolStripSeparator5,
             this.oproduktuToolStripMenuItem});
             this.nápovědaToolStripMenuItem.Name = "nápovědaToolStripMenuItem";
-            this.nápovědaToolStripMenuItem.Size = new System.Drawing.Size(92, 24);
+            this.nápovědaToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
             this.nápovědaToolStripMenuItem.Text = "&Nápověda";
             // 
             // obsahToolStripMenuItem
             // 
             this.obsahToolStripMenuItem.Name = "obsahToolStripMenuItem";
-            this.obsahToolStripMenuItem.Size = new System.Drawing.Size(176, 26);
+            this.obsahToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
             this.obsahToolStripMenuItem.Text = "&Obsah";
             // 
             // indexToolStripMenuItem
             // 
             this.indexToolStripMenuItem.Name = "indexToolStripMenuItem";
-            this.indexToolStripMenuItem.Size = new System.Drawing.Size(176, 26);
+            this.indexToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
             this.indexToolStripMenuItem.Text = "&Index";
             // 
             // hledatToolStripMenuItem
             // 
             this.hledatToolStripMenuItem.Name = "hledatToolStripMenuItem";
-            this.hledatToolStripMenuItem.Size = new System.Drawing.Size(176, 26);
+            this.hledatToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
             this.hledatToolStripMenuItem.Text = "&Hledat";
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(173, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(141, 6);
             // 
             // oproduktuToolStripMenuItem
             // 
             this.oproduktuToolStripMenuItem.Name = "oproduktuToolStripMenuItem";
-            this.oproduktuToolStripMenuItem.Size = new System.Drawing.Size(176, 26);
+            this.oproduktuToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
             this.oproduktuToolStripMenuItem.Text = "&O produktu...";
             // 
             // toolStrip1
@@ -400,9 +399,9 @@ namespace KalkulaceZ
             this.vložitToolStripButton,
             this.toolStripSeparator7,
             this.nápovědaToolStripButton});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 28);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1118, 27);
+            this.toolStrip1.Size = new System.Drawing.Size(1035, 27);
             this.toolStrip1.TabIndex = 7;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -412,7 +411,7 @@ namespace KalkulaceZ
             this.novýToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("novýToolStripButton.Image")));
             this.novýToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.novýToolStripButton.Name = "novýToolStripButton";
-            this.novýToolStripButton.Size = new System.Drawing.Size(29, 24);
+            this.novýToolStripButton.Size = new System.Drawing.Size(24, 24);
             this.novýToolStripButton.Text = "&Nový";
             // 
             // otevřítToolStripButton
@@ -421,7 +420,7 @@ namespace KalkulaceZ
             this.otevřítToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("otevřítToolStripButton.Image")));
             this.otevřítToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.otevřítToolStripButton.Name = "otevřítToolStripButton";
-            this.otevřítToolStripButton.Size = new System.Drawing.Size(29, 24);
+            this.otevřítToolStripButton.Size = new System.Drawing.Size(24, 24);
             this.otevřítToolStripButton.Text = "&Otevřít";
             // 
             // uložitToolStripButton
@@ -430,7 +429,7 @@ namespace KalkulaceZ
             this.uložitToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("uložitToolStripButton.Image")));
             this.uložitToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.uložitToolStripButton.Name = "uložitToolStripButton";
-            this.uložitToolStripButton.Size = new System.Drawing.Size(29, 24);
+            this.uložitToolStripButton.Size = new System.Drawing.Size(24, 24);
             this.uložitToolStripButton.Text = "&Uložit";
             // 
             // tiskToolStripButton
@@ -439,7 +438,7 @@ namespace KalkulaceZ
             this.tiskToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("tiskToolStripButton.Image")));
             this.tiskToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tiskToolStripButton.Name = "tiskToolStripButton";
-            this.tiskToolStripButton.Size = new System.Drawing.Size(29, 24);
+            this.tiskToolStripButton.Size = new System.Drawing.Size(24, 24);
             this.tiskToolStripButton.Text = "&Tisk";
             // 
             // toolStripSeparator6
@@ -453,7 +452,7 @@ namespace KalkulaceZ
             this.vyjmoutToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("vyjmoutToolStripButton.Image")));
             this.vyjmoutToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.vyjmoutToolStripButton.Name = "vyjmoutToolStripButton";
-            this.vyjmoutToolStripButton.Size = new System.Drawing.Size(29, 24);
+            this.vyjmoutToolStripButton.Size = new System.Drawing.Size(24, 24);
             this.vyjmoutToolStripButton.Text = "&Vyjmout";
             // 
             // kopírovatToolStripButton
@@ -462,7 +461,7 @@ namespace KalkulaceZ
             this.kopírovatToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("kopírovatToolStripButton.Image")));
             this.kopírovatToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.kopírovatToolStripButton.Name = "kopírovatToolStripButton";
-            this.kopírovatToolStripButton.Size = new System.Drawing.Size(29, 24);
+            this.kopírovatToolStripButton.Size = new System.Drawing.Size(24, 24);
             this.kopírovatToolStripButton.Text = "&Kopírovat";
             // 
             // vložitToolStripButton
@@ -471,7 +470,7 @@ namespace KalkulaceZ
             this.vložitToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("vložitToolStripButton.Image")));
             this.vložitToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.vložitToolStripButton.Name = "vložitToolStripButton";
-            this.vložitToolStripButton.Size = new System.Drawing.Size(29, 24);
+            this.vložitToolStripButton.Size = new System.Drawing.Size(24, 24);
             this.vložitToolStripButton.Text = "&Vložit";
             // 
             // toolStripSeparator7
@@ -485,23 +484,22 @@ namespace KalkulaceZ
             this.nápovědaToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("nápovědaToolStripButton.Image")));
             this.nápovědaToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.nápovědaToolStripButton.Name = "nápovědaToolStripButton";
-            this.nápovědaToolStripButton.Size = new System.Drawing.Size(29, 24);
+            this.nápovědaToolStripButton.Size = new System.Drawing.Size(24, 24);
             this.nápovědaToolStripButton.Text = "&Nápověda";
             // 
             // nmL
             // 
             this.nmL.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.nmL.DecimalPlaces = 2;
-            this.nmL.Location = new System.Drawing.Point(137, 53);
-            this.nmL.Margin = new System.Windows.Forms.Padding(4);
+            this.nmL.DecimalPlaces = 4;
+            this.nmL.Location = new System.Drawing.Point(142, 43);
             this.nmL.Maximum = new decimal(new int[] {
             100000,
             0,
             0,
             0});
             this.nmL.Name = "nmL";
-            this.nmL.Size = new System.Drawing.Size(156, 22);
+            this.nmL.Size = new System.Drawing.Size(159, 20);
             this.nmL.TabIndex = 21;
             this.nmL.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.nmL.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
@@ -511,10 +509,9 @@ namespace KalkulaceZ
             this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(41, 55);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(69, 45);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(88, 17);
+            this.label4.Size = new System.Drawing.Size(69, 13);
             this.label4.TabIndex = 18;
             this.label4.Text = "Indukčnost L";
             // 
@@ -522,16 +519,15 @@ namespace KalkulaceZ
             // 
             this.nmR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.nmR.DecimalPlaces = 2;
-            this.nmR.Location = new System.Drawing.Point(137, 22);
-            this.nmR.Margin = new System.Windows.Forms.Padding(4);
+            this.nmR.DecimalPlaces = 4;
+            this.nmR.Location = new System.Drawing.Point(142, 18);
             this.nmR.Maximum = new decimal(new int[] {
             100000,
             0,
             0,
             0});
             this.nmR.Name = "nmR";
-            this.nmR.Size = new System.Drawing.Size(156, 22);
+            this.nmR.Size = new System.Drawing.Size(159, 20);
             this.nmR.TabIndex = 24;
             this.nmR.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.nmR.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
@@ -541,22 +537,20 @@ namespace KalkulaceZ
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(67, 24);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(91, 20);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 17);
+            this.label2.Size = new System.Drawing.Size(47, 13);
             this.label2.TabIndex = 23;
             this.label2.Text = "Odpor R";
             // 
             // btnCalculate
             // 
             this.btnCalculate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnCalculate.Location = new System.Drawing.Point(224, 234);
-            this.btnCalculate.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCalculate.Location = new System.Drawing.Point(16, 191);
             this.btnCalculate.Name = "btnCalculate";
-            this.btnCalculate.Size = new System.Drawing.Size(167, 28);
+            this.btnCalculate.Size = new System.Drawing.Size(359, 23);
             this.btnCalculate.TabIndex = 27;
-            this.btnCalculate.Text = "Dopočítat rez. prvky";
+            this.btnCalculate.Text = "Dopočítat rezonanční prvky";
             this.btnCalculate.UseVisualStyleBackColor = true;
             this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
@@ -564,16 +558,15 @@ namespace KalkulaceZ
             // 
             this.nmC.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.nmC.DecimalPlaces = 2;
-            this.nmC.Location = new System.Drawing.Point(137, 83);
-            this.nmC.Margin = new System.Windows.Forms.Padding(4);
+            this.nmC.DecimalPlaces = 4;
+            this.nmC.Location = new System.Drawing.Point(142, 67);
             this.nmC.Maximum = new decimal(new int[] {
             100000,
             0,
             0,
             0});
             this.nmC.Name = "nmC";
-            this.nmC.Size = new System.Drawing.Size(156, 22);
+            this.nmC.Size = new System.Drawing.Size(159, 20);
             this.nmC.TabIndex = 29;
             this.nmC.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.nmC.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
@@ -583,10 +576,9 @@ namespace KalkulaceZ
             this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(53, 85);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(78, 69);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(76, 17);
+            this.label6.Size = new System.Drawing.Size(59, 13);
             this.label6.TabIndex = 28;
             this.label6.Text = "Kapacita C";
             // 
@@ -595,10 +587,10 @@ namespace KalkulaceZ
             this.btnSRO.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSRO.AutoSize = true;
-            this.btnSRO.Location = new System.Drawing.Point(97, 143);
-            this.btnSRO.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSRO.Checked = true;
+            this.btnSRO.Location = new System.Drawing.Point(188, 117);
             this.btnSRO.Name = "btnSRO";
-            this.btnSRO.Size = new System.Drawing.Size(193, 21);
+            this.btnSRO.Size = new System.Drawing.Size(150, 17);
             this.btnSRO.TabIndex = 30;
             this.btnSRO.TabStop = true;
             this.btnSRO.Text = "Sériový rezonanční obvod";
@@ -610,12 +602,10 @@ namespace KalkulaceZ
             this.btnPRO.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnPRO.AutoSize = true;
-            this.btnPRO.Location = new System.Drawing.Point(97, 172);
-            this.btnPRO.Margin = new System.Windows.Forms.Padding(4);
+            this.btnPRO.Location = new System.Drawing.Point(188, 138);
             this.btnPRO.Name = "btnPRO";
-            this.btnPRO.Size = new System.Drawing.Size(201, 21);
+            this.btnPRO.Size = new System.Drawing.Size(157, 17);
             this.btnPRO.TabIndex = 31;
-            this.btnPRO.TabStop = true;
             this.btnPRO.Text = "Paralelní rezonanční obvod";
             this.btnPRO.UseVisualStyleBackColor = true;
             this.btnPRO.CheckedChanged += new System.EventHandler(this.btnSRO_CheckedChanged);
@@ -625,11 +615,9 @@ namespace KalkulaceZ
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.Controls.Add(this.listView1);
-            this.groupBox1.Location = new System.Drawing.Point(448, 59);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Location = new System.Drawing.Point(413, 54);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(657, 503);
+            this.groupBox1.Size = new System.Drawing.Size(610, 400);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Tabulka zaznamenaných výpočtů";
@@ -651,9 +639,10 @@ namespace KalkulaceZ
             this.fazovyPosun,
             this.rezozancniFrekvence});
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(7, 22);
+            this.listView1.Location = new System.Drawing.Point(5, 18);
+            this.listView1.Margin = new System.Windows.Forms.Padding(2);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(643, 474);
+            this.listView1.Size = new System.Drawing.Size(600, 377);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -696,50 +685,21 @@ namespace KalkulaceZ
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Controls.Add(this.cmbDecimal);
             this.groupBox2.Controls.Add(this.groupBox4);
             this.groupBox2.Controls.Add(this.groupBox3);
             this.groupBox2.Controls.Add(this.btnCalculate);
-            this.groupBox2.Location = new System.Drawing.Point(12, 58);
+            this.groupBox2.Location = new System.Drawing.Point(11, 54);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(409, 504);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox2.Size = new System.Drawing.Size(389, 400);
             this.groupBox2.TabIndex = 32;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Informace o obvodu";
             // 
-            // label8
-            // 
-            this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(18, 240);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(153, 17);
-            this.label8.TabIndex = 38;
-            this.label8.Text = "Počet desetinných míst";
-            // 
-            // cmbDecimal
-            // 
-            this.cmbDecimal.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.cmbDecimal.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbDecimal.FormattingEnabled = true;
-            this.cmbDecimal.Items.AddRange(new object[] {
-            "0",
-            "1",
-            "2",
-            "3",
-            "4"});
-            this.cmbDecimal.Location = new System.Drawing.Point(178, 236);
-            this.cmbDecimal.Name = "cmbDecimal";
-            this.cmbDecimal.Size = new System.Drawing.Size(41, 24);
-            this.cmbDecimal.TabIndex = 38;
-            // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.cmbF0);
+            this.groupBox4.Controls.Add(this.cmbRezF);
             this.groupBox4.Controls.Add(this.cmbPhase);
             this.groupBox4.Controls.Add(this.label10);
             this.groupBox4.Controls.Add(this.nmRezF);
@@ -757,19 +717,21 @@ namespace KalkulaceZ
             this.groupBox4.Controls.Add(this.nmXC);
             this.groupBox4.Controls.Add(this.label5);
             this.groupBox4.Controls.Add(this.nmXL);
-            this.groupBox4.Location = new System.Drawing.Point(21, 269);
+            this.groupBox4.Location = new System.Drawing.Point(16, 219);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(370, 208);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox4.Size = new System.Drawing.Size(359, 169);
             this.groupBox4.TabIndex = 38;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Rezonanční prvky";
             // 
-            // cmbF0
+            // cmbRezF
             // 
-            this.cmbF0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.cmbF0.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbF0.FormattingEnabled = true;
-            this.cmbF0.Items.AddRange(new object[] {
+            this.cmbRezF.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.cmbRezF.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbRezF.FormattingEnabled = true;
+            this.cmbRezF.Items.AddRange(new object[] {
             "THz",
             "GHz",
             "MHz",
@@ -779,10 +741,11 @@ namespace KalkulaceZ
             "µHz",
             "nHz",
             "pHz"});
-            this.cmbF0.Location = new System.Drawing.Point(300, 172);
-            this.cmbF0.Name = "cmbF0";
-            this.cmbF0.Size = new System.Drawing.Size(59, 24);
-            this.cmbF0.TabIndex = 46;
+            this.cmbRezF.Location = new System.Drawing.Point(306, 140);
+            this.cmbRezF.Margin = new System.Windows.Forms.Padding(2);
+            this.cmbRezF.Name = "cmbRezF";
+            this.cmbRezF.Size = new System.Drawing.Size(45, 21);
+            this.cmbRezF.TabIndex = 46;
             // 
             // cmbPhase
             // 
@@ -792,18 +755,18 @@ namespace KalkulaceZ
             this.cmbPhase.Items.AddRange(new object[] {
             "°",
             "rad"});
-            this.cmbPhase.Location = new System.Drawing.Point(300, 142);
+            this.cmbPhase.Location = new System.Drawing.Point(306, 115);
+            this.cmbPhase.Margin = new System.Windows.Forms.Padding(2);
             this.cmbPhase.Name = "cmbPhase";
-            this.cmbPhase.Size = new System.Drawing.Size(59, 24);
+            this.cmbPhase.Size = new System.Drawing.Size(45, 21);
             this.cmbPhase.TabIndex = 45;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(16, 175);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Location = new System.Drawing.Point(9, 143);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(165, 17);
+            this.label10.Size = new System.Drawing.Size(129, 13);
             this.label10.TabIndex = 43;
             this.label10.Text = "Rezonanční frekvence f0";
             // 
@@ -811,16 +774,15 @@ namespace KalkulaceZ
             // 
             this.nmRezF.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.nmRezF.DecimalPlaces = 2;
-            this.nmRezF.Location = new System.Drawing.Point(189, 173);
-            this.nmRezF.Margin = new System.Windows.Forms.Padding(4);
+            this.nmRezF.DecimalPlaces = 6;
+            this.nmRezF.Location = new System.Drawing.Point(142, 141);
             this.nmRezF.Maximum = new decimal(new int[] {
             100000,
             0,
             0,
             0});
             this.nmRezF.Name = "nmRezF";
-            this.nmRezF.Size = new System.Drawing.Size(104, 22);
+            this.nmRezF.Size = new System.Drawing.Size(159, 20);
             this.nmRezF.TabIndex = 44;
             this.nmRezF.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.nmRezF.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
@@ -829,16 +791,15 @@ namespace KalkulaceZ
             // 
             this.nmPhase.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.nmPhase.DecimalPlaces = 2;
-            this.nmPhase.Location = new System.Drawing.Point(189, 143);
-            this.nmPhase.Margin = new System.Windows.Forms.Padding(4);
+            this.nmPhase.DecimalPlaces = 6;
+            this.nmPhase.Location = new System.Drawing.Point(142, 116);
             this.nmPhase.Maximum = new decimal(new int[] {
             100000,
             0,
             0,
             0});
             this.nmPhase.Name = "nmPhase";
-            this.nmPhase.Size = new System.Drawing.Size(104, 22);
+            this.nmPhase.Size = new System.Drawing.Size(159, 20);
             this.nmPhase.TabIndex = 42;
             this.nmPhase.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.nmPhase.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
@@ -846,10 +807,9 @@ namespace KalkulaceZ
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(72, 145);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Location = new System.Drawing.Point(54, 118);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(109, 17);
+            this.label11.Size = new System.Drawing.Size(84, 13);
             this.label11.TabIndex = 41;
             this.label11.Text = "Fázový posun φ";
             // 
@@ -868,18 +828,18 @@ namespace KalkulaceZ
             "µS",
             "nS",
             "pS"});
-            this.cmbY.Location = new System.Drawing.Point(300, 112);
+            this.cmbY.Location = new System.Drawing.Point(306, 91);
+            this.cmbY.Margin = new System.Windows.Forms.Padding(2);
             this.cmbY.Name = "cmbY";
-            this.cmbY.Size = new System.Drawing.Size(59, 24);
+            this.cmbY.Size = new System.Drawing.Size(45, 21);
             this.cmbY.TabIndex = 40;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(94, 115);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(70, 93);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(87, 17);
+            this.label7.Size = new System.Drawing.Size(67, 13);
             this.label7.TabIndex = 38;
             this.label7.Text = "Admitance Y";
             // 
@@ -888,15 +848,14 @@ namespace KalkulaceZ
             this.nmY.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.nmY.DecimalPlaces = 6;
-            this.nmY.Location = new System.Drawing.Point(189, 113);
-            this.nmY.Margin = new System.Windows.Forms.Padding(4);
+            this.nmY.Location = new System.Drawing.Point(142, 92);
             this.nmY.Maximum = new decimal(new int[] {
             100000,
             0,
             0,
             0});
             this.nmY.Name = "nmY";
-            this.nmY.Size = new System.Drawing.Size(104, 22);
+            this.nmY.Size = new System.Drawing.Size(159, 20);
             this.nmY.TabIndex = 39;
             this.nmY.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.nmY.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
@@ -917,9 +876,10 @@ namespace KalkulaceZ
             "µΩ",
             "nΩ",
             "pΩ"});
-            this.cmbZ.Location = new System.Drawing.Point(300, 82);
+            this.cmbZ.Location = new System.Drawing.Point(306, 67);
+            this.cmbZ.Margin = new System.Windows.Forms.Padding(2);
             this.cmbZ.Name = "cmbZ";
-            this.cmbZ.Size = new System.Drawing.Size(59, 24);
+            this.cmbZ.Size = new System.Drawing.Size(45, 21);
             this.cmbZ.TabIndex = 37;
             // 
             // cmbXC
@@ -937,9 +897,10 @@ namespace KalkulaceZ
             "µΩ",
             "nΩ",
             "pΩ"});
-            this.cmbXC.Location = new System.Drawing.Point(300, 52);
+            this.cmbXC.Location = new System.Drawing.Point(306, 42);
+            this.cmbXC.Margin = new System.Windows.Forms.Padding(2);
             this.cmbXC.Name = "cmbXC";
-            this.cmbXC.Size = new System.Drawing.Size(59, 24);
+            this.cmbXC.Size = new System.Drawing.Size(45, 21);
             this.cmbXC.TabIndex = 36;
             // 
             // cmbXL
@@ -957,28 +918,27 @@ namespace KalkulaceZ
             "µΩ",
             "nΩ",
             "pΩ"});
-            this.cmbXL.Location = new System.Drawing.Point(300, 21);
+            this.cmbXL.Location = new System.Drawing.Point(306, 17);
+            this.cmbXL.Margin = new System.Windows.Forms.Padding(2);
             this.cmbXL.Name = "cmbXL";
-            this.cmbXL.Size = new System.Drawing.Size(59, 24);
+            this.cmbXL.Size = new System.Drawing.Size(45, 21);
             this.cmbXL.TabIndex = 35;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(33, 24);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(25, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(148, 17);
+            this.label1.Size = new System.Drawing.Size(117, 13);
             this.label1.TabIndex = 23;
             this.label1.Text = "Indukční reaktance XL";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(91, 85);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(68, 69);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(90, 17);
+            this.label3.Size = new System.Drawing.Size(70, 13);
             this.label3.TabIndex = 28;
             this.label3.Text = "Impedance Z";
             // 
@@ -986,16 +946,15 @@ namespace KalkulaceZ
             // 
             this.nmZ.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.nmZ.DecimalPlaces = 2;
-            this.nmZ.Location = new System.Drawing.Point(189, 83);
-            this.nmZ.Margin = new System.Windows.Forms.Padding(4);
+            this.nmZ.DecimalPlaces = 6;
+            this.nmZ.Location = new System.Drawing.Point(142, 67);
             this.nmZ.Maximum = new decimal(new int[] {
             100000,
             0,
             0,
             0});
             this.nmZ.Name = "nmZ";
-            this.nmZ.Size = new System.Drawing.Size(104, 22);
+            this.nmZ.Size = new System.Drawing.Size(159, 20);
             this.nmZ.TabIndex = 29;
             this.nmZ.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.nmZ.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
@@ -1006,15 +965,14 @@ namespace KalkulaceZ
             this.nmXC.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.nmXC.DecimalPlaces = 6;
-            this.nmXC.Location = new System.Drawing.Point(189, 53);
-            this.nmXC.Margin = new System.Windows.Forms.Padding(4);
+            this.nmXC.Location = new System.Drawing.Point(142, 43);
             this.nmXC.Maximum = new decimal(new int[] {
             100000,
             0,
             0,
             0});
             this.nmXC.Name = "nmXC";
-            this.nmXC.Size = new System.Drawing.Size(104, 22);
+            this.nmXC.Size = new System.Drawing.Size(159, 20);
             this.nmXC.TabIndex = 21;
             this.nmXC.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.nmXC.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
@@ -1022,10 +980,9 @@ namespace KalkulaceZ
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(26, 56);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(20, 46);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(155, 17);
+            this.label5.Size = new System.Drawing.Size(121, 13);
             this.label5.TabIndex = 18;
             this.label5.Text = "Kapacitní reaktance XC";
             // 
@@ -1033,16 +990,15 @@ namespace KalkulaceZ
             // 
             this.nmXL.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.nmXL.DecimalPlaces = 2;
-            this.nmXL.Location = new System.Drawing.Point(189, 22);
-            this.nmXL.Margin = new System.Windows.Forms.Padding(4);
+            this.nmXL.DecimalPlaces = 6;
+            this.nmXL.Location = new System.Drawing.Point(142, 18);
             this.nmXL.Maximum = new decimal(new int[] {
             100000,
             0,
             0,
             0});
             this.nmXL.Name = "nmXL";
-            this.nmXL.Size = new System.Drawing.Size(104, 22);
+            this.nmXL.Size = new System.Drawing.Size(159, 20);
             this.nmXL.TabIndex = 24;
             this.nmXL.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.nmXL.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
@@ -1050,39 +1006,42 @@ namespace KalkulaceZ
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.textBox1);
-            this.groupBox3.Controls.Add(this.txtTest);
+            this.groupBox3.Controls.Add(this.label12);
             this.groupBox3.Controls.Add(this.cmbF);
             this.groupBox3.Controls.Add(this.label9);
             this.groupBox3.Controls.Add(this.nmf);
             this.groupBox3.Controls.Add(this.cmbC);
             this.groupBox3.Controls.Add(this.cmbL);
+            this.groupBox3.Controls.Add(this.btnPRO);
             this.groupBox3.Controls.Add(this.cmbR);
+            this.groupBox3.Controls.Add(this.btnSRO);
             this.groupBox3.Controls.Add(this.label2);
             this.groupBox3.Controls.Add(this.label6);
             this.groupBox3.Controls.Add(this.nmC);
-            this.groupBox3.Controls.Add(this.btnPRO);
-            this.groupBox3.Controls.Add(this.btnSRO);
             this.groupBox3.Controls.Add(this.nmL);
             this.groupBox3.Controls.Add(this.label4);
             this.groupBox3.Controls.Add(this.nmR);
-            this.groupBox3.Location = new System.Drawing.Point(21, 21);
+            this.groupBox3.Location = new System.Drawing.Point(16, 17);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(370, 202);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox3.Size = new System.Drawing.Size(359, 164);
             this.groupBox3.TabIndex = 34;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Základní informace";
             // 
-            // txtTest
+            // label12
             // 
-            this.txtTest.Location = new System.Drawing.Point(0, 152);
-            this.txtTest.Name = "txtTest";
-            this.txtTest.Size = new System.Drawing.Size(100, 22);
-            this.txtTest.TabIndex = 41;
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(89, 119);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(93, 13);
+            this.label12.TabIndex = 41;
+            this.label12.Text = "Vyber typ obvodu:";
             // 
             // cmbF
             // 
-            this.cmbF.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.cmbF.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbF.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbF.FormattingEnabled = true;
             this.cmbF.Items.AddRange(new object[] {
@@ -1095,9 +1054,10 @@ namespace KalkulaceZ
             "µHz",
             "nHz",
             "pHz"});
-            this.cmbF.Location = new System.Drawing.Point(300, 112);
+            this.cmbF.Location = new System.Drawing.Point(306, 91);
+            this.cmbF.Margin = new System.Windows.Forms.Padding(2);
             this.cmbF.Name = "cmbF";
-            this.cmbF.Size = new System.Drawing.Size(59, 24);
+            this.cmbF.Size = new System.Drawing.Size(45, 21);
             this.cmbF.TabIndex = 40;
             // 
             // label9
@@ -1105,10 +1065,9 @@ namespace KalkulaceZ
             this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(53, 115);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(76, 93);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(78, 17);
+            this.label9.Size = new System.Drawing.Size(61, 13);
             this.label9.TabIndex = 38;
             this.label9.Text = "frekvence f";
             // 
@@ -1116,16 +1075,15 @@ namespace KalkulaceZ
             // 
             this.nmf.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.nmf.DecimalPlaces = 2;
-            this.nmf.Location = new System.Drawing.Point(137, 113);
-            this.nmf.Margin = new System.Windows.Forms.Padding(4);
+            this.nmf.DecimalPlaces = 4;
+            this.nmf.Location = new System.Drawing.Point(142, 92);
             this.nmf.Maximum = new decimal(new int[] {
             100000,
             0,
             0,
             0});
             this.nmf.Name = "nmf";
-            this.nmf.Size = new System.Drawing.Size(156, 22);
+            this.nmf.Size = new System.Drawing.Size(159, 20);
             this.nmf.TabIndex = 39;
             this.nmf.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.nmf.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
@@ -1137,8 +1095,7 @@ namespace KalkulaceZ
             // 
             // cmbC
             // 
-            this.cmbC.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.cmbC.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbC.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbC.FormattingEnabled = true;
             this.cmbC.Items.AddRange(new object[] {
@@ -1151,15 +1108,15 @@ namespace KalkulaceZ
             "µF",
             "nF",
             "pF"});
-            this.cmbC.Location = new System.Drawing.Point(300, 82);
+            this.cmbC.Location = new System.Drawing.Point(306, 67);
+            this.cmbC.Margin = new System.Windows.Forms.Padding(2);
             this.cmbC.Name = "cmbC";
-            this.cmbC.Size = new System.Drawing.Size(59, 24);
+            this.cmbC.Size = new System.Drawing.Size(45, 21);
             this.cmbC.TabIndex = 37;
             // 
             // cmbL
             // 
-            this.cmbL.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.cmbL.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbL.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbL.FormattingEnabled = true;
             this.cmbL.Items.AddRange(new object[] {
@@ -1172,15 +1129,15 @@ namespace KalkulaceZ
             "µH",
             "nH",
             "pH"});
-            this.cmbL.Location = new System.Drawing.Point(300, 52);
+            this.cmbL.Location = new System.Drawing.Point(306, 42);
+            this.cmbL.Margin = new System.Windows.Forms.Padding(2);
             this.cmbL.Name = "cmbL";
-            this.cmbL.Size = new System.Drawing.Size(59, 24);
+            this.cmbL.Size = new System.Drawing.Size(45, 21);
             this.cmbL.TabIndex = 36;
             // 
             // cmbR
             // 
-            this.cmbR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.cmbR.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbR.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbR.FormattingEnabled = true;
             this.cmbR.Items.AddRange(new object[] {
@@ -1193,31 +1150,32 @@ namespace KalkulaceZ
             "µΩ",
             "nΩ",
             "pΩ"});
-            this.cmbR.Location = new System.Drawing.Point(300, 21);
+            this.cmbR.Location = new System.Drawing.Point(306, 17);
+            this.cmbR.Margin = new System.Windows.Forms.Padding(2);
             this.cmbR.Name = "cmbR";
-            this.cmbR.Size = new System.Drawing.Size(59, 24);
+            this.cmbR.Size = new System.Drawing.Size(45, 21);
             this.cmbR.TabIndex = 35;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(0, 180);
+            this.textBox1.Location = new System.Drawing.Point(6, 138);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 42;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1118, 573);
+            this.ClientSize = new System.Drawing.Size(1035, 465);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.groupBox1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Kalkulace REZONANCE";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.toolStrip1.ResumeLayout(false);
@@ -1227,7 +1185,6 @@ namespace KalkulaceZ
             ((System.ComponentModel.ISupportInitialize)(this.nmC)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nmRezF)).EndInit();
@@ -1323,9 +1280,7 @@ namespace KalkulaceZ
         private System.Windows.Forms.ColumnHeader admitanceY;
         private System.Windows.Forms.ColumnHeader fazovyPosun;
         private System.Windows.Forms.ColumnHeader rezozancniFrekvence;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.ComboBox cmbDecimal;
-        private System.Windows.Forms.ComboBox cmbF0;
+        private System.Windows.Forms.ComboBox cmbRezF;
         private System.Windows.Forms.ComboBox cmbPhase;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.NumericUpDown nmRezF;
@@ -1338,7 +1293,7 @@ namespace KalkulaceZ
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.NumericUpDown nmf;
         private System.Windows.Forms.ComboBox cmbXC;
-        private System.Windows.Forms.TextBox txtTest;
+        private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox textBox1;
     }
 }
