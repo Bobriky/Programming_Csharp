@@ -18,3 +18,4 @@ C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\____4E\KalkulaceZ\obj\Deb
 C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\____4E\KalkulaceZ\obj\Debug\KalkulaceZ.csproj.CoreCompileInputs.cache
 C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\____4E\KalkulaceZ\obj\Debug\KalkulaceZ.exe
 C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\____4E\KalkulaceZ\obj\Debug\KalkulaceZ.pdb
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\KalkulaceZ\obj\Debug\KalkulaceZ.Form2.resources

@@ -108,17 +108,18 @@ namespace KalkulaceZ
                 isFormInitialized = false;
                 PrepareCmbValues();
                 double XL = Math.PI * Convert.ToDouble(nmF.Value) * Convert.ToDouble(nmL.Value) * 2;
-                double XC = Math.Pow(2 * Math.PI * Convert.ToDouble(nmF.Value) * Convert.ToDouble(nmC.Value),-1);
-                double Z = Math.Abs(Convert.ToDouble(nmXL.Value) - Convert.ToDouble(nmXC.Value)) + Convert.ToDouble(nmR.Value);
-                double Y= Math.Pow(Math.Abs(Convert.ToDouble(nmXL.Value) - Convert.ToDouble(nmXC.Value)) + Convert.ToDouble(nmR.Value),-1);
-                double P = Math.Atan(Math.Abs(Convert.ToDouble(nmXL.Value) - Convert.ToDouble(nmXC.Value)) / Convert.ToDouble(nmR.Value));
-                double RezF = Math.Pow(2 * Math.PI * Math.Sqrt(Convert.ToDouble(nmL.Value * nmC.Value)), -1);
+                double XC = Math.Pow(2 * Math.PI * Convert.ToDouble(nmF.Value) * Convert.ToDouble(nmC.Value), -1);
                 nmXL.Value = Convert.ToDecimal(XL);
                 nmXC.Value = Convert.ToDecimal(XC);
+                double Z = Math.Abs(Convert.ToDouble(nmXL.Value) - Convert.ToDouble(nmXC.Value)) + Convert.ToDouble(nmR.Value);
+                double Y = Math.Pow(Math.Abs(Convert.ToDouble(nmXL.Value) - Convert.ToDouble(nmXC.Value)) + Convert.ToDouble(nmR.Value), -1);
+                double P = Math.Atan(Math.Abs(Convert.ToDouble(nmXL.Value) - Convert.ToDouble(nmXC.Value)) / Convert.ToDouble(nmR.Value));
+                double RezF = Math.Pow(2 * Math.PI * Math.Sqrt(Convert.ToDouble(nmL.Value * nmC.Value)), -1);
                 nmZ.Value = Convert.ToDecimal(Z);
                 nmY.Value = Convert.ToDecimal(Y);
                 nmP.Value = Convert.ToDecimal(P);
                 nmRezF.Value = Convert.ToDecimal(RezF);
+                btnAddLine.Enabled = true;
                 //Zakomentovaný text je k speciální funkci, která má mít za smysl automatizace kalkulování optimálního prefixu. Trošku složitější.
                 /*
                 var resultsXL = OptimalPrefix(XL);
@@ -149,7 +150,7 @@ namespace KalkulaceZ
         private void btnAddLine_Click(object sender, EventArgs e)
         {
             //Náhrání vypočítaných dat do tabulky
-            string[] rowData = 
+            string[] rowData =
                 {
                     nmR.Value.ToString() + cmbR.SelectedItem,
                     nmL.Value.ToString() + cmbL.SelectedItem,
@@ -182,9 +183,9 @@ namespace KalkulaceZ
                     {
                         case "cmbXL":
                             if (susCmb.SelectedIndex > actionIndex) //NÁSOBÍME 1000*x
-                                nmXL.Value = Convert.ToDecimal(Convert.ToDouble(nmXL.Value) * Math.Pow(1000,Math.Abs(Convert.ToDouble(susCmb.SelectedIndex) - Convert.ToDouble(actionIndex))));
-                            else if(susCmb.SelectedIndex < actionIndex) //DĚLÍME 1000*x
-                                nmXL.Value = Convert.ToDecimal(Convert.ToDouble(nmXL.Value) / Math.Pow(1000,Math.Abs(Convert.ToDouble(susCmb.SelectedIndex) - Convert.ToDouble(actionIndex))));
+                                nmXL.Value = Convert.ToDecimal(Convert.ToDouble(nmXL.Value) * Math.Pow(1000, Math.Abs(Convert.ToDouble(susCmb.SelectedIndex) - Convert.ToDouble(actionIndex))));
+                            else if (susCmb.SelectedIndex < actionIndex) //DĚLÍME 1000*x
+                                nmXL.Value = Convert.ToDecimal(Convert.ToDouble(nmXL.Value) / Math.Pow(1000, Math.Abs(Convert.ToDouble(susCmb.SelectedIndex) - Convert.ToDouble(actionIndex))));
                             break;
                         case "cmbXC":
                             if (susCmb.SelectedIndex > actionIndex) //NÁSOBÍME 1000*x
@@ -275,8 +276,17 @@ namespace KalkulaceZ
 
         private void lstView_ItemActivate(object sender, EventArgs e)
         {
-            //lze kliknout specificky na řádek (pouze ale na číslo prvního sloupečku)
-            MessageBox.Show("sdgsdg");
+            if (lstView.SelectedItems.Count > 0)
+            {
+                ListViewItem selectedItem = lstView.SelectedItems[0]; // Získání dat vybraného řádku
+                string[] rowData = new string[10];
+                for (int i = 1; i <= 10; i++)
+                {
+                    rowData[i - 1] = selectedItem.SubItems[i].Text;
+                }
+                Form2 detailForm = new Form2(rowData);
+                detailForm.ShowDialog();
+            }
         }
     }
 }

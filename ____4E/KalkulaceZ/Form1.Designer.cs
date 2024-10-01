@@ -82,6 +82,7 @@ namespace KalkulaceZ
             this.cmbC = new System.Windows.Forms.ComboBox();
             this.cmbL = new System.Windows.Forms.ComboBox();
             this.cmbR = new System.Windows.Forms.ComboBox();
+            this.pracovniFrekvence = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             ((System.ComponentModel.ISupportInitialize)(this.nmL)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nmR)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nmC)).BeginInit();
@@ -108,7 +109,7 @@ namespace KalkulaceZ
             // 
             this.nmL.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.nmL.DecimalPlaces = 4;
+            this.nmL.DecimalPlaces = 8;
             this.nmL.Location = new System.Drawing.Point(189, 53);
             this.nmL.Margin = new System.Windows.Forms.Padding(4);
             this.nmL.Maximum = new decimal(new int[] {
@@ -121,6 +122,11 @@ namespace KalkulaceZ
             this.nmL.TabIndex = 21;
             this.nmL.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.nmL.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
+            this.nmL.Value = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
             // 
             // label4
             // 
@@ -138,7 +144,7 @@ namespace KalkulaceZ
             // 
             this.nmR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.nmR.DecimalPlaces = 4;
+            this.nmR.DecimalPlaces = 8;
             this.nmR.Location = new System.Drawing.Point(189, 22);
             this.nmR.Margin = new System.Windows.Forms.Padding(4);
             this.nmR.Maximum = new decimal(new int[] {
@@ -151,6 +157,11 @@ namespace KalkulaceZ
             this.nmR.TabIndex = 24;
             this.nmR.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.nmR.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
+            this.nmR.Value = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
             // 
             // label2
             // 
@@ -180,7 +191,7 @@ namespace KalkulaceZ
             // 
             this.nmC.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.nmC.DecimalPlaces = 4;
+            this.nmC.DecimalPlaces = 8;
             this.nmC.Location = new System.Drawing.Point(189, 82);
             this.nmC.Margin = new System.Windows.Forms.Padding(4);
             this.nmC.Maximum = new decimal(new int[] {
@@ -193,6 +204,11 @@ namespace KalkulaceZ
             this.nmC.TabIndex = 29;
             this.nmC.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.nmC.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
+            this.nmC.Value = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
             // 
             // label6
             // 
@@ -261,6 +277,7 @@ namespace KalkulaceZ
             this.odporR,
             this.indukcnostL,
             this.kapacitaC,
+            this.pracovniFrekvence,
             this.reaktanceL,
             this.reaktanceC,
             this.impedanceZ,
@@ -280,52 +297,52 @@ namespace KalkulaceZ
             // index
             // 
             this.index.Text = "Rez. graf";
-            this.index.Width = 85;
+            this.index.Width = 70;
             // 
             // odporR
             // 
             this.odporR.Text = "R[Ω]";
-            this.odporR.Width = 85;
+            this.odporR.Width = 77;
             // 
             // indukcnostL
             // 
             this.indukcnostL.Text = "L[H]";
-            this.indukcnostL.Width = 85;
+            this.indukcnostL.Width = 78;
             // 
             // kapacitaC
             // 
             this.kapacitaC.Text = "C[F]";
-            this.kapacitaC.Width = 85;
+            this.kapacitaC.Width = 78;
             // 
             // reaktanceL
             // 
             this.reaktanceL.Text = "XL[Ω]";
-            this.reaktanceL.Width = 85;
+            this.reaktanceL.Width = 78;
             // 
             // reaktanceC
             // 
             this.reaktanceC.Text = "XC[Ω]";
-            this.reaktanceC.Width = 85;
+            this.reaktanceC.Width = 78;
             // 
             // impedanceZ
             // 
             this.impedanceZ.Text = "Z[Ω]";
-            this.impedanceZ.Width = 85;
+            this.impedanceZ.Width = 78;
             // 
             // admitanceY
             // 
             this.admitanceY.Text = "Y[Ω]";
-            this.admitanceY.Width = 85;
+            this.admitanceY.Width = 78;
             // 
             // fazovyPosun
             // 
             this.fazovyPosun.Text = "φ[°]";
-            this.fazovyPosun.Width = 85;
+            this.fazovyPosun.Width = 78;
             // 
             // rezozancniFrekvence
             // 
             this.rezozancniFrekvence.Text = "f0[Hz]";
-            this.rezozancniFrekvence.Width = 85;
+            this.rezozancniFrekvence.Width = 78;
             // 
             // groupBox2
             // 
@@ -345,6 +362,7 @@ namespace KalkulaceZ
             // btnAddLine
             // 
             this.btnAddLine.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnAddLine.Enabled = false;
             this.btnAddLine.Location = new System.Drawing.Point(249, 235);
             this.btnAddLine.Margin = new System.Windows.Forms.Padding(4);
             this.btnAddLine.Name = "btnAddLine";
@@ -438,7 +456,12 @@ namespace KalkulaceZ
             // 
             this.nmRezF.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.nmRezF.DecimalPlaces = 6;
+            this.nmRezF.DecimalPlaces = 8;
+            this.nmRezF.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nmRezF.Location = new System.Drawing.Point(189, 174);
             this.nmRezF.Margin = new System.Windows.Forms.Padding(4);
             this.nmRezF.Maximum = new decimal(new int[] {
@@ -447,6 +470,7 @@ namespace KalkulaceZ
             0,
             0});
             this.nmRezF.Name = "nmRezF";
+            this.nmRezF.ReadOnly = true;
             this.nmRezF.Size = new System.Drawing.Size(212, 22);
             this.nmRezF.TabIndex = 44;
             this.nmRezF.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -456,7 +480,12 @@ namespace KalkulaceZ
             // 
             this.nmP.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.nmP.DecimalPlaces = 6;
+            this.nmP.DecimalPlaces = 8;
+            this.nmP.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nmP.Location = new System.Drawing.Point(189, 143);
             this.nmP.Margin = new System.Windows.Forms.Padding(4);
             this.nmP.Maximum = new decimal(new int[] {
@@ -465,6 +494,7 @@ namespace KalkulaceZ
             0,
             0});
             this.nmP.Name = "nmP";
+            this.nmP.ReadOnly = true;
             this.nmP.Size = new System.Drawing.Size(212, 22);
             this.nmP.TabIndex = 42;
             this.nmP.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -518,7 +548,12 @@ namespace KalkulaceZ
             // 
             this.nmY.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.nmY.DecimalPlaces = 6;
+            this.nmY.DecimalPlaces = 8;
+            this.nmY.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nmY.Location = new System.Drawing.Point(189, 113);
             this.nmY.Margin = new System.Windows.Forms.Padding(4);
             this.nmY.Maximum = new decimal(new int[] {
@@ -527,6 +562,7 @@ namespace KalkulaceZ
             0,
             0});
             this.nmY.Name = "nmY";
+            this.nmY.ReadOnly = true;
             this.nmY.Size = new System.Drawing.Size(212, 22);
             this.nmY.TabIndex = 39;
             this.nmY.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -628,7 +664,12 @@ namespace KalkulaceZ
             // 
             this.nmZ.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.nmZ.DecimalPlaces = 6;
+            this.nmZ.DecimalPlaces = 8;
+            this.nmZ.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nmZ.Location = new System.Drawing.Point(189, 82);
             this.nmZ.Margin = new System.Windows.Forms.Padding(4);
             this.nmZ.Maximum = new decimal(new int[] {
@@ -637,6 +678,7 @@ namespace KalkulaceZ
             0,
             0});
             this.nmZ.Name = "nmZ";
+            this.nmZ.ReadOnly = true;
             this.nmZ.Size = new System.Drawing.Size(212, 22);
             this.nmZ.TabIndex = 29;
             this.nmZ.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -646,7 +688,12 @@ namespace KalkulaceZ
             // 
             this.nmXC.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.nmXC.DecimalPlaces = 6;
+            this.nmXC.DecimalPlaces = 8;
+            this.nmXC.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nmXC.Location = new System.Drawing.Point(189, 53);
             this.nmXC.Margin = new System.Windows.Forms.Padding(4);
             this.nmXC.Maximum = new decimal(new int[] {
@@ -655,6 +702,7 @@ namespace KalkulaceZ
             0,
             0});
             this.nmXC.Name = "nmXC";
+            this.nmXC.ReadOnly = true;
             this.nmXC.Size = new System.Drawing.Size(212, 22);
             this.nmXC.TabIndex = 21;
             this.nmXC.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -674,7 +722,12 @@ namespace KalkulaceZ
             // 
             this.nmXL.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.nmXL.DecimalPlaces = 6;
+            this.nmXL.DecimalPlaces = 8;
+            this.nmXL.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nmXL.Location = new System.Drawing.Point(189, 22);
             this.nmXL.Margin = new System.Windows.Forms.Padding(4);
             this.nmXL.Maximum = new decimal(new int[] {
@@ -683,6 +736,7 @@ namespace KalkulaceZ
             0,
             0});
             this.nmXL.Name = "nmXL";
+            this.nmXL.ReadOnly = true;
             this.nmXL.Size = new System.Drawing.Size(212, 22);
             this.nmXL.TabIndex = 24;
             this.nmXL.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -764,7 +818,7 @@ namespace KalkulaceZ
             // 
             this.nmF.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.nmF.DecimalPlaces = 4;
+            this.nmF.DecimalPlaces = 8;
             this.nmF.Location = new System.Drawing.Point(189, 113);
             this.nmF.Margin = new System.Windows.Forms.Padding(4);
             this.nmF.Maximum = new decimal(new int[] {
@@ -855,6 +909,11 @@ namespace KalkulaceZ
             this.cmbR.SelectedIndexChanged += new System.EventHandler(this.cmbRezF_SelectedIndexChanged);
             this.cmbR.Click += new System.EventHandler(this.cmbR_Click);
             // 
+            // pracovniFrekvence
+            // 
+            this.pracovniFrekvence.Text = "f[Hz]";
+            this.pracovniFrekvence.Width = 78;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -940,6 +999,7 @@ namespace KalkulaceZ
         private System.Windows.Forms.ComboBox cmbXC;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button btnAddLine;
+        private System.Windows.Forms.ColumnHeader pracovniFrekvence;
     }
 }
 
