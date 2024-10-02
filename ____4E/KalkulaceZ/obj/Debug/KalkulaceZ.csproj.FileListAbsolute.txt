@@ -19,3 +19,14 @@ C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\____4E\KalkulaceZ\obj\Deb
 C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\____4E\KalkulaceZ\obj\Debug\KalkulaceZ.exe
 C:\Users\frome\Desktop\Repozitáře\Programming_Csharp\____4E\KalkulaceZ\obj\Debug\KalkulaceZ.pdb
 C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\KalkulaceZ\obj\Debug\KalkulaceZ.Form2.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\KalkulaceZ\bin\Debug\KalkulaceZ.exe.config
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\KalkulaceZ\bin\Debug\KalkulaceZ.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\KalkulaceZ\bin\Debug\KalkulaceZ.pdb
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\KalkulaceZ\obj\Debug\KalkulaceZ.csproj.AssemblyReference.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\KalkulaceZ\obj\Debug\KalkulaceZ.Form1.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\KalkulaceZ\obj\Debug\KalkulaceZ.Form2.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\KalkulaceZ\obj\Debug\KalkulaceZ.Properties.Resources.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\KalkulaceZ\obj\Debug\KalkulaceZ.csproj.GenerateResource.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\KalkulaceZ\obj\Debug\KalkulaceZ.csproj.CoreCompileInputs.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\KalkulaceZ\obj\Debug\KalkulaceZ.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\KalkulaceZ\obj\Debug\KalkulaceZ.pdb

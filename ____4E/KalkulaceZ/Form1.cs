@@ -19,6 +19,7 @@ namespace KalkulaceZ
             InitializeComponent();
             AdjustListViewColumns();
             PrepareCmbValues();
+            tmrStartTime.Start();
         }
         public void PrepareCmbValues()
         {
@@ -287,6 +288,17 @@ namespace KalkulaceZ
                 Form2 detailForm = new Form2(rowData);
                 detailForm.ShowDialog();
             }
+        }
+
+        private void tmrStartTime_Tick(object sender, EventArgs e)
+        {
+            //MessageBox.Show("KUP PONKE");
+            lblTimer.Text = DateTime.Now.ToLongTimeString();
+            //DateTime.Now.ToShortTimeString(); ukazuje hodiny a minuty
+            //DateTime.Now.ToLongTimeString(); ukazuje i sekundy
+            Random randomColor = new Random();
+            lstView.BackColor = Color.FromArgb(randomColor.Next(0, 255), randomColor.Next(0, 255), randomColor.Next(0, 255));
+            lstView.ForeColor = Color.FromArgb(randomColor.Next(0, 255), randomColor.Next(0, 255), randomColor.Next(0, 255));
         }
     }
 }
