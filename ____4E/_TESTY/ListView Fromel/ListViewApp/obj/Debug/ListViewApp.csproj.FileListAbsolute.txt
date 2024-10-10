@@ -46,3 +46,13 @@ U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\_TESTY\ListViewApp\obj\Debug\L
 U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\_TESTY\ListViewApp\obj\Debug\ListViewApp.csproj.CoreCompileInputs.cache
 U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\_TESTY\ListViewApp\obj\Debug\ListViewApp.exe
 U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\_TESTY\ListViewApp\obj\Debug\ListViewApp.pdb
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\_TESTY\test - Fromel\ListViewApp\bin\Debug\ListViewApp.exe.config
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\_TESTY\test - Fromel\ListViewApp\bin\Debug\ListViewApp.exe
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\_TESTY\test - Fromel\ListViewApp\bin\Debug\ListViewApp.pdb
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\_TESTY\test - Fromel\ListViewApp\obj\Debug\ListViewApp.csproj.AssemblyReference.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\_TESTY\test - Fromel\ListViewApp\obj\Debug\ListViewApp.Form1.resources
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\_TESTY\test - Fromel\ListViewApp\obj\Debug\ListViewApp.Properties.Resources.resources
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\_TESTY\test - Fromel\ListViewApp\obj\Debug\ListViewApp.csproj.GenerateResource.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\_TESTY\test - Fromel\ListViewApp\obj\Debug\ListViewApp.csproj.CoreCompileInputs.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\_TESTY\test - Fromel\ListViewApp\obj\Debug\ListViewApp.exe
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\_TESTY\test - Fromel\ListViewApp\obj\Debug\ListViewApp.pdb
