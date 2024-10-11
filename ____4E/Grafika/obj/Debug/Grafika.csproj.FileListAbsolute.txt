@@ -1,0 +1,10 @@
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\Grafika\bin\Debug\Grafika.exe.config
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\Grafika\bin\Debug\Grafika.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\Grafika\bin\Debug\Grafika.pdb
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\Grafika\obj\Debug\Grafika.csproj.AssemblyReference.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\Grafika\obj\Debug\Grafika.Form1.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\Grafika\obj\Debug\Grafika.Properties.Resources.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\Grafika\obj\Debug\Grafika.csproj.GenerateResource.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\Grafika\obj\Debug\Grafika.csproj.CoreCompileInputs.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\Grafika\obj\Debug\Grafika.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\Grafika\obj\Debug\Grafika.pdb

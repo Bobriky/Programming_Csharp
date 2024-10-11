@@ -1,0 +1,10 @@
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\LaserShow\obj\Debug\LaserShow.csproj.AssemblyReference.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\LaserShow\obj\Debug\LaserShow.Form1.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\LaserShow\obj\Debug\LaserShow.Properties.Resources.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\LaserShow\obj\Debug\LaserShow.csproj.GenerateResource.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\LaserShow\obj\Debug\LaserShow.csproj.CoreCompileInputs.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\LaserShow\bin\Debug\LaserShow.exe.config
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\LaserShow\bin\Debug\LaserShow.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\LaserShow\bin\Debug\LaserShow.pdb
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\LaserShow\obj\Debug\LaserShow.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\LaserShow\obj\Debug\LaserShow.pdb
