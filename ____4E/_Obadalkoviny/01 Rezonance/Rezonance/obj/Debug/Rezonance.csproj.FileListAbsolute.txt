@@ -1,0 +1,10 @@
+U:\Rezonance\Rezonance\bin\Debug\Rezonance.exe.config
+U:\Rezonance\Rezonance\bin\Debug\Rezonance.exe
+U:\Rezonance\Rezonance\bin\Debug\Rezonance.pdb
+U:\Rezonance\Rezonance\obj\Debug\Rezonance.csproj.AssemblyReference.cache
+U:\Rezonance\Rezonance\obj\Debug\Rezonance.Form1.resources
+U:\Rezonance\Rezonance\obj\Debug\Rezonance.Properties.Resources.resources
+U:\Rezonance\Rezonance\obj\Debug\Rezonance.csproj.GenerateResource.cache
+U:\Rezonance\Rezonance\obj\Debug\Rezonance.csproj.CoreCompileInputs.cache
+U:\Rezonance\Rezonance\obj\Debug\Rezonance.exe
+U:\Rezonance\Rezonance\obj\Debug\Rezonance.pdb

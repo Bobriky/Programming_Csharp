@@ -1,0 +1,27 @@
+D:\apkTeplota\apkTeplota\bin\Debug\apkTeplota.exe.config
+D:\apkTeplota\apkTeplota\bin\Debug\apkTeplota.exe
+D:\apkTeplota\apkTeplota\bin\Debug\apkTeplota.pdb
+D:\apkTeplota\apkTeplota\obj\Debug\apkTeplota.csproj.AssemblyReference.cache
+D:\apkTeplota\apkTeplota\obj\Debug\apkTeplota.Form1.resources
+D:\apkTeplota\apkTeplota\obj\Debug\apkTeplota.Properties.Resources.resources
+D:\apkTeplota\apkTeplota\obj\Debug\apkTeplota.csproj.GenerateResource.cache
+D:\apkTeplota\apkTeplota\obj\Debug\apkTeplota.csproj.CoreCompileInputs.cache
+D:\apkTeplota\apkTeplota\obj\Debug\apkTeplota.exe
+D:\apkTeplota\apkTeplota\obj\Debug\apkTeplota.pdb
+E:\C# wfa\_Podklady\x39 chartTeplota\Teplota\apkTeplota\obj\Debug\apkTeplota.csproj.AssemblyReference.cache
+E:\C# wfa\_Podklady\x39 chartTeplota\Teplota\apkTeplota\obj\Debug\apkTeplota.Form1.resources
+E:\C# wfa\_Podklady\x39 chartTeplota\Teplota\apkTeplota\obj\Debug\apkTeplota.Properties.Resources.resources
+E:\C# wfa\_Podklady\x39 chartTeplota\Teplota\apkTeplota\obj\Debug\apkTeplota.csproj.GenerateResource.cache
+E:\C# wfa\_Podklady\x39 chartTeplota\Teplota\apkTeplota\obj\Debug\apkTeplota.csproj.CoreCompileInputs.cache
+E:\C# wfa\_Podklady\x39 chartTeplota\Teplota\apkTeplota\obj\Debug\apkTeplota.exe
+E:\C# wfa\_Podklady\x39 chartTeplota\Teplota\apkTeplota\obj\Debug\apkTeplota.pdb
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\_Obadalkoviny\05 Chart\apkTeplota\bin\Debug\apkTeplota.exe.config
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\_Obadalkoviny\05 Chart\apkTeplota\bin\Debug\apkTeplota.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\_Obadalkoviny\05 Chart\apkTeplota\bin\Debug\apkTeplota.pdb
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\_Obadalkoviny\05 Chart\apkTeplota\obj\Debug\apkTeplota.csproj.AssemblyReference.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\_Obadalkoviny\05 Chart\apkTeplota\obj\Debug\apkTeplota.Form1.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\_Obadalkoviny\05 Chart\apkTeplota\obj\Debug\apkTeplota.Properties.Resources.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\_Obadalkoviny\05 Chart\apkTeplota\obj\Debug\apkTeplota.csproj.GenerateResource.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\_Obadalkoviny\05 Chart\apkTeplota\obj\Debug\apkTeplota.csproj.CoreCompileInputs.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\_Obadalkoviny\05 Chart\apkTeplota\obj\Debug\apkTeplota.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\_Obadalkoviny\05 Chart\apkTeplota\obj\Debug\apkTeplota.pdb
