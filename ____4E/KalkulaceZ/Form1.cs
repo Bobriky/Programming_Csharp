@@ -35,73 +35,6 @@ namespace KalkulaceZ
             cmbRezF.SelectedIndex = 4;
             isFormInitialized = true;
         }
-        /*static (double Value, int Prefix) OptimalPrefix(double Value)
-        {
-            string NumberInString = Convert.ToString(Value);
-            int PossitionOfComma = NumberInString.IndexOf(',');
-            if (PossitionOfComma != -1)
-            {
-                if(PossitionOfComma != 1) //nad čísla 155215.541
-                {
-                    if (PossitionOfComma > 12)
-                    {
-                        return (Value / 1e12, 0);
-                    }
-                    else if(PossitionOfComma > 9)
-                    {
-                        return (Value / 1e9, 1);
-                    }
-                    else if (PossitionOfComma > 6)
-                    {
-                        return (Value / 1e6, 2);
-                    }
-                    else if (PossitionOfComma > 3)
-                    {
-                        return (Value / 1e3, 3);
-                    }
-                    else
-                    {
-                        return (Value, 4);
-                    }
-                }
-                else //pro čísla pod 0.01215    
-                {
-                    for (int x = PossitionOfComma + 1; x < 13 ; x++)
-                    {
-                        if (NumberInString[x] != '0')
-                        {
-                            x += 2;
-                            if (x > 12)
-                            {
-                                return (Value * 1e12, 8);
-                            }
-                            else if (x > 9)
-                            {
-                                return (Value * 1e9, 7);
-                            }
-                            else if (x > 6)
-                            {
-                                return (Value * 1e6, 6);
-                            }
-                            else if (x > 3)
-                            {
-                                return (Value * 1e3, 5);
-                            }
-                            else
-                            {
-                                return (Value, 4);
-                            }
-                        }
-                    }
-                    return (Value * 1e12, 8);
-                }
-            }
-            else
-            {
-                return (Value, 0);
-            }
-        }
-        */
         private void btnCalculate_Click(object sender, EventArgs e)
         {
             try
@@ -121,27 +54,6 @@ namespace KalkulaceZ
                 nmP.Value = Convert.ToDecimal(P);
                 nmRezF.Value = Convert.ToDecimal(RezF);
                 btnAddLine.Enabled = true;
-                //Zakomentovaný text je k speciální funkci, která má mít za smysl automatizace kalkulování optimálního prefixu. Trošku složitější.
-                /*
-                var resultsXL = OptimalPrefix(XL);
-                nmXL.Value = Convert.ToDecimal(resultsXL.Value);
-                cmbXL.SelectedIndex = resultsXL.Prefix;
-                var resultsXC = OptimalPrefix(XC);
-                nmXC.Value = Convert.ToDecimal(resultsXC.Value);
-                cmbXC.SelectedIndex = resultsXC.Prefix;
-                var resultsZ = OptimalPrefix(Z);
-                nmZ.Value = Convert.ToDecimal(resultsZ.Value);
-                cmbZ.SelectedIndex = resultsZ.Prefix;
-                var resultsY = OptimalPrefix(Y);
-                nmY.Value = Convert.ToDecimal(resultsY.Value);
-                cmbY.SelectedIndex = resultsY.Prefix;
-
-                nmPhase.Value = Convert.ToDecimal(P);       //Jiné předpony měníme pouze mezi radiány a stupni
-
-                var resultsRezF = OptimalPrefix(RezF);
-                nmRezF.Value = Convert.ToDecimal(resultsRezF.Value);
-                cmbRezF.SelectedIndex = resultsRezF.Prefix;
-                */
             }
             catch (Exception)
             {
