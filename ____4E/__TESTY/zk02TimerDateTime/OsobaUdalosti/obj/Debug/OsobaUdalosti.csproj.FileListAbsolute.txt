@@ -1,0 +1,58 @@
+D:\OsobaUdalosti\OsobaUdalosti\bin\Debug\OsobaUdalosti.exe.config
+D:\OsobaUdalosti\OsobaUdalosti\bin\Debug\OsobaUdalosti.exe
+D:\OsobaUdalosti\OsobaUdalosti\bin\Debug\OsobaUdalosti.pdb
+D:\OsobaUdalosti\OsobaUdalosti\obj\Debug\OsobaUdalosti.csprojResolveAssemblyReference.cache
+D:\OsobaUdalosti\OsobaUdalosti\obj\Debug\OsobaUdalosti.Form1.resources
+D:\OsobaUdalosti\OsobaUdalosti\obj\Debug\OsobaUdalosti.Properties.Resources.resources
+D:\OsobaUdalosti\OsobaUdalosti\obj\Debug\OsobaUdalosti.csproj.GenerateResource.Cache
+D:\OsobaUdalosti\OsobaUdalosti\obj\Debug\OsobaUdalosti.exe
+D:\OsobaUdalosti\OsobaUdalosti\obj\Debug\OsobaUdalosti.pdb
+d:\Výuka\PRO 3E\C#\Projekt15DateTime\OsobaUdalosti\OsobaUdalosti\bin\Debug\OsobaUdalosti.exe.config
+d:\Výuka\PRO 3E\C#\Projekt15DateTime\OsobaUdalosti\OsobaUdalosti\obj\Debug\OsobaUdalosti.exe
+d:\Výuka\PRO 3E\C#\Projekt15DateTime\OsobaUdalosti\OsobaUdalosti\obj\Debug\OsobaUdalosti.pdb
+d:\Výuka\PRO 3E\C#\Projekt15DateTime\OsobaUdalosti\OsobaUdalosti\bin\Debug\OsobaUdalosti.exe
+d:\Výuka\PRO 3E\C#\Projekt15DateTime\OsobaUdalosti\OsobaUdalosti\bin\Debug\OsobaUdalosti.pdb
+d:\Výuka\PRO 3E\C#\Projekt15DateTime\OsobaUdalosti\OsobaUdalosti\obj\Debug\OsobaUdalosti.csprojResolveAssemblyReference.cache
+d:\Výuka\PRO 3E\C#\Projekt15DateTime\OsobaUdalosti\OsobaUdalosti\obj\Debug\OsobaUdalosti.Form1.resources
+d:\Výuka\PRO 3E\C#\Projekt15DateTime\OsobaUdalosti\OsobaUdalosti\obj\Debug\OsobaUdalosti.Properties.Resources.resources
+d:\Výuka\PRO 3E\C#\Projekt15DateTime\OsobaUdalosti\OsobaUdalosti\obj\Debug\OsobaUdalosti.csproj.GenerateResource.Cache
+D:\sseUcivo\C# wfa\15 dateTime zkOsoba\OsobaUdalosti\bin\Debug\OsobaUdalosti.exe.config
+D:\sseUcivo\C# wfa\15 dateTime zkOsoba\OsobaUdalosti\bin\Debug\OsobaUdalosti.exe
+D:\sseUcivo\C# wfa\15 dateTime zkOsoba\OsobaUdalosti\bin\Debug\OsobaUdalosti.pdb
+D:\sseUcivo\C# wfa\15 dateTime zkOsoba\OsobaUdalosti\obj\Debug\OsobaUdalosti.csproj.AssemblyReference.cache
+D:\sseUcivo\C# wfa\15 dateTime zkOsoba\OsobaUdalosti\obj\Debug\OsobaUdalosti.Form1.resources
+D:\sseUcivo\C# wfa\15 dateTime zkOsoba\OsobaUdalosti\obj\Debug\OsobaUdalosti.Properties.Resources.resources
+D:\sseUcivo\C# wfa\15 dateTime zkOsoba\OsobaUdalosti\obj\Debug\OsobaUdalosti.csproj.GenerateResource.cache
+D:\sseUcivo\C# wfa\15 dateTime zkOsoba\OsobaUdalosti\obj\Debug\OsobaUdalosti.csproj.CoreCompileInputs.cache
+D:\sseUcivo\C# wfa\15 dateTime zkOsoba\OsobaUdalosti\obj\Debug\OsobaUdalosti.exe
+D:\sseUcivo\C# wfa\15 dateTime zkOsoba\OsobaUdalosti\obj\Debug\OsobaUdalosti.pdb
+D:\sseUcivo\C# wfa\15 dateTime zkOsoba\Zadání\OsobaUdalosti\bin\Debug\OsobaUdalosti.exe.config
+D:\sseUcivo\C# wfa\15 dateTime zkOsoba\Zadání\OsobaUdalosti\bin\Debug\OsobaUdalosti.exe
+D:\sseUcivo\C# wfa\15 dateTime zkOsoba\Zadání\OsobaUdalosti\bin\Debug\OsobaUdalosti.pdb
+D:\sseUcivo\C# wfa\15 dateTime zkOsoba\Zadání\OsobaUdalosti\obj\Debug\OsobaUdalosti.csproj.AssemblyReference.cache
+D:\sseUcivo\C# wfa\15 dateTime zkOsoba\Zadání\OsobaUdalosti\obj\Debug\OsobaUdalosti.Form1.resources
+D:\sseUcivo\C# wfa\15 dateTime zkOsoba\Zadání\OsobaUdalosti\obj\Debug\OsobaUdalosti.Properties.Resources.resources
+D:\sseUcivo\C# wfa\15 dateTime zkOsoba\Zadání\OsobaUdalosti\obj\Debug\OsobaUdalosti.csproj.GenerateResource.cache
+D:\sseUcivo\C# wfa\15 dateTime zkOsoba\Zadání\OsobaUdalosti\obj\Debug\OsobaUdalosti.csproj.CoreCompileInputs.cache
+D:\sseUcivo\C# wfa\15 dateTime zkOsoba\Zadání\OsobaUdalosti\obj\Debug\OsobaUdalosti.exe
+D:\sseUcivo\C# wfa\15 dateTime zkOsoba\Zadání\OsobaUdalosti\obj\Debug\OsobaUdalosti.pdb
+u:\PRO 4E\zk02TimerDateTime\_Zadání\OsobaUdalosti\bin\Debug\OsobaUdalosti.exe.config
+u:\PRO 4E\zk02TimerDateTime\_Zadání\OsobaUdalosti\bin\Debug\OsobaUdalosti.exe
+u:\PRO 4E\zk02TimerDateTime\_Zadání\OsobaUdalosti\bin\Debug\OsobaUdalosti.pdb
+u:\PRO 4E\zk02TimerDateTime\_Zadání\OsobaUdalosti\obj\Debug\OsobaUdalosti.csproj.AssemblyReference.cache
+u:\PRO 4E\zk02TimerDateTime\_Zadání\OsobaUdalosti\obj\Debug\OsobaUdalosti.Form1.resources
+u:\PRO 4E\zk02TimerDateTime\_Zadání\OsobaUdalosti\obj\Debug\OsobaUdalosti.Properties.Resources.resources
+u:\PRO 4E\zk02TimerDateTime\_Zadání\OsobaUdalosti\obj\Debug\OsobaUdalosti.csproj.GenerateResource.cache
+u:\PRO 4E\zk02TimerDateTime\_Zadání\OsobaUdalosti\obj\Debug\OsobaUdalosti.csproj.CoreCompileInputs.cache
+u:\PRO 4E\zk02TimerDateTime\_Zadání\OsobaUdalosti\obj\Debug\OsobaUdalosti.exe
+u:\PRO 4E\zk02TimerDateTime\_Zadání\OsobaUdalosti\obj\Debug\OsobaUdalosti.pdb
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\__TESTY\zk02TimerDateTime\OsobaUdalosti\bin\Debug\OsobaUdalosti.exe.config
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\__TESTY\zk02TimerDateTime\OsobaUdalosti\bin\Debug\OsobaUdalosti.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\__TESTY\zk02TimerDateTime\OsobaUdalosti\bin\Debug\OsobaUdalosti.pdb
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\__TESTY\zk02TimerDateTime\OsobaUdalosti\obj\Debug\OsobaUdalosti.csproj.AssemblyReference.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\__TESTY\zk02TimerDateTime\OsobaUdalosti\obj\Debug\OsobaUdalosti.Form1.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\__TESTY\zk02TimerDateTime\OsobaUdalosti\obj\Debug\OsobaUdalosti.Properties.Resources.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\__TESTY\zk02TimerDateTime\OsobaUdalosti\obj\Debug\OsobaUdalosti.csproj.GenerateResource.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\__TESTY\zk02TimerDateTime\OsobaUdalosti\obj\Debug\OsobaUdalosti.csproj.CoreCompileInputs.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\__TESTY\zk02TimerDateTime\OsobaUdalosti\obj\Debug\OsobaUdalosti.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\__TESTY\zk02TimerDateTime\OsobaUdalosti\obj\Debug\OsobaUdalosti.pdb
