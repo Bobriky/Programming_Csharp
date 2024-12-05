@@ -1,0 +1,10 @@
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\_Obadalkoviny\DirectorySkibid\bin\Debug\DirectorySkibid.exe.config
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\_Obadalkoviny\DirectorySkibid\bin\Debug\DirectorySkibid.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\_Obadalkoviny\DirectorySkibid\bin\Debug\DirectorySkibid.pdb
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\_Obadalkoviny\DirectorySkibid\obj\Debug\DirectorySkibid.csproj.AssemblyReference.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\_Obadalkoviny\DirectorySkibid\obj\Debug\DirectorySkibid.Form1.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\_Obadalkoviny\DirectorySkibid\obj\Debug\DirectorySkibid.Properties.Resources.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\_Obadalkoviny\DirectorySkibid\obj\Debug\DirectorySkibid.csproj.GenerateResource.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\_Obadalkoviny\DirectorySkibid\obj\Debug\DirectorySkibid.csproj.CoreCompileInputs.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\_Obadalkoviny\DirectorySkibid\obj\Debug\DirectorySkibid.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\_Obadalkoviny\DirectorySkibid\obj\Debug\DirectorySkibid.pdb

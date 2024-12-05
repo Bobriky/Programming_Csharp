@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35130.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "skibidCRUD SQL", "skibidCRUD SQL.csproj", "{72AECFAD-F051-49D2-B309-77664C707833}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72AECFAD-F051-49D2-B309-77664C707833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72AECFAD-F051-49D2-B309-77664C707833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72AECFAD-F051-49D2-B309-77664C707833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72AECFAD-F051-49D2-B309-77664C707833}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DBAB950-7054-422F-86FF-1B4619B3F675}
+	EndGlobalSection
+EndGlobal
