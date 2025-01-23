@@ -1,0 +1,20 @@
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\__TESTY\DirectoryTestFromel\bin\Debug\DirectoryTestFromel.exe.config
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\__TESTY\DirectoryTestFromel\bin\Debug\DirectoryTestFromel.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\__TESTY\DirectoryTestFromel\bin\Debug\DirectoryTestFromel.pdb
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\__TESTY\DirectoryTestFromel\obj\Debug\DirectoryTestFromel.csproj.AssemblyReference.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\__TESTY\DirectoryTestFromel\obj\Debug\DirectoryTestFromel.Form1.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\__TESTY\DirectoryTestFromel\obj\Debug\DirectoryTestFromel.Properties.Resources.resources
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\__TESTY\DirectoryTestFromel\obj\Debug\DirectoryTestFromel.csproj.GenerateResource.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\__TESTY\DirectoryTestFromel\obj\Debug\DirectoryTestFromel.csproj.CoreCompileInputs.cache
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\__TESTY\DirectoryTestFromel\obj\Debug\DirectoryTestFromel.exe
+U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\__TESTY\DirectoryTestFromel\obj\Debug\DirectoryTestFromel.pdb
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\__TESTY\DirectoryTestFromel\bin\Debug\DirectoryTestFromel.exe.config
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\__TESTY\DirectoryTestFromel\bin\Debug\DirectoryTestFromel.exe
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\__TESTY\DirectoryTestFromel\bin\Debug\DirectoryTestFromel.pdb
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\__TESTY\DirectoryTestFromel\obj\Debug\DirectoryTestFromel.csproj.AssemblyReference.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\__TESTY\DirectoryTestFromel\obj\Debug\DirectoryTestFromel.Form1.resources
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\__TESTY\DirectoryTestFromel\obj\Debug\DirectoryTestFromel.Properties.Resources.resources
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\__TESTY\DirectoryTestFromel\obj\Debug\DirectoryTestFromel.csproj.GenerateResource.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\__TESTY\DirectoryTestFromel\obj\Debug\DirectoryTestFromel.csproj.CoreCompileInputs.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\__TESTY\DirectoryTestFromel\obj\Debug\DirectoryTestFromel.exe
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\__TESTY\DirectoryTestFromel\obj\Debug\DirectoryTestFromel.pdb

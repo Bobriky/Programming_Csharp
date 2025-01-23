@@ -25,3 +25,13 @@ U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\_Obadalkoviny\05 Chart\apkTepl
 U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\_Obadalkoviny\05 Chart\apkTeplota\obj\Debug\apkTeplota.csproj.CoreCompileInputs.cache
 U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\_Obadalkoviny\05 Chart\apkTeplota\obj\Debug\apkTeplota.exe
 U:\Vypracovane_Ukoly\3E\Programming_Csharp\____4E\_Obadalkoviny\05 Chart\apkTeplota\obj\Debug\apkTeplota.pdb
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\_Obadalkoviny\05 Chart\apkTeplota\bin\Debug\apkTeplota.exe.config
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\_Obadalkoviny\05 Chart\apkTeplota\bin\Debug\apkTeplota.exe
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\_Obadalkoviny\05 Chart\apkTeplota\bin\Debug\apkTeplota.pdb
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\_Obadalkoviny\05 Chart\apkTeplota\obj\Debug\apkTeplota.csproj.AssemblyReference.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\_Obadalkoviny\05 Chart\apkTeplota\obj\Debug\apkTeplota.Form1.resources
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\_Obadalkoviny\05 Chart\apkTeplota\obj\Debug\apkTeplota.Properties.Resources.resources
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\_Obadalkoviny\05 Chart\apkTeplota\obj\Debug\apkTeplota.csproj.GenerateResource.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\_Obadalkoviny\05 Chart\apkTeplota\obj\Debug\apkTeplota.csproj.CoreCompileInputs.cache
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\_Obadalkoviny\05 Chart\apkTeplota\obj\Debug\apkTeplota.exe
+C:\Users\Šimon Frőmel\Desktop\Repositories\Programming_Csharp\____4E\_Obadalkoviny\05 Chart\apkTeplota\obj\Debug\apkTeplota.pdb

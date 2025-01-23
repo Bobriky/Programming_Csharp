@@ -1,0 +1,10 @@
+Vytvořte aplikaci pro načtení SQL souborů z adresáře a zobrazení obsahu souboru.
+Požadavky na funkce aplikace:
+1. Výběr volitelného adresáře
+2. Načtení sql souborů ze zvoleného adresáře a jejich přehledné zobrazení, včetně zobrazení počtu souborů.
+3. Možnost výběru jednoho z nalezených souborů a zobrazení obsahu vybraného souboru.
+
+Požadavky:
+ - základní nastavení GUI
+ - funkčnost aplikace
+ - dodržování syntaktických pravidel     
